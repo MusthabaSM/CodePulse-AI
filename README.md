@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150x150.png?text=Pulse+Logo" alt="CodePulse AI Logo" />
+  <a href="https://github.com/MusthabaSM/CodePulse-AI">
+    <img src="public/logo/codepulse-logo.png" alt="CodePulse AI Logo" width="180" style="border-radius: 16px;" />
+  </a>
   <h1>CodePulse AI</h1>
   <p><strong>The Enterprise Repository Intelligence & Technical Debt Engine</strong></p>
   
