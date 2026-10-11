@@ -1,0 +1,17 @@
+{
+  "false_negative_prevention": [
+    {
+      "scenario": "API payload field removal",
+      "mitigation": "Tier 1-4 API links establish hard connections between frontend consumers and backend controllers, flagging the blast radius."
+    },
+    {
+      "scenario": "Prisma column deletion",
+      "mitigation": "Schema Dependency Graph links .prisma schemas directly to TypeScript controllers invoking `prisma.model`."
+    },
+    {
+      "scenario": "NestJS provider replacement",
+      "mitigation": "Dependency Injection parsing connects constructor tokens directly to @Injectable services bypassing static AST."
+    }
+  ],
+  "unified_architectural_layer_status": "Active and Integrated"
+}

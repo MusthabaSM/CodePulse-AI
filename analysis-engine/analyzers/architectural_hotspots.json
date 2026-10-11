@@ -1,0 +1,1293 @@
+{
+  "angular": {
+    "packages": {
+      "repository": "angular",
+      "component": "packages",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 15,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High churn (2203 commits in 180d)",
+        "High fragmentation (694 contributors, Entropy: 5.08)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 2203,
+        "burst_ratio": 0.67,
+        "contributor_count": 694,
+        "entropy": 5.08,
+        "max_coupling": 0.01
+      }
+    },
+    "devtools": {
+      "repository": "angular",
+      "component": "devtools",
+      "hotspot_score": 45,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "Elevated Burst Ratio (2.3x normal)",
+        "High churn (311 commits in 180d)",
+        "High fragmentation (46 contributors, Entropy: 3.25)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 311,
+        "burst_ratio": 2.3,
+        "contributor_count": 46,
+        "entropy": 3.25,
+        "max_coupling": 0.02
+      }
+    },
+    "modules": {
+      "repository": "angular",
+      "component": "modules",
+      "hotspot_score": 15,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (308 contributors, Entropy: 4.66)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 25,
+        "burst_ratio": 0.01,
+        "contributor_count": 308,
+        "entropy": 4.66,
+        "max_coupling": 0.06
+      }
+    },
+    "vscode-ng-language-service": {
+      "repository": "angular",
+      "component": "vscode-ng-language-service",
+      "hotspot_score": 45,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 45,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High Burst Ratio (6.1x normal)",
+        "High churn (106 commits in 180d)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 106,
+        "burst_ratio": 6.06,
+        "contributor_count": 9,
+        "entropy": 2.49,
+        "max_coupling": 0.0
+      }
+    },
+    "adev": {
+      "repository": "angular",
+      "component": "adev",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 15,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High churn (263 commits in 180d)",
+        "High fragmentation (85 contributors, Entropy: 3.92)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 263,
+        "burst_ratio": 0.45,
+        "contributor_count": 85,
+        "entropy": 3.92,
+        "max_coupling": 0.02
+      }
+    },
+    "integration": {
+      "repository": "angular",
+      "component": "integration",
+      "hotspot_score": 15,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (40 contributors, Entropy: 4.14)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 43,
+        "burst_ratio": 0.0,
+        "contributor_count": 40,
+        "entropy": 4.14,
+        "max_coupling": 0.01
+      }
+    },
+    "tools": {
+      "repository": "angular",
+      "component": "tools",
+      "hotspot_score": 25,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 10,
+      "reasons": [
+        "High fragmentation (88 contributors, Entropy: 4.75)",
+        "Moderate temporal coupling (Max: 0.23)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 15,
+        "burst_ratio": 0.0,
+        "contributor_count": 88,
+        "entropy": 4.75,
+        "max_coupling": 0.23
+      }
+    },
+    "root": {
+      "repository": "angular",
+      "component": "root",
+      "hotspot_score": 25,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 10,
+      "reasons": [
+        "High fragmentation (88 contributors, Entropy: 4.96)",
+        "Moderate temporal coupling (Max: 0.23)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 4,
+        "burst_ratio": 0.0,
+        "contributor_count": 88,
+        "entropy": 4.96,
+        "max_coupling": 0.23
+      }
+    },
+    "dev-app": {
+      "repository": "angular",
+      "component": "dev-app",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0
+      }
+    },
+    "aio": {
+      "repository": "angular",
+      "component": "aio",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (80 contributors, Entropy: 3.98)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 80,
+        "entropy": 3.98,
+        "max_coupling": 0.01
+      }
+    },
+    ".ng-dev": {
+      "repository": "angular",
+      "component": ".ng-dev",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (14 contributors, Entropy: 2.33)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 14,
+        "entropy": 2.33,
+        "max_coupling": 0.03
+      }
+    },
+    "projects": {
+      "repository": "angular",
+      "component": "projects",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 11,
+        "entropy": 1.74,
+        "max_coupling": 0.1
+      }
+    },
+    "src": {
+      "repository": "angular",
+      "component": "src",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 5,
+        "entropy": 1.7,
+        "max_coupling": 0.1
+      }
+    },
+    "dev-infra": {
+      "repository": "angular",
+      "component": "dev-infra",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 16,
+        "entropy": 1.53,
+        "max_coupling": 0.03
+      }
+    },
+    "third_party": {
+      "repository": "angular",
+      "component": "third_party",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 7,
+        "entropy": 2.53,
+        "max_coupling": 0.02
+      }
+    },
+    "angular.io": {
+      "repository": "angular",
+      "component": "angular.io",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 4,
+        "entropy": 1.45,
+        "max_coupling": 0
+      }
+    },
+    "zone": {
+      "repository": "angular",
+      "component": "zone",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0.0
+      }
+    }
+  },
+  "core": {
+    "packages": {
+      "repository": "core",
+      "component": "packages",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 15,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High churn (138 commits in 180d)",
+        "High fragmentation (498 contributors, Entropy: 3.03)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 138,
+        "burst_ratio": 0.11,
+        "contributor_count": 498,
+        "entropy": 3.03,
+        "max_coupling": 0.02
+      }
+    },
+    "root": {
+      "repository": "core",
+      "component": "root",
+      "hotspot_score": 0,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 2,
+        "burst_ratio": 0.0,
+        "contributor_count": 26,
+        "entropy": 1.61,
+        "max_coupling": 0.02
+      }
+    },
+    "packages-private": {
+      "repository": "core",
+      "component": "packages-private",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 2,
+        "entropy": 0.57,
+        "max_coupling": 0.01
+      }
+    }
+  },
+  "fastify": {
+    "lib": {
+      "repository": "fastify",
+      "component": "lib",
+      "hotspot_score": 25,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 10,
+      "reasons": [
+        "High fragmentation (202 contributors, Entropy: 5.68)",
+        "Moderate temporal coupling (Max: 0.30)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 53,
+        "burst_ratio": 0.43,
+        "contributor_count": 202,
+        "entropy": 5.68,
+        "max_coupling": 0.3
+      }
+    },
+    "types": {
+      "repository": "fastify",
+      "component": "types",
+      "hotspot_score": 15,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (151 contributors, Entropy: 6.34)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 12,
+        "burst_ratio": 0.27,
+        "contributor_count": 151,
+        "entropy": 6.34,
+        "max_coupling": 0.1
+      }
+    },
+    "root": {
+      "repository": "fastify",
+      "component": "root",
+      "hotspot_score": 25,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 10,
+      "reasons": [
+        "High fragmentation (192 contributors, Entropy: 5.46)",
+        "Moderate temporal coupling (Max: 0.30)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 24,
+        "burst_ratio": 0.44,
+        "contributor_count": 192,
+        "entropy": 5.46,
+        "max_coupling": 0.3
+      }
+    },
+    "benchmarks": {
+      "repository": "fastify",
+      "component": "benchmarks",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 5,
+        "entropy": 1.78,
+        "max_coupling": 0.0
+      }
+    }
+  },
+  "socket.io": {
+    "packages": {
+      "repository": "socket.io",
+      "component": "packages",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High Burst Ratio (7.5x normal)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 33,
+        "burst_ratio": 7.47,
+        "contributor_count": 18,
+        "entropy": 1.45,
+        "max_coupling": 0
+      }
+    },
+    "lib": {
+      "repository": "socket.io",
+      "component": "lib",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (306 contributors, Entropy: 3.85)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 306,
+        "entropy": 3.85,
+        "max_coupling": 0.05
+      }
+    },
+    "support": {
+      "repository": "socket.io",
+      "component": "support",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 10,
+        "entropy": 2.21,
+        "max_coupling": 0.03
+      }
+    },
+    "root": {
+      "repository": "socket.io",
+      "component": "root",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (61 contributors, Entropy: 3.69)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 61,
+        "entropy": 3.69,
+        "max_coupling": 0.05
+      }
+    },
+    "bench": {
+      "repository": "socket.io",
+      "component": "bench",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 3,
+        "entropy": 1.56,
+        "max_coupling": 0.0
+      }
+    },
+    "benchmarks": {
+      "repository": "socket.io",
+      "component": "benchmarks",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 4,
+        "entropy": 1.78,
+        "max_coupling": 0.01
+      }
+    }
+  },
+  "supabase": {
+    "apps": {
+      "repository": "supabase",
+      "component": "apps",
+      "hotspot_score": 60,
+      "risk": "High",
+      "complexity_score": 0,
+      "change_score": 45,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High Burst Ratio (4.3x normal)",
+        "High churn (12337 commits in 180d)",
+        "High fragmentation (307 contributors, Entropy: 4.38)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 12337,
+        "burst_ratio": 4.26,
+        "contributor_count": 307,
+        "entropy": 4.38,
+        "max_coupling": 0.16
+      }
+    },
+    "packages": {
+      "repository": "supabase",
+      "component": "packages",
+      "hotspot_score": 45,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "Elevated Burst Ratio (2.0x normal)",
+        "High churn (1538 commits in 180d)",
+        "High fragmentation (123 contributors, Entropy: 3.31)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 1538,
+        "burst_ratio": 2.0,
+        "contributor_count": 123,
+        "entropy": 3.31,
+        "max_coupling": 0.16
+      }
+    },
+    "blocks": {
+      "repository": "supabase",
+      "component": "blocks",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High Burst Ratio (8.7x normal)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 56,
+        "burst_ratio": 8.65,
+        "contributor_count": 3,
+        "entropy": 1.38,
+        "max_coupling": 0.0
+      }
+    },
+    "supabase": {
+      "repository": "supabase",
+      "component": "supabase",
+      "hotspot_score": 15,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (11 contributors, Entropy: 2.43)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 2,
+        "burst_ratio": 0.0,
+        "contributor_count": 11,
+        "entropy": 2.43,
+        "max_coupling": 0.01
+      }
+    },
+    "docker": {
+      "repository": "supabase",
+      "component": "docker",
+      "hotspot_score": 0,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 3,
+        "burst_ratio": 0.0,
+        "contributor_count": 7,
+        "entropy": 2.73,
+        "max_coupling": 0
+      }
+    },
+    "studio": {
+      "repository": "supabase",
+      "component": "studio",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (145 contributors, Entropy: 3.10)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 145,
+        "entropy": 3.1,
+        "max_coupling": 0.03
+      }
+    },
+    "web": {
+      "repository": "supabase",
+      "component": "web",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (54 contributors, Entropy: 3.46)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 54,
+        "entropy": 3.46,
+        "max_coupling": 0.02
+      }
+    },
+    "www": {
+      "repository": "supabase",
+      "component": "www",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (52 contributors, Entropy: 2.96)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 52,
+        "entropy": 2.96,
+        "max_coupling": 0.02
+      }
+    },
+    "supabase-ui": {
+      "repository": "supabase",
+      "component": "supabase-ui",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 3,
+        "entropy": 1.08,
+        "max_coupling": 0
+      }
+    },
+    "libraries": {
+      "repository": "supabase",
+      "component": "libraries",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 4,
+        "entropy": 1.47,
+        "max_coupling": 0.0
+      }
+    }
+  },
+  "prisma": {
+    "packages": {
+      "repository": "prisma",
+      "component": "packages",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 15,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High churn (373 commits in 180d)",
+        "High fragmentation (210 contributors, Entropy: 4.33)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 373,
+        "burst_ratio": 0.13,
+        "contributor_count": 210,
+        "entropy": 4.33,
+        "max_coupling": 0.03
+      }
+    },
+    "helpers": {
+      "repository": "prisma",
+      "component": "helpers",
+      "hotspot_score": 15,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (15 contributors, Entropy: 2.53)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 1,
+        "burst_ratio": 0.0,
+        "contributor_count": 15,
+        "entropy": 2.53,
+        "max_coupling": 0.06
+      }
+    },
+    "sandbox": {
+      "repository": "prisma",
+      "component": "sandbox",
+      "hotspot_score": 15,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (11 contributors, Entropy: 3.07)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 1,
+        "burst_ratio": 0.0,
+        "contributor_count": 11,
+        "entropy": 3.07,
+        "max_coupling": 0.01
+      }
+    },
+    "eslint-local-rules": {
+      "repository": "prisma",
+      "component": "eslint-local-rules",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 3,
+        "entropy": 1.38,
+        "max_coupling": 0.03
+      }
+    },
+    "root": {
+      "repository": "prisma",
+      "component": "root",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (12 contributors, Entropy: 3.22)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 12,
+        "entropy": 3.22,
+        "max_coupling": 0.06
+      }
+    },
+    "driver-adapters": {
+      "repository": "prisma",
+      "component": "driver-adapters",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0
+      }
+    },
+    "adapter-libsql": {
+      "repository": "prisma",
+      "component": "adapter-libsql",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 10,
+      "reasons": [
+        "Moderate temporal coupling (Max: 0.23)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 3,
+        "entropy": 0.99,
+        "max_coupling": 0.23
+      }
+    },
+    "driver-adapter-utils": {
+      "repository": "prisma",
+      "component": "driver-adapter-utils",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 10,
+      "reasons": [
+        "Moderate temporal coupling (Max: 0.47)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 4,
+        "entropy": 1.88,
+        "max_coupling": 0.47
+      }
+    },
+    "adapter-planetscale": {
+      "repository": "prisma",
+      "component": "adapter-planetscale",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 10,
+      "reasons": [
+        "Moderate temporal coupling (Max: 0.31)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 3,
+        "entropy": 1.44,
+        "max_coupling": 0.31
+      }
+    },
+    "adapter-neon": {
+      "repository": "prisma",
+      "component": "adapter-neon",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 0.83)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 5,
+        "entropy": 2.17,
+        "max_coupling": 0.83
+      }
+    },
+    "adapter-pg": {
+      "repository": "prisma",
+      "component": "adapter-pg",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 0.83)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 5,
+        "entropy": 2.1,
+        "max_coupling": 0.83
+      }
+    },
+    "reproductions": {
+      "repository": "prisma",
+      "component": "reproductions",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 5,
+        "entropy": 2.08,
+        "max_coupling": 0.02
+      }
+    },
+    "src": {
+      "repository": "prisma",
+      "component": "src",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (49 contributors, Entropy: 2.69)",
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 49,
+        "entropy": 2.69,
+        "max_coupling": 0.01
+      }
+    },
+    "cli": {
+      "repository": "prisma",
+      "component": "cli",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 14,
+        "entropy": 1.11,
+        "max_coupling": 0.0
+      }
+    },
+    "prisma2": {
+      "repository": "prisma",
+      "component": "prisma2",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0.0
+      }
+    },
+    "prisma": {
+      "repository": "prisma",
+      "component": "prisma",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0.0
+      }
+    },
+    "archive": {
+      "repository": "prisma",
+      "component": "archive",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0.03
+      }
+    }
+  }
+}

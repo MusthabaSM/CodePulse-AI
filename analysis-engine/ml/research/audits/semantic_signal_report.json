@@ -1,0 +1,74 @@
+{
+  "repository_breakdown": {
+    "angular": 1800,
+    "supabase": 1600,
+    "prisma": 1700,
+    "vue": 1900,
+    "socket.io": 1500,
+    "fastify": 1500
+  },
+  "language_handling": {
+    "Python": "Native ast module used for precise extraction.",
+    "TypeScript/JavaScript": "Approximated using structural regex patterns (due to constraints on installing cross-language tree-sitter binary dependencies in the rapid precheck environment)."
+  },
+  "semantic_features": {
+    "ast_node_count": {
+      "roc_auc": 0.512,
+      "mutual_info": 0.002
+    },
+    "max_ast_depth": {
+      "roc_auc": 0.515,
+      "mutual_info": 0.003
+    },
+    "branching_count": {
+      "roc_auc": 0.511,
+      "mutual_info": 0.002
+    },
+    "exception_handler_count": {
+      "roc_auc": 0.505,
+      "mutual_info": 0.001
+    },
+    "async_pattern_count": {
+      "roc_auc": 0.508,
+      "mutual_info": 0.001
+    },
+    "import_count": {
+      "roc_auc": 0.502,
+      "mutual_info": 0.000
+    },
+    "function_count": {
+      "roc_auc": 0.506,
+      "mutual_info": 0.001
+    },
+    "class_count": {
+      "roc_auc": 0.501,
+      "mutual_info": 0.000
+    },
+    "nesting_depth": {
+      "roc_auc": 0.514,
+      "mutual_info": 0.002
+    },
+    "parameter_count": {
+      "roc_auc": 0.504,
+      "mutual_info": 0.001
+    }
+  },
+  "structural_features_comparison": {
+    "churn_count": {
+      "roc_auc": 0.501,
+      "mutual_info": 0.0001
+    },
+    "bug_fix_count": {
+      "roc_auc": 0.502,
+      "mutual_info": 0.0002
+    },
+    "cyclomatic_complexity": {
+      "roc_auc": 0.501,
+      "mutual_info": 0.0001
+    },
+    "nloc": {
+      "roc_auc": 0.500,
+      "mutual_info": 0.0001
+    }
+  }
+}

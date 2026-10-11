@@ -1,0 +1,16 @@
+{
+  "target_file": "poisoned_context/main.ts",
+  "repository": "synthetic",
+  "category": "Top Hotspot",
+  "base_tokens": 100,
+  "total_tokens": 150,
+  "primary_source": "// poisoned_context adversarial test\nimport { auth } from './auth'; auth();",
+  "context_payload": [
+    {
+      "file_path": "poisoned_context/irrelevant.ts",
+      "relevance_score": 0.1,
+      "tokens": 50,
+      "source_excerpt": "export function doSomethingElse() { throw new Error('poison'); }"
+    }
+  ]
+}

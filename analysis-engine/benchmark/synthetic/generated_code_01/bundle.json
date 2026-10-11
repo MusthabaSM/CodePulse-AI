@@ -1,0 +1,9 @@
+{
+  "target_file": "generated_code_01/main.ts",
+  "repository": "synthetic",
+  "category": "Top Hotspot",
+  "base_tokens": 100,
+  "total_tokens": 150,
+  "primary_source": "/* THIS FILE IS AUTO-GENERATED */\nexport const x = 1;",
+  "context_payload": []
+}

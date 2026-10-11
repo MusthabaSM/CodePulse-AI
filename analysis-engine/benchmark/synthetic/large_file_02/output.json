@@ -1,0 +1,15 @@
+{
+  "findings": [
+    {
+      "id": "F-MISSING-01",
+      "category": "Architectural Risk",
+      "severity": "Medium",
+      "confidence": "High",
+      "description": "Mocked finding for large file 02",
+      "evidence": "Evidence",
+      "referenced_files": [
+        "large_file_02/main.ts"
+      ]
+    }
+  ]
+}

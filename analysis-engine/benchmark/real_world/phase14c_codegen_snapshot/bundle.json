@@ -1,0 +1,100 @@
+{
+  "target_file": "packages/compiler/src/typecheck/ops/codegen.ts",
+  "repository": "angular",
+  "category": "Top Hotspot",
+  "base_tokens": 1139,
+  "total_tokens": 31970,
+  "primary_source": "/*!\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nimport {AbsoluteSourceSpan} from '../../expression_parser/ast';\nimport {ParseSourceSpan} from '../../parse_util';\nimport {CommentTriviaType, ExpressionIdentifier} from '../comments';\n\n/** Represents an expression generated within a type check block. */\nexport class TcbExpr {\n  /** Text for the content containing the expression's location information. */\n  private spanComment: string | null = null;\n\n  /** Text for the content containing the expression's identifier. */\n  private identifierComment: string | null = null;\n\n  /**\n   * Text of the comment instructing the type checker to\n   * ignore diagnostics coming from this expression.\n   */\n  private ignoreComment: string | null = null;\n\n  constructor(private source: string) {}\n\n  /** Wraps a string value in quotes and escapes relevant characters. */\n  static quoteAndEscape(value: string): string {\n    // Passing the value through `JSON.stringify` automatically\n    // escapes quotes and allows us to handle line breaks.\n    return JSON.stringify(value);\n  }\n\n  /**\n   * Converts the node's current state to a string.\n   * @param ignoreComments Whether the comments associated with the expression should be skipped.\n   */\n  print(ignoreComments = false): string {\n    if (ignoreComments) {\n      return this.source;\n    }\n\n    return (\n      this.source +\n      this.formatComment(this.identifierComment) +\n      this.formatComment(this.ignoreComment) +\n      this.formatComment(this.spanComment)\n    );\n  }\n\n  /**\n   * Adds a synthetic comment to the expression that represents the parse span of the provided node.\n   * This comment can later be retrieved as trivia of a node to recover original source locations.\n   * @param span Span from the parser containing the location information.\n   */\n  addParseSpanInfo(span: AbsoluteSourceS...",
+  "context_payload": [
+    {
+      "file_path": "packages/common/public_api.ts",
+      "relevance_score": 0.66,
+      "tokens": 100,
+      "source_excerpt": "/**\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\n/**\n * @module\n * @description\n * Entry point for all public APIs of this package.\n */\nexport * from './src/common';\n\n// This file only reexports content of the `src` folder. Keep it that way.\n"
+    },
+    {
+      "file_path": "integration/standalone-bootstrap/src/main.ts",
+      "relevance_score": 0.64,
+      "tokens": 38,
+      "source_excerpt": "import {bootstrapApplication} from '@angular/platform-browser';\n\nimport {AppComponent} from './app/app.component';\n\nbootstrapApplication(AppComponent);\n"
+    },
+    {
+      "file_path": "packages/zone.js/lib/zone.ts",
+      "relevance_score": 0.51,
+      "tokens": 676,
+      "source_excerpt": "/**\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nimport {\n  __symbol__,\n  EventTask as _EventTask,\n  HasTaskState as _HasTaskState,\n  initZone,\n  MacroTask as _MacroTask,\n  MicroTask as _MicroTask,\n  PatchFn,\n  Task as _Task,\n  TaskData as _TaskData,\n  TaskState as _TaskState,\n  TaskType as _TaskType,\n  UncaughtPromiseError as _UncaughtPromiseError,\n  Zone as _Zone,\n  ZoneDelegate as _ZoneDelegate,\n  ZoneFrame,\n  ZonePrivate,\n  ZoneSpec as _ZoneSpec,\n  ZoneType as _ZoneType,\n} from './zone-impl';\n\ndeclare global {\n  const Zone: ZoneType;\n  type Zone = _Zone;\n  type ZoneType = _ZoneType;\n\n  // g3-only-start\n  // /** This local mod is kept in place so Zone can check the NodeJS `global` variable. */\n  // var global: {};\n  // g3-only-end\n  type _PatchFn = PatchFn;\n  type _ZonePrivate = ZonePrivate;\n  type _ZoneFrame = ZoneFrame;\n  type U..."
+    },
+    {
+      "file_path": "packages/compiler/src/template/pipeline/ir/src/ops/create.ts",
+      "relevance_score": 0.51,
+      "tokens": 11699,
+      "source_excerpt": "/**\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nimport {SecurityContext} from '../../../../../core';\nimport * as i18n from '../../../../../i18n/i18n_ast';\nimport * as o from '../../../../../output/output_ast';\nimport {ParseSourceSpan} from '../../../../../parse_util';\nimport {\n  AnimationKind,\n  BindingKind,\n  DeferOpModifierKind,\n  DeferTriggerKind,\n  I18nContextKind,\n  I18nParamValueFlags,\n  Namespace,\n  OpKind,\n  TDeferDetailsFlags,\n  TemplateKind,\n} from '../enums';\nimport {SlotHandle} from '../handle';\nimport {Op, OpList, XrefId} from '../operations';\nimport {\n  ConsumesSlotOpTrait,\n  ConsumesVarsTrait,\n  TRAIT_CONSUMES_SLOT,\n  TRAIT_CONSUMES_VARS,\n} from '../traits';\n\nimport {ListEndOp, NEW_OP, StatementOp, VariableOp} from './shared';\n\nimport type {Interpolation, UpdateOp} from './update';\n\n/**\n * An operation usable on the c..."
+    },
+    {
+      "file_path": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/components_and_directives/no_selector_isolated.golden.d.ts",
+      "relevance_score": 0.51,
+      "tokens": 66,
+      "source_excerpt": "import * as i0 from \"@angular/core\";\nexport declare class AbstractDirective {\n    static \u0275fac: i0.\u0275\u0275FactoryDeclaration<AbstractDirective, never>;\n    static \u0275dir: i0.\u0275\u0275DirectiveDeclaration<AbstractDirective, never, never, {}, {}, never, never, true, never>;\n}\n\n"
+    },
+    {
+      "file_path": "packages/forms/signals/src/api/rules/metadata.ts",
+      "relevance_score": 0.51,
+      "tokens": 3186,
+      "source_excerpt": "/**\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nimport {type Signal} from '@angular/core';\nimport {FieldPathNode} from '../../schema/path_node';\nimport {assertPathIsCurrent} from '../../schema/schema';\nimport type {FieldState, LogicFn, PathKind, SchemaPath, SchemaPathRules} from '../types';\n\n/**\n * Sets a value for the {@link MetadataKey} for this field.\n *\n * This value is combined via a reduce operation defined by the particular key,\n * since multiple rules in the schema might set values for it.\n *\n * @param path The target path to set the metadata for.\n * @param key The metadata key\n * @param logic A function that receives the `FieldContext` and returns a value for the metadata.\n * @template TValue The type of value stored in the field the logic is bound to.\n * @template TKey The type of metadata key.\n * @template TPathKind The k..."
+    },
+    {
+      "file_path": "packages/compiler-cli/src/ngtsc/indexer/test/context_spec.ts",
+      "relevance_score": 0.48,
+      "tokens": 370,
+      "source_excerpt": "/**\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\nimport {ParseSourceFile} from '@angular/compiler';\nimport {runInEachFileSystem} from '../../file_system/testing';\nimport {IndexingContext} from '../src/context';\nimport * as util from './util';\nimport {AbstractBoundTemplate} from '../src/api';\nimport {DeclarationNode} from '../../reflection';\n\nrunInEachFileSystem(() => {\n  describe('ComponentAnalysisContext', () => {\n    it('should store and return information about components', () => {\n      const context = new IndexingContext();\n      const declaration = util.getComponentDeclaration('class C {};', 'C');\n      const boundTemplate = util.getBoundTemplate('<div></div>');\n\n      context.addComponent({\n        declaration,\n        selector: 'c-selector',\n        boundTemplate,\n        templateMeta: {\n          isInline: false,\n          fi..."
+    },
+    {
+      "file_path": "packages/core/schematics/ng-generate/inject-migration/migration.ts",
+      "relevance_score": 0.48,
+      "tokens": 9283,
+      "source_excerpt": "/**\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nimport ts from 'typescript';\nimport {PendingChange, ChangeTracker} from '../../utils/change_tracker';\nimport {\n  analyzeFile,\n  getSuperParameters,\n  getConstructorUnusedParameters,\n  hasGenerics,\n  isNullableType,\n  parameterDeclaresProperty,\n  DI_PARAM_SYMBOLS,\n  MigrationOptions,\n  parameterReferencesOtherParameters,\n} from './analysis';\nimport {getAngularDecorators} from '../../utils/ng_decorators';\nimport {getImportOfIdentifier} from '../../utils/typescript/imports';\nimport {closestNode} from '../../utils/typescript/nodes';\nimport {findUninitializedPropertiesToCombine, shouldCombineInInitializationOrder} from './internal';\nimport {getLeadingLineWhitespaceOfNode} from '../../utils/tsurge/helpers/ast/leading_space';\n\n/**\n * Placeholder used to represent expressions inside the AST.\n ..."
+    },
+    {
+      "file_path": "packages/compiler/src/typecheck/ops/events.ts",
+      "relevance_score": 0.45,
+      "tokens": 3146,
+      "source_excerpt": "/*!\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nimport {AST, ImplicitReceiver, ParsedEventType, PropertyRead} from '../../expression_parser/ast';\nimport {BoundAttribute, BoundEvent, Element} from '../../render3/r3_ast';\nimport {DirectiveOwner} from '../../render3/view/t2_api';\nimport {TcbOp} from './base';\nimport {getStatementsBlock, TcbExpr} from './codegen';\nimport type {Context} from './context';\nimport type {Scope} from './scope';\nimport {TcbDirectiveMetadata} from '../api';\nimport {TcbExpressionTranslator, unwrapWritableSignal} from './expression';\nimport {ExpressionIdentifier} from '../comments';\nimport {checkSplitTwoWayBinding} from './bindings';\nimport {LocalSymbol} from './references';\n\nconst EVENT_PARAMETER = '$event';\n\nconst enum EventParamType {\n  /* Generates code to infer the type of `$event` based on how the listener ..."
+    },
+    {
+      "file_path": "packages/compiler-cli/test/compliance/test_cases/source_mapping/inline_templates/interpolation_basic_partial.js",
+      "relevance_score": 0.44,
+      "tokens": 76,
+      "source_excerpt": ".\u0275\u0275elementStart(0, \"h3\") // SOURCE: \"/interpolation_basic.ts\" \"<h3>\"\n\u2026\n// TODO: Work out how to fix the broken segment for the last item in a template\n.\u0275\u0275ele // SOURCE: \"/interpolation_basic.ts\" \"</h3>'\"\n\u2026\n.\u0275\u0275textInterpolate1(\"Hello \", ctx.name) // SOURCE: \"/interpolation_basic.ts\" \"Hello {{ name }}\"\n"
+    },
+    {
+      "file_path": "packages/compiler/src/typecheck/ops/let.ts",
+      "relevance_score": 0.42,
+      "tokens": 361,
+      "source_excerpt": "/*!\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nimport {LetDeclaration} from '../../render3/r3_ast';\nimport {Context} from './context';\nimport type {Scope} from './scope';\nimport {TcbOp} from './base';\nimport {TcbExpr} from './codegen';\nimport {tcbExpression} from './expression';\n\n/**\n * A `TcbOp` which generates a constant for a `LetDeclaration`.\n */\nexport class TcbLetDeclarationOp extends TcbOp {\n  constructor(\n    private tcb: Context,\n    private scope: Scope,\n    private node: LetDeclaration,\n  ) {\n    super();\n  }\n\n  /**\n   * `@let` declarations are mandatory, because their expressions\n   * should be checked even if they aren't referenced anywhere.\n   */\n  override readonly optional = false;\n\n  override execute(): TcbExpr {\n    const id = new TcbExpr(this.tcb.allocateId()).addParseSpanInfo(this.node.nameSpan);\n    const value..."
+    },
+    {
+      "file_path": "devtools/projects/ng-devtools/src/lib/devtools-tabs/directive-explorer/directive-forest/component-data-source/component-data-source.spec.ts",
+      "relevance_score": 0.42,
+      "tokens": 1434,
+      "source_excerpt": "/**\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nimport {FlatTreeControl} from '@angular/cdk/tree';\nimport {DevToolsNode} from '../../../../../../../protocol';\n\nimport {ComponentDataSource, FlatNode} from '.';\n\nconst tree1: DevToolsNode = {\n  element: 'app',\n  directives: [\n    {\n      id: 1,\n      name: 'foo',\n    },\n  ],\n  component: null,\n  controlFlowBlock: null,\n\n  children: [\n    {\n      children: [],\n      component: {\n        id: 2,\n        isElement: false,\n        name: 'bar',\n      },\n      directives: [],\n      element: 'bar',\n      nativeElement: document.createElement('bar'),\n      controlFlowBlock: null,\n    },\n  ],\n  nativeElement: document.createElement('foo'),\n};\n\nconst tree2: DevToolsNode = {\n  element: 'app',\n  directives: [\n    {\n      id: 1,\n      name: 'foo',\n    },\n  ],\n  component: null,\n  controlFlowBlock: n..."
+    },
+    {
+      "file_path": "adev/src/app/core/services/routing/adev-url-serializer.ts",
+      "relevance_score": 0.37,
+      "tokens": 206,
+      "source_excerpt": "/**\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nimport {DefaultUrlSerializer, UrlTree} from '@angular/router';\n\n/**\n * Custom URL serializer extending the default behavior\n * with Adev-specific behavior.\n */\nexport class AdevUrlSerializer extends DefaultUrlSerializer {\n  override parse(url: string): UrlTree {\n    // Since the app host/server is decoding encoded forward slashes,\n    // we perform this on the client as well in order to maintain\n    // a consistent behavior between the two environments and\n    // avoid opening a different page on client hydration (presumably, 404).\n    url = url.replaceAll(/%2(F|f)/g, '/');\n\n    return super.parse(url);\n  }\n}\n"
+    },
+    {
+      "file_path": "packages/common/http/src/private_export.ts",
+      "relevance_score": 0.35,
+      "tokens": 114,
+      "source_excerpt": "/**\n * @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.dev/license\n */\n\nexport {HTTP_FETCH_MAX_RESPONSE_SIZE as \u0275HTTP_FETCH_MAX_RESPONSE_SIZE} from './fetch';\nexport {\n  HTTP_ROOT_INTERCEPTOR_FNS as \u0275HTTP_ROOT_INTERCEPTOR_FNS,\n  REQUESTS_CONTRIBUTE_TO_STABILITY as \u0275REQUESTS_CONTRIBUTE_TO_STABILITY,\n} from './interceptor';\n"
+    },
+    {
+      "file_path": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler/legacy_animations/duplicate_animation_listeners.ts",
+      "relevance_score": 0.2,
+      "tokens": 76,
+      "source_excerpt": "import {Component, NgModule} from '@angular/core';\n\n@Component({\n    selector: 'my-app',\n    template: '<div (@mySelector.start)=\"false\" (@mySelector.done)=\"false\" [@mySelector]=\"0\"></div>',\n    standalone: false\n})\nexport class MyApp {\n}\n\n@NgModule({declarations: [MyApp]})\nexport class MyModule {\n}\n"
+    }
+  ]
+}

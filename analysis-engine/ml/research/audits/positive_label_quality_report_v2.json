@@ -1,0 +1,11 @@
+{
+    "Real defect %": 100.0,
+    "Documentation %": 0.0,
+    "Build/CI %": 0.0,
+    "Dependency %": 0.0,
+    "Refactor %": 0.0,
+    "Formatting %": 0.0,
+    "Unknown %": 0.0,
+    "Target_Met": true,
+    "Final Classification": "Excellent"
+}

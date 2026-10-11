@@ -1,0 +1,8 @@
+--- TEMPORAL COUPLING VALIDATION REPORT ---
+Archive Size: 858.81 MB
+Active Dataset Size: 887.75 MB
+Dashboard Dataset Size: 0.07 MB
+Percentage Reduction (Active): -3.37%
+Percentage Reduction (Dashboard): 99.99%
+Relationship Retention: 1435118 / 1463398 (98.07%)
+Classification: C) Significant Redundancy Remains

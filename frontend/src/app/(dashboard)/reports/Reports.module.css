@@ -1,0 +1,180 @@
+.container {
+  padding: var(--spacing-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+}
+
+.exportBtn {
+  background: var(--color-accent-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-2) var(--spacing-4);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  transition: opacity 0.2s;
+}
+
+.exportBtn:hover {
+  opacity: 0.9;
+}
+
+.exportBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* The actual printable report layout */
+.reportContainer {
+  background: #ffffff; /* Explicitly white for PDF */
+  color: #111827; /* Explicitly dark text for PDF */
+  padding: 40mm 20mm; /* Large margins to simulate A4 document */
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--radius-sm);
+  width: 100%;
+  max-width: 210mm; /* A4 width approx */
+  margin: 0 auto;
+  min-height: 297mm; /* A4 height approx */
+}
+
+/* McKinsey / Corporate style typographic hierarchy */
+.reportHeader {
+  border-bottom: 2px solid #000;
+  padding-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-8);
+}
+
+.corpLogo {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  margin-bottom: var(--spacing-8);
+  color: #000;
+}
+
+.reportTitle {
+  font-size: 36px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: var(--spacing-2);
+}
+
+.reportMeta {
+  display: flex;
+  justify-content: space-between;
+  color: #6b7280;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section {
+  margin-bottom: var(--spacing-8);
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: var(--spacing-2);
+  margin-bottom: var(--spacing-4);
+}
+
+.summaryText {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #374151;
+}
+
+/* Grid for metrics */
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-6);
+  margin-bottom: var(--spacing-6);
+}
+
+.metricBox {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: var(--spacing-4);
+  border-left: 4px solid #4f46e5;
+}
+
+.metricBox.highRisk {
+  border-left-color: #ef4444;
+}
+
+.metricLabel {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6b7280;
+  margin-bottom: var(--spacing-2);
+}
+
+.metricValue {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Roadmap List */
+.roadmapList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roadmapItem {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-4);
+  padding: var(--spacing-4) 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.roadmapNumber {
+  background: #111827;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.roadmapContent strong {
+  display: block;
+  font-size: 16px;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.roadmapContent span {
+  font-size: 14px;
+  color: #4b5563;
+}

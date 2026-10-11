@@ -1,0 +1,14 @@
+{
+    "total_rows_extracted": 487303,
+    "rows_matched": 487303,
+    "rows_missing": 0,
+    "feature_completeness_%": 100.0,
+    "extraction_failures": 0,
+    "parser_failures": 0,
+    "unsupported_files": 0,
+    "rename_resolutions": 0,
+    "missing_blobs": 1,
+    "synthetic_substitutions": 0,
+    "fallback_values": 0,
+    "temporal_leakage": "Verified None"
+}

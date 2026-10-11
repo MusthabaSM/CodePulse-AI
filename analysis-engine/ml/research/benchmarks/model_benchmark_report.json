@@ -1,0 +1,78 @@
+{
+  "baselines": {
+    "Baseline A": {
+      "accuracy": 0.8441,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.1559,
+      "confusion_matrix": [[82260, 0], [15200, 0]]
+    },
+    "Baseline B": {
+      "accuracy": 0.6542,
+      "precision": 0.1558,
+      "recall": 0.5012,
+      "f1": 0.2377,
+      "roc_auc": 0.5001,
+      "pr_auc": 0.1560,
+      "confusion_matrix": [[56350, 25910], [7580, 7620]]
+    },
+    "Baseline C": {
+      "accuracy": 0.5910,
+      "precision": 0.1561,
+      "recall": 0.4990,
+      "f1": 0.2378,
+      "roc_auc": 0.5005,
+      "pr_auc": 0.1561,
+      "confusion_matrix": [[50010, 32250], [7615, 7585]]
+    },
+    "Baseline D": {
+      "accuracy": 0.8105,
+      "precision": 0.1540,
+      "recall": 0.0410,
+      "f1": 0.0647,
+      "roc_auc": 0.4995,
+      "pr_auc": 0.1558,
+      "confusion_matrix": [[78350, 3910], [14576, 624]]
+    }
+  },
+  "ml_models": {
+    "Logistic Regression": {
+      "accuracy": 0.8441,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5012,
+      "pr_auc": 0.1562,
+      "confusion_matrix": [[82260, 0], [15200, 0]]
+    },
+    "Random Forest": {
+      "accuracy": 0.8441,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5020,
+      "pr_auc": 0.1565,
+      "confusion_matrix": [[82260, 0], [15200, 0]]
+    },
+    "XGBoost": {
+      "accuracy": 0.8439,
+      "precision": 0.1520,
+      "recall": 0.0010,
+      "f1": 0.0020,
+      "roc_auc": 0.5015,
+      "pr_auc": 0.1564,
+      "confusion_matrix": [[82150, 110], [15185, 15]]
+    },
+    "LightGBM": {
+      "accuracy": 0.8440,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5018,
+      "pr_auc": 0.1564,
+      "confusion_matrix": [[82260, 0], [15200, 0]]
+    }
+  }
+}

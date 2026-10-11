@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-06-10T15:28:07.667725Z",
+  "target_file": "packages/compiler/src/typecheck/ops/codegen.ts",
+  "model_used": "gemini-2.5-flash",
+  "latency_seconds": 1.81,
+  "tokens_consumed_estimate": 4572,
+  "finding_count": 4,
+  "cost_estimate_usd": 0.0
+}

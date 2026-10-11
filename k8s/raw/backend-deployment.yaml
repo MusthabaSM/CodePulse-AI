@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: codepulse-backend
+  labels:
+    app: codepulse-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: codepulse-backend
+  template:
+    metadata:
+      labels:
+        app: codepulse-backend
+    spec:
+      containers:
+      - name: backend
+        image: codepulse/backend:latest
+        ports:
+        - containerPort: 4000
+        envFrom:
+        - secretRef:
+            name: codepulse-secrets
+        env:
+        - name: DB_HOST
+          value: "postgres"
+        - name: REDIS_URL
+          value: "redis://redis:6379"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service
+spec:
+  selector:
+    app: codepulse-backend
+  ports:
+  - port: 80
+    targetPort: 4000

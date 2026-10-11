@@ -1,0 +1,85 @@
+{
+  "coverage_audit": {
+    "ownership_risk": {
+      "supported": true,
+      "source": "knowledge_loss_report.json"
+    },
+    "architectural_risk": {
+      "supported": true,
+      "source": "architectural_hotspots.json"
+    },
+    "dependency_risk": {
+      "supported": "partial",
+      "source": "temporal_coupling_production.json",
+      "gap": "Provides behavioral dependency (co-change history) but lacks explicit AST/Import structural dependency mapping."
+    },
+    "repository_evolution": {
+      "supported": true,
+      "source": "repository_evolution_report.json"
+    },
+    "gaps": [
+      "No structural AST or direct import/export dependency map",
+      "No file-level semantic summaries (what the file actually does functionally)",
+      "Cannot assess exact PR diff logic (must be provided at runtime by the user/system)"
+    ]
+  },
+  "pr_review_simulation": {
+    "angular": {
+      "scenario": "A PR modifying a core rendering component.",
+      "simulated_review": "⚠️ **Architectural Warning**: The file you are modifying is classified as a top hotspot with high churn. Our evolution metrics indicate the repository is currently structurally Stable, but please proceed with caution. \n👤 **Knowledge Context**: Ownership of this component is highly concentrated. Consider requesting a review from the primary author."
+    },
+    "supabase": {
+      "scenario": "A PR changing a heavily coupled database migration script.",
+      "simulated_review": "🔗 **Coupling Alert**: Historical analysis indicates that changes to this file are temporally coupled to `auth_schema.sql` 84% of the time. You have not included `auth_schema.sql` in this PR. \n📉 **Evolution Alert**: Knowledge risk in this repository is currently Deteriorating. Ensure your changes are well-documented."
+    },
+    "prisma": {
+      "scenario": "A PR updating the query engine core logic.",
+      "simulated_review": "⚠️ **Hotspot Detected**: You are modifying a file with extremely high complexity pressure. \n👥 **Knowledge Loss Risk**: This module has a bus factor of 1. If you are not the primary author, ensure you request a thorough review."
+    }
+  },
+  "signal_quality_audit": {
+    "strongest_signals": [
+      "File-to-file temporal coupling pairs (highly actionable for PRs)",
+      "File-level architectural hotspots (directly maps to modified files in a PR)"
+    ],
+    "weakest_signals": [
+      "Repository-wide author entropy (too abstract for a file-specific PR review)"
+    ],
+    "redundant_signals": [
+      "Engineering intelligence score (a composite that is useful for dashboards but less actionable for a developer evaluating a specific line of code than the raw coupling/hotspot data)"
+    ]
+  },
+  "missing_context_audit": {
+    "why_a_file_matters": "No. The system knows it churns heavily (hotspot), but cannot semantically explain its purpose in the architecture.",
+    "who_owns_it": "Yes. Granular authorship data exists.",
+    "what_it_is_coupled_to": "Yes. Temporal coupling datasets explicitly list behavioral relationships.",
+    "how_risk_evolved": "Yes. Monthly checkpoints provide full trend data.",
+    "additional_data_required": [
+      "AST structural dependencies (to know if code will physically break upon compilation)",
+      "Semantic file summaries (LLM generated metadata on what a file is responsible for)"
+    ]
+  },
+  "hallucination_risk_audit": {
+    "directly_supported": [
+      "Stating a file is a hotspot",
+      "Listing exactly which files historically co-change with it",
+      "Identifying the primary owner or low bus factor"
+    ],
+    "partially_supported": [
+      "Declaring a file is 'critical' (hotspots might just be frequently updated JSON configs, not core logic)"
+    ],
+    "unsupported_likely_to_hallucinate": [
+      "Explaining *why* two files are temporally coupled",
+      "Describing the functional purpose of a high-churn file",
+      "Predicting if the current PR will break a compilation due to a missing coupled file"
+    ]
+  },
+  "recommendation": {
+    "decision": "B) Implement After Minor Enhancements",
+    "justification": "The platform provides incredibly strong quantitative signals (Coupling, Hotspots, Authorship). However, using this data *alone* for an LLM PR Review Assistant risks generating generic, non-semantic warnings.",
+    "exact_missing_datasets_or_metrics": [
+      "1. Structural Dependency Graph (AST/Imports): To differentiate between 'these files co-change' and 'this file literally imports the other'.",
+      "2. File Semantic Summaries: A lightweight index explaining the functional purpose of the top 20% most critical/hotspot files so the LLM knows *what* it is reviewing."
+    ]
+  }
+}

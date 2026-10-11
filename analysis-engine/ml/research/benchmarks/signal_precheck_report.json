@@ -1,0 +1,34 @@
+{
+  "churn_count": {
+    "roc_auc": 0.501,
+    "mutual_info": 0.0001
+  },
+  "bug_fix_count": {
+    "roc_auc": 0.502,
+    "mutual_info": 0.0002
+  },
+  "author_entropy": {
+    "roc_auc": 0.499,
+    "mutual_info": 0.0001
+  },
+  "commits_last_30_days": {
+    "roc_auc": 0.501,
+    "mutual_info": 0.0001
+  },
+  "commits_last_90_days": {
+    "roc_auc": 0.500,
+    "mutual_info": 0.0001
+  },
+  "contributor_count": {
+    "roc_auc": 0.498,
+    "mutual_info": 0.0001
+  },
+  "cyclomatic_complexity": {
+    "roc_auc": 0.501,
+    "mutual_info": 0.0001
+  },
+  "nloc": {
+    "roc_auc": 0.500,
+    "mutual_info": 0.0001
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "objective": "Determine whether the existing Phase 14 review infrastructure can already execute a single-file review without introducing a new Python API layer.",
+  "classification": "B) Minor Refactor Required",
+  "capabilities": {
+    "can_review_single_file_directly": false,
+    "reasoning_single_file": "review_bundle_generator.py hardcodes target selection based on Top Hotspots, Hubs, and Coupling. It does not accept a specific file path argument.",
+    "can_generate_bundle_dynamically": false,
+    "reasoning_dynamic_bundle": "review_bundle_generator.py reads pre-computed JSON datasets from the filesystem (dependency_graph_report.json, etc.) and writes its output strictly to review_bundles.json.",
+    "can_return_findings_in_memory": false,
+    "reasoning_in_memory": "gemini_execution_engine.py's main() function is entirely void-returning. It explicitly writes its results to review_report.json, finding_validation_report.json, and other disk files.",
+    "file_system_persistence_mandatory": true
+  },
+  "existing_entry_points": {
+    "callable_functions": [
+      "llm.providers.provider_factory.ProviderFactory.get_provider()",
+      "llm.providers.resilient_provider.ResilientProvider.review(system_prompt, user_prompt)",
+      "semantic_validator.validate_finding_semantics(finding, valid_files_map)"
+    ],
+    "cli_entry_points": [
+      "analysis-engine/analyzers/review_bundle_generator.py (No arguments)",
+      "analysis-engine/analyzers/gemini_execution_engine.py (No arguments)"
+    ],
+    "queue_workers": []
+  },
+  "architecture_evaluation": {
+    "option_A": {
+      "name": "NestJS -> Python HTTP API",
+      "analysis": "Cleanest approach for containerized environments. Requires adding a POST /internal/review endpoint to main.py that composes the existing ProviderFactory and semantic_validator functions directly, bypassing the rigid CLI orchestrators."
+    },
+    "option_B": {
+      "name": "NestJS -> BullMQ -> Python Worker",
+      "analysis": "Unnecessary overhead for a synchronous or fast-running single-file AI review, especially since the UI expects to block and display findings."
+    },
+    "option_C": {
+      "name": "Existing execution path with minimal integration (CLI wrapping)",
+      "analysis": "Requires NestJS to write dummy review_bundles.json files to shared volumes, execute the python script via container exec, and read multiple output files. High risk of race conditions unless unique isolated directories are created per request."
+    }
+  },
+  "architecture_recommendation": "Option A (NestJS -> Python HTTP API). The core evaluation capabilities (ProviderFactory, ResilientProvider, validate_finding_semantics) are cleanly decoupled and already support in-memory execution. However, the orchestrator scripts (gemini_execution_engine.py) are rigidly bound to the filesystem. A minor refactor to expose a new FastAPI endpoint in main.py that directly calls these underlying in-memory components is the most robust and performant path forward."
+}

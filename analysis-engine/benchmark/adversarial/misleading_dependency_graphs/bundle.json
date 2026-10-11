@@ -1,0 +1,16 @@
+{
+  "target_file": "misleading_dependency_graphs/main.ts",
+  "repository": "synthetic",
+  "category": "Top Hotspot",
+  "base_tokens": 100,
+  "total_tokens": 150,
+  "primary_source": "// misleading_dependency_graphs adversarial test\nimport { A } from './a';",
+  "context_payload": [
+    {
+      "file_path": "misleading_dependency_graphs/a.ts",
+      "relevance_score": 1.0,
+      "tokens": 20,
+      "source_excerpt": "export const A = 1;"
+    }
+  ]
+}

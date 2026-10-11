@@ -1,0 +1,415 @@
+{
+  "top_20_overall": [
+    {
+      "repository": "core",
+      "component": "packages",
+      "score": 100.0
+    },
+    {
+      "repository": "angular",
+      "component": "devtools",
+      "score": 91.97
+    },
+    {
+      "repository": "supabase",
+      "component": "apps",
+      "score": 88.8
+    },
+    {
+      "repository": "prisma",
+      "component": "packages",
+      "score": 85.64
+    },
+    {
+      "repository": "supabase",
+      "component": "packages",
+      "score": 83.07
+    },
+    {
+      "repository": "fastify",
+      "component": "lib",
+      "score": 82.93
+    },
+    {
+      "repository": "socket.io",
+      "component": "packages",
+      "score": 75.0
+    },
+    {
+      "repository": "fastify",
+      "component": "root",
+      "score": 75.0
+    },
+    {
+      "repository": "angular",
+      "component": "vscode-ng-language-service",
+      "score": 69.72
+    },
+    {
+      "repository": "angular",
+      "component": "packages",
+      "score": 68.51
+    },
+    {
+      "repository": "angular",
+      "component": "adev",
+      "score": 66.15
+    },
+    {
+      "repository": "fastify",
+      "component": "types",
+      "score": 62.79
+    },
+    {
+      "repository": "angular",
+      "component": "modules",
+      "score": 50.92
+    },
+    {
+      "repository": "angular",
+      "component": "tools",
+      "score": 47.24
+    },
+    {
+      "repository": "supabase",
+      "component": "supabase",
+      "score": 43.61
+    },
+    {
+      "repository": "prisma",
+      "component": "helpers",
+      "score": 43.55
+    },
+    {
+      "repository": "angular",
+      "component": "integration",
+      "score": 42.5
+    },
+    {
+      "repository": "socket.io",
+      "component": "lib",
+      "score": 40.3
+    },
+    {
+      "repository": "prisma",
+      "component": "sandbox",
+      "score": 39.6
+    },
+    {
+      "repository": "supabase",
+      "component": "supabase-ui",
+      "score": 39.44
+    }
+  ],
+  "top_20_knowledge": [
+    {
+      "repository": "supabase",
+      "component": "supabase-ui",
+      "score": 100.0
+    },
+    {
+      "repository": "socket.io",
+      "component": "packages",
+      "score": 100.0
+    },
+    {
+      "repository": "prisma",
+      "component": "cli",
+      "score": 100.0
+    },
+    {
+      "repository": "fastify",
+      "component": "root",
+      "score": 100.0
+    },
+    {
+      "repository": "core",
+      "component": "packages",
+      "score": 100.0
+    },
+    {
+      "repository": "angular",
+      "component": "dev-infra",
+      "score": 100.0
+    },
+    {
+      "repository": "core",
+      "component": "root",
+      "score": 99.32
+    },
+    {
+      "repository": "supabase",
+      "component": "libraries",
+      "score": 96.37
+    },
+    {
+      "repository": "supabase",
+      "component": "supabase",
+      "score": 96.04
+    },
+    {
+      "repository": "socket.io",
+      "component": "lib",
+      "score": 90.66
+    },
+    {
+      "repository": "supabase",
+      "component": "web",
+      "score": 88.15
+    },
+    {
+      "repository": "supabase",
+      "component": "packages",
+      "score": 87.93
+    },
+    {
+      "repository": "socket.io",
+      "component": "root",
+      "score": 87.7
+    },
+    {
+      "repository": "socket.io",
+      "component": "support",
+      "score": 86.68
+    },
+    {
+      "repository": "angular",
+      "component": ".ng-dev",
+      "score": 86.48
+    },
+    {
+      "repository": "supabase",
+      "component": "studio",
+      "score": 86.41
+    },
+    {
+      "repository": "supabase",
+      "component": "www",
+      "score": 86.11
+    },
+    {
+      "repository": "prisma",
+      "component": "src",
+      "score": 85.73
+    },
+    {
+      "repository": "angular",
+      "component": "vscode-ng-language-service",
+      "score": 84.9
+    },
+    {
+      "repository": "angular",
+      "component": "projects",
+      "score": 84.83
+    }
+  ],
+  "top_20_hotspots": [
+    {
+      "repository": "supabase",
+      "component": "apps",
+      "score": 100.0
+    },
+    {
+      "repository": "socket.io",
+      "component": "packages",
+      "score": 100.0
+    },
+    {
+      "repository": "prisma",
+      "component": "packages",
+      "score": 100.0
+    },
+    {
+      "repository": "fastify",
+      "component": "root",
+      "score": 100.0
+    },
+    {
+      "repository": "fastify",
+      "component": "lib",
+      "score": 100.0
+    },
+    {
+      "repository": "core",
+      "component": "packages",
+      "score": 100.0
+    },
+    {
+      "repository": "angular",
+      "component": "vscode-ng-language-service",
+      "score": 100.0
+    },
+    {
+      "repository": "angular",
+      "component": "devtools",
+      "score": 100.0
+    },
+    {
+      "repository": "supabase",
+      "component": "packages",
+      "score": 75.0
+    },
+    {
+      "repository": "angular",
+      "component": "packages",
+      "score": 60.87
+    },
+    {
+      "repository": "angular",
+      "component": "adev",
+      "score": 60.87
+    },
+    {
+      "repository": "fastify",
+      "component": "types",
+      "score": 55.56
+    },
+    {
+      "repository": "supabase",
+      "component": "blocks",
+      "score": 50.0
+    },
+    {
+      "repository": "angular",
+      "component": "tools",
+      "score": 39.13
+    },
+    {
+      "repository": "angular",
+      "component": "root",
+      "score": 39.13
+    },
+    {
+      "repository": "prisma",
+      "component": "sandbox",
+      "score": 35.71
+    },
+    {
+      "repository": "prisma",
+      "component": "helpers",
+      "score": 35.71
+    },
+    {
+      "repository": "supabase",
+      "component": "supabase",
+      "score": 25.0
+    },
+    {
+      "repository": "core",
+      "component": "packages-private",
+      "score": 22.22
+    },
+    {
+      "repository": "angular",
+      "component": "modules",
+      "score": 21.74
+    }
+  ],
+  "top_20_coupling": [
+    {
+      "repository": "supabase",
+      "component": "apps",
+      "score": 100.0
+    },
+    {
+      "repository": "prisma",
+      "component": "packages",
+      "score": 100.0
+    },
+    {
+      "repository": "fastify",
+      "component": "types",
+      "score": 100.0
+    },
+    {
+      "repository": "core",
+      "component": "packages",
+      "score": 100.0
+    },
+    {
+      "repository": "angular",
+      "component": "packages",
+      "score": 100.0
+    },
+    {
+      "repository": "angular",
+      "component": "devtools",
+      "score": 100.0
+    },
+    {
+      "repository": "supabase",
+      "component": "packages",
+      "score": 89.2
+    },
+    {
+      "repository": "angular",
+      "component": "modules",
+      "score": 81.2
+    },
+    {
+      "repository": "angular",
+      "component": "adev",
+      "score": 75.8
+    },
+    {
+      "repository": "fastify",
+      "component": "lib",
+      "score": 73.62
+    },
+    {
+      "repository": "core",
+      "component": "rollup.config.js",
+      "score": 52.94
+    },
+    {
+      "repository": "angular",
+      "component": "integration",
+      "score": 50.8
+    },
+    {
+      "repository": "angular",
+      "component": "tools",
+      "score": 49.6
+    },
+    {
+      "repository": "supabase",
+      "component": "www",
+      "score": 0.0
+    },
+    {
+      "repository": "supabase",
+      "component": "web",
+      "score": 0.0
+    },
+    {
+      "repository": "supabase",
+      "component": "supabase-ui",
+      "score": 0.0
+    },
+    {
+      "repository": "supabase",
+      "component": "supabase",
+      "score": 0.0
+    },
+    {
+      "repository": "supabase",
+      "component": "studio",
+      "score": 0.0
+    },
+    {
+      "repository": "supabase",
+      "component": "libraries",
+      "score": 0.0
+    },
+    {
+      "repository": "supabase",
+      "component": "docker",
+      "score": 0.0
+    }
+  ],
+  "overlaps_with_overall": {
+    "knowledge_risk_overlap": 8,
+    "architectural_risk_overlap": 17,
+    "coupling_risk_overlap": 14
+  }
+}

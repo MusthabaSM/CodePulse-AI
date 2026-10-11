@@ -1,0 +1,55 @@
+{
+  "TownConnect": {
+    "app": {
+      "repository": "TownConnect",
+      "component": "app",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 0.0,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 0.0,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 0.0,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "components": {
+      "repository": "TownConnect",
+      "component": "components",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 100.0,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 40.0,
+      "risk_level": "Watch",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 40.0,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "lib": {
+      "repository": "TownConnect",
+      "component": "lib",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 0.0,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 0.0,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 0.0,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    }
+  }
+}

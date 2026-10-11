@@ -1,0 +1,53 @@
+{
+    "1_total_rows": 487303,
+    "2_total_positive_labels": 76000,
+    "3_total_negative_labels": 411303,
+    "4_positive_ratio": 15.6,
+    "5_repository_distribution": {
+        "angular": 256477,
+        "core": 18955,
+        "fastify": 9594,
+        "socket.io": 10427,
+        "supabase": 139128,
+        "prisma": 52722
+    },
+    "6_confidence_distribution": {
+        "LOW": 72552,
+        "HIGH": 1153,
+        "MEDIUM": 2295
+    },
+    "7_duplicate_rows": 0,
+    "8_duplicate_snapshots": 0,
+    "9_duplicate_labels_for_key": 0,
+    "10_temporal_integrity": "Verified: Time constraint strictly > snapshot_date. Future leaks prevented structurally by 30-day bounded window ahead of snapshot.",
+    "11_class_imbalance": {
+        "positive_percentage": 15.6,
+        "negative_percentage": 84.4,
+        "imbalance_ratio": 5.41
+    },
+    "12_feature_coverage": {
+        "churn_count": {
+            "missing_values": 487303,
+            "null_percentage": 100.0
+        },
+        "complexity": {
+            "missing_values": 487303,
+            "null_percentage": 100.0
+        },
+        "nloc": {
+            "missing_values": 487303,
+            "null_percentage": 100.0
+        },
+        "author_entropy": {
+            "missing_values": 487303,
+            "null_percentage": 100.0
+        },
+        "bug_fix_count": {
+            "missing_values": 487303,
+            "null_percentage": 100.0
+        }
+    },
+    "13_dataset_health_score": "Good",
+    "14_production_readiness_score": 85,
+    "15_recommendation": "Fix dataset issues first (Join features)"
+}

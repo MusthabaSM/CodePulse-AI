@@ -1,0 +1,24 @@
+replicaCount: 2
+
+image:
+  backend:
+    repository: codepulse/backend
+    tag: latest
+  frontend:
+    repository: codepulse/frontend
+    tag: latest
+  analysisEngine:
+    repository: codepulse/analysis-engine
+    tag: latest
+
+secrets:
+  clerkSecretKey: ""
+  encryptionKey: ""
+
+redis:
+  enabled: true
+  host: "redis-master"
+
+postgresql:
+  enabled: true
+  host: "postgres-db"

@@ -1,0 +1,1759 @@
+[
+  {
+    "consumer_file": "adev/src/content/examples/elements/src/app/app.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "devtools/projects/shell-browser/src/app/tab_manager.ts",
+    "provider_file": "devtools/projects/ng-devtools/src/lib/devtools-tabs/directive-explorer/property-resolver/element-property-resolver.ts",
+    "token": "Tabs",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "integration/ng_elements/src/app.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "modules/playground/src/todo/main.ts",
+    "provider_file": "adev/src/content/tutorials/signals/steps/7-using-signals-with-services/answer/src/app/cart-store.ts",
+    "token": "Store",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/animations/browser/src/dsl/animation_ast_builder.ts",
+    "provider_file": "packages/core/testing/src/application_error_handler.ts",
+    "token": "Error",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/benchpress/src/metric/multi_metric.ts",
+    "provider_file": "packages/benchpress/src/metric/perflog_metric.ts",
+    "token": "Metric",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/benchpress/src/reporter/multi_reporter.ts",
+    "provider_file": "packages/benchpress/src/reporter/console_reporter.ts",
+    "token": "Reporter",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/common/http/src/resource.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/i18n/i18n_ast.ts",
+    "provider_file": "packages/core/test/debug/debug_node_spec.ts",
+    "token": "Node",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/i18n/i18n_ast.ts",
+    "provider_file": "packages/core/test/debug/debug_node_spec.ts",
+    "token": "Node",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/render3/r3_ast.ts",
+    "provider_file": "packages/core/test/debug/debug_node_spec.ts",
+    "token": "Node",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/render3/r3_ast.ts",
+    "provider_file": "packages/core/test/debug/debug_node_spec.ts",
+    "token": "Node",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/render3/r3_ast.ts",
+    "provider_file": "packages/core/test/debug/debug_node_spec.ts",
+    "token": "Node",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/render3/r3_ast.ts",
+    "provider_file": "packages/core/test/debug/debug_node_spec.ts",
+    "token": "Node",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/render3/r3_ast.ts",
+    "provider_file": "packages/core/test/debug/debug_node_spec.ts",
+    "token": "Node",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/content_projection.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/directive_constructor.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/directive_constructor.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/directive_type.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/element.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/events.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/events.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/expression.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/expression.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/expression.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/for_block.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/for_block.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/host.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/if_block.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/inputs.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/inputs.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/intersection_observer.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/let.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/schema.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/scope.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/selectorless.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/signal_forms.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/signal_forms.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/switch_block.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/template.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/template.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/variables.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/variables.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler/src/typecheck/ops/variables.ts",
+    "provider_file": "packages/router/src/router_outlet_context.ts",
+    "token": "Context",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/src/ngtsc/transform/jit/src/downlevel_decorators_transform.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/src/ngtsc/transform/jit/test/downlevel_decorators_transform_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/class_metadata/GOLDEN_PARTIAL.js",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/class_metadata/GOLDEN_PARTIAL.js",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/class_metadata/GOLDEN_PARTIAL.js",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/class_metadata/parameter_decorators.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/class_metadata/parameter_decorators.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/class_metadata/parameter_decorators_isolated.golden.d.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/class_metadata/parameter_decorators_isolated.golden.d.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/class_metadata/parameter_decorators_isolated.golden.d.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/ng_modules/GOLDEN_PARTIAL.js",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/ng_modules/inheritance.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/ng_modules/inheritance_isolated.golden.d.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/GOLDEN_PARTIAL.js",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/GOLDEN_PARTIAL.js",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/GOLDEN_PARTIAL.js",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/pipe_and_injectable.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/pipe_and_injectable.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/pipe_and_injectable_isolated.golden.d.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/pipe_and_injectable_isolated.golden.d.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/providedin_forwardref.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/providedin_forwardref_isolated.golden.d.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/incremental_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/local_compilation_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/local_compilation_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/local_compilation_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/local_compilation_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/local_compilation_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/local_compilation_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/core/src/di/interface/defs.ts",
+    "token": "Interface",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/core/src/di/interface/defs.ts",
+    "token": "Interface",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/compiler-cli/test/ngtsc/ngtsc_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/primitives/event-dispatch/src/event_contract_container.ts",
+    "provider_file": "adev/src/content/examples/elements/src/app/popup.service.ts",
+    "token": "Element",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/ng-generate/control-flow-migration/types.ts",
+    "provider_file": "adev/src/content/examples/elements/src/app/popup.service.ts",
+    "token": "Element",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/ng-generate/control-flow-migration/types.ts",
+    "provider_file": "adev/src/content/examples/elements/src/app/popup.service.ts",
+    "token": "Element",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/ng-generate/inject-migration/analysis.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/ng-generate/inject-migration/internal.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/test/all-migrations.spec.ts",
+    "provider_file": "packages/platform-browser/animations/async/src/async_animation_renderer.ts",
+    "token": "Renderer",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/test/inject_migration_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/test/inject_migration_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/test/inject_migration_spec.ts",
+    "provider_file": "adev/src/content/examples/service-worker-getting-started/src/app/handle-unrecoverable-state.service.ts",
+    "token": "StateService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/test/inject_migration_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/test/inject_migration_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/test/inject_migration_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/test/standalone_routes_spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/schematics/test/standalone_routes_spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/debug/debug_node.ts",
+    "provider_file": "packages/core/test/debug/debug_node_spec.ts",
+    "token": "Node",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/debug/debug_node.ts",
+    "provider_file": "adev/src/content/examples/elements/src/app/popup.service.ts",
+    "token": "Element",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/di/injector_compatibility.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/platform/platform_ref.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/render3/chained_injector.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/render3/di.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/resource/api.ts",
+    "provider_file": "packages/platform-browser-dynamic/src/resource_loader/resource_loader_impl.ts",
+    "token": "Resource",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/resource/from_snapshots.ts",
+    "provider_file": "adev/src/content/tutorials/signals/steps/7-using-signals-with-services/answer/src/app/cart-store.ts",
+    "token": "Signal",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/resource/resource.ts",
+    "provider_file": "adev/src/content/tutorials/signals/steps/7-using-signals-with-services/answer/src/app/cart-store.ts",
+    "token": "Signal",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/src/resource/resource.ts",
+    "provider_file": "packages/core/testing/src/application_error_handler.ts",
+    "token": "Error",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/application_ref_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/directive_lifecycle_integration_spec.ts",
+    "provider_file": "adev/src/content/examples/service-worker-getting-started/src/app/log-update.service.ts",
+    "token": "Log",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/directive_lifecycle_integration_spec.ts",
+    "provider_file": "adev/src/content/examples/service-worker-getting-started/src/app/log-update.service.ts",
+    "token": "Log",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/create_component_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/testability/testability.ts",
+    "token": "TestA",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/testability/testability.ts",
+    "token": "TestA",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/ng_modules/providers.ts",
+    "token": "Provider",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "ServiceA",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "adev/src/content/tutorials/learn-angular/steps/20-inject-based-di/answer/src/app/car.service.ts",
+    "token": "Base",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/di_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/host_binding_spec.ts",
+    "provider_file": "devtools/src/app/demo-app/todo/app-todo.component.ts",
+    "token": "ServiceOne",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/lifecycle_spec.ts",
+    "provider_file": "adev/src/content/examples/form-validation/src/app/shared/role.directive.ts",
+    "token": "Dir",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/lifecycle_spec.ts",
+    "provider_file": "adev/src/content/examples/form-validation/src/app/shared/role.directive.ts",
+    "token": "Dir",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/lifecycle_spec.ts",
+    "provider_file": "adev/src/content/examples/form-validation/src/app/shared/role.directive.ts",
+    "token": "Dir",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/lifecycle_spec.ts",
+    "provider_file": "adev/src/content/examples/form-validation/src/app/shared/role.directive.ts",
+    "token": "Dir",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/lifecycle_spec.ts",
+    "provider_file": "adev/src/content/examples/form-validation/src/app/shared/role.directive.ts",
+    "token": "Dir",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/lifecycle_spec.ts",
+    "provider_file": "adev/src/content/examples/form-validation/src/app/shared/role.directive.ts",
+    "token": "Dir",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/ng_module_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/ng_module_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/pipe_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/pipe_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/profiler_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/providers_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/providers_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/providers_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_injector_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_injector_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/standalone_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/acceptance/view_container_ref_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/debug/debug_node_spec.ts",
+    "provider_file": "packages/core/testing/src/logger.ts",
+    "token": "Logger",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/di/r3_injector_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/di/r3_injector_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/di/r3_injector_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/di/r3_injector_spec.ts",
+    "provider_file": "packages/router/test/integration/eager_url_update_strategy.spec.ts",
+    "token": "EagerService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/di/r3_injector_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/legacy_animation/legacy_animation_router_integration_spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/legacy_animation/legacy_animation_router_integration_spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/legacy_animation/legacy_animation_router_integration_spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/legacy_animation/legacy_animation_router_integration_spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/legacy_animation/legacy_animation_router_integration_spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/linker/integration_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/linker/integration_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/linker/integration_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/linker/integration_spec.ts",
+    "provider_file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/src/lib/my-lib.service.ts",
+    "token": "MyService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/linker/integration_spec.ts",
+    "provider_file": "adev/src/content/tutorials/learn-angular/steps/19-creating-an-injectable-service/answer/src/app/car.service.ts",
+    "token": "InjectableService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/linker/ng_module_integration_spec.ts",
+    "provider_file": "adev/src/content/tutorials/learn-angular/steps/19-creating-an-injectable-service/answer/src/app/car.service.ts",
+    "token": "Car",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/linker/ng_module_integration_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/linker/regression_integration_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/linker/view_injector_integration_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/render3/query_spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/render3/ivy/jit_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_without_deps.ts",
+    "token": "Dep",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/render3/jit/declare_injectable_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_forwardref.ts",
+    "token": "UseClass",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/core/test/render3/jit/declare_injectable_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_di/di/useclass_forwardref.ts",
+    "token": "UseClass",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/examples/common/location/ts/hash_location_component.ts",
+    "provider_file": "packages/common/src/location/hash_location_strategy.ts",
+    "token": "Location",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/examples/common/location/ts/path_location_component.ts",
+    "provider_file": "packages/common/src/location/hash_location_strategy.ts",
+    "token": "Location",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/examples/common/ngComponentOutlet/ts/module.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/examples/core/di/ts/injector_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/forms/signals/src/api/rules/validation/validation_errors.ts",
+    "provider_file": "adev/src/content/examples/service-worker-getting-started/src/app/check-for-update.service.ts",
+    "token": "Date",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/forms/signals/src/api/rules/validation/validation_errors.ts",
+    "provider_file": "adev/src/content/examples/service-worker-getting-started/src/app/check-for-update.service.ts",
+    "token": "Date",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/forms/signals/src/field/manager.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/localize/tools/src/extract/translation_files/legacy_message_id_migration_serializer.ts",
+    "provider_file": "packages/compiler-cli/src/ngtsc/annotations/common/src/diagnostics.ts",
+    "token": "Diagnostics",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/platform-browser/test/browser/meta_spec.ts",
+    "provider_file": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/class_metadata/class_decorators.ts",
+    "token": "Meta",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/platform-browser/test/browser/title_spec.ts",
+    "provider_file": "packages/platform-browser/src/browser/title.ts",
+    "token": "Title",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/platform-server/test/integration_spec.ts",
+    "provider_file": "packages/platform-browser/src/browser/title.ts",
+    "token": "Title",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/events.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/navigation_transition.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/page_title_strategy.ts",
+    "provider_file": "packages/platform-browser/src/browser/title.ts",
+    "token": "Title",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/router_config.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/router_preloader.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/router_state.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/router_state.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/url_tree.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/url_tree.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/directives/router_link.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/src/directives/router_link_active.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/bootstrap.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/bootstrap.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/bootstrap.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/bootstrap.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/bootstrap.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/bootstrap.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/bootstrap.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/computed_state_restoration.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/computed_state_restoration.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/regression_integration.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/standalone.spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/standalone.spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/standalone.spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/standalone.spec.ts",
+    "provider_file": "adev/src/content/tutorials/learn-angular/steps/20-inject-based-di/answer/src/app/car.service.ts",
+    "token": "ServiceBase",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/standalone.spec.ts",
+    "provider_file": "adev/src/content/tutorials/learn-angular/steps/20-inject-based-di/answer/src/app/car.service.ts",
+    "token": "ServiceBase",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/standalone.spec.ts",
+    "provider_file": "adev/src/content/tutorials/learn-angular/steps/20-inject-based-di/answer/src/app/car.service.ts",
+    "token": "ServiceBase",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/integration/duplicate_in_flight_navigations.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/integration/integration.spec.ts",
+    "provider_file": "packages/common/src/location/hash_location_strategy.ts",
+    "token": "Location",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/integration/integration_helpers.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/integration/integration_helpers.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/integration/lazy_loading.spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/integration/lazy_loading.spec.ts",
+    "provider_file": "adev/src/content/examples/dynamic-form/src/app/question-control.service.ts",
+    "token": "Service",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/router/test/integration/route_reuse_strategy.spec.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Router",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/service-worker/worker/src/db-cache.ts",
+    "provider_file": "packages/common/src/location/navigation_adapter_for_location.ts",
+    "token": "Adapter",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/service-worker/worker/src/idle.ts",
+    "provider_file": "packages/common/src/location/navigation_adapter_for_location.ts",
+    "token": "Adapter",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/upgrade/src/common/src/upgrade_helper.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/upgrade/static/src/util.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/upgrade/static/test/integration/downgrade_component_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/upgrade/static/test/integration/downgrade_module_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/upgrade/static/test/integration/downgrade_module_spec.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/upgrade/static/testing/src/create_angular_testing_module.ts",
+    "provider_file": "packages/core/src/di/injector_compatibility.ts",
+    "token": "Injector",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "packages/zone.js/lib/zone-spec/async-test.ts",
+    "provider_file": "packages/examples/router/route_functional_guards.ts",
+    "token": "Function",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "apps/studio/components/interfaces/Connect/content/ionicangular/supabasejs/content.tsx",
+    "provider_file": "apps/studio/components/interfaces/Connect/content/ionicangular/supabasejs/content.tsx",
+    "token": "SupabaseService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "apps/studio/components/interfaces/ConnectSheet/content/ionicangular/supabasejs/content.tsx",
+    "provider_file": "apps/studio/components/interfaces/Connect/content/ionicangular/supabasejs/content.tsx",
+    "token": "SupabaseService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  },
+  {
+    "consumer_file": "examples/user-management/ionic-angular-user-management/src/app/app.component.ts",
+    "provider_file": "apps/studio/components/interfaces/Connect/content/ionicangular/supabasejs/content.tsx",
+    "token": "SupabaseService",
+    "confidence": 0.95,
+    "evidence": "Constructor injection resolved to @Injectable file via token mapping"
+  }
+]

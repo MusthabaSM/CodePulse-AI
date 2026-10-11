@@ -1,0 +1,203 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Repository {
+  id              String               @id @default(uuid())
+  organizationId  String               @default("default-org")
+  provider        ProviderType         @default(GITHUB)
+  url             String
+  owner           String
+  name            String
+  isPrivate       Boolean              @default(false)
+  lastScannedAt   DateTime?
+  lastAnalysisAt  DateTime?
+  lastCommitHash  String?
+  healthScore     Float?
+  commits         CommitHistory[]
+  fileMetrics     FileMetrics[]
+  contributors    ContributorActivity[]
+  analysisJobs    AnalysisJob[]
+  snapshots       AnalysisSnapshot[]
+  createdAt       DateTime             @default(now())
+  updatedAt       DateTime             @updatedAt
+
+  @@unique([organizationId, url])
+  @@index([organizationId])
+}
+
+model AnalysisSnapshot {
+  id               String     @id @default(uuid())
+  organizationId   String     @default("default-org")
+  repository       Repository @relation(fields: [repoId], references: [id], onDelete: Cascade)
+  repoId           String
+  versionLabel     String     // e.g., "v1.0", "Before Refactoring"
+  healthScore      Float
+  totalDebtHours   Int
+  maintenanceCost  Float
+  riskScore        Float
+  createdAt        DateTime   @default(now())
+  
+  @@index([repoId, createdAt])
+  @@index([organizationId])
+}
+
+model CommitHistory {
+  id               String     @id @default(uuid())
+  organizationId   String     @default("default-org")
+  repository       Repository @relation(fields: [repoId], references: [id], onDelete: Cascade)
+  repoId           String
+  hash             String
+  author           String
+  message          String
+  date             DateTime
+  isBugFix         Boolean    @default(false)
+  
+  @@index([repoId, date])
+  @@index([organizationId])
+}
+
+model FileMetrics {
+  id               String     @id @default(uuid())
+  organizationId   String     @default("default-org")
+  repository       Repository @relation(fields: [repoId], references: [id], onDelete: Cascade)
+  repoId           String
+  filePath         String
+  churnCount       Int        @default(0)
+  complexity       Float?
+  authorEntropy    Float?
+  bugFixCount      Int        @default(0)
+  riskScore        Float?
+  confidenceScore  Float?
+  explanations     String[]   @default([])
+
+  @@index([repoId, filePath])
+  @@index([organizationId])
+}
+
+model ContributorActivity {
+  id               String     @id @default(uuid())
+  organizationId   String     @default("default-org")
+  repository       Repository @relation(fields: [repoId], references: [id], onDelete: Cascade)
+  repoId           String
+  authorEmail      String
+  totalCommits     Int        @default(0)
+  firstCommitAt    DateTime?
+  lastCommitAt     DateTime?
+
+  @@unique([repoId, authorEmail])
+  @@index([organizationId])
+}
+
+model AnalysisJob {
+  id               String     @id @default(uuid())
+  organizationId   String     @default("default-org")
+  repository       Repository @relation(fields: [repoId], references: [id], onDelete: Cascade)
+  repoId           String
+  status           JobStatus  @default(QUEUED)
+  progress         Int        @default(0)
+  error            String?
+  startedAt        DateTime?
+  completedAt      DateTime?
+  createdAt        DateTime   @default(now())
+  updatedAt        DateTime   @updatedAt
+
+  @@index([organizationId])
+}
+
+enum JobStatus {
+  QUEUED
+  RUNNING
+  COMPLETED
+  FAILED
+}
+
+enum ProviderType {
+  GITHUB
+  GITHUB_ENTERPRISE
+  GITLAB
+  GITLAB_SELF_HOSTED
+  BITBUCKET
+  AZURE
+}
+
+enum SnapshotPeriod {
+  DAILY
+  WEEKLY
+  MONTHLY
+}
+
+model VcsIntegration {
+  id              String       @id @default(uuid())
+  organizationId  String
+  provider        ProviderType
+  accessToken     String       // Encrypted
+  refreshToken    String?      // Encrypted
+  installationId  String?      // For GitHub App, or Workspace ID etc.
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  @@unique([organizationId, provider])
+}
+
+model AuditLog {
+  id             String   @id @default(uuid())
+  organizationId String
+  userId         String?
+  action         String
+  resourceType   String
+  resourceId     String?
+  metadata       Json?
+  createdAt      DateTime @default(now())
+
+  @@index([organizationId])
+  @@index([createdAt])
+}
+
+model OrganizationSnapshot {
+  id                    String         @id @default(uuid())
+  organizationId        String
+  period                SnapshotPeriod @default(DAILY)
+  totalRepositories     Int            @default(0)
+  totalDebtHours        Int            @default(0)
+  totalMaintenanceCost  Float          @default(0)
+  averageHealthScore    Float          @default(0)
+  averageRiskIndex      Float          @default(0)
+  topRiskRepositoryId   String?
+  topCostRepositoryId   String?
+  totalOpenAnalysisJobs Int            @default(0)
+  snapshotDate          DateTime       @default(now())
+  createdAt             DateTime       @default(now())
+
+  @@unique([organizationId, period, snapshotDate])
+  @@index([organizationId, snapshotDate])
+}
+
+model Organization {
+  id        String   @id @default(cuid())
+  name      String
+  industry  String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ApiKey {
+  id             String    @id @default(cuid())
+  organizationId String
+  name           String
+  keyHash        String
+  lastUsedAt     DateTime?
+  revokedAt      DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@index([organizationId])
+  @@index([keyHash])
+}

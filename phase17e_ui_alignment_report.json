@@ -1,0 +1,41 @@
+{
+  "phase": "17E",
+  "audit_name": "UI Alignment & Layout Stability Remediation",
+  "status": "COMPLETED",
+  "classification": "A) Layout Stable",
+  "fixes_applied": [
+    {
+      "component": "Sidebar Layout",
+      "issue": "Horizontal overflow extending viewport width by 260px",
+      "fix": "Converted .sidebar position from fixed to sticky and removed margin-left from .mainContent."
+    },
+    {
+      "component": "Dashboard Grid Hierarchy",
+      "issue": "EngineeringIntelligenceWidget squeezed into 25% width by 4-column KPI grid.",
+      "fix": "Moved widget into a full-width container directly below KPI block."
+    },
+    {
+      "component": "CSS Border Tokens",
+      "issue": "Undefined var(--color-border-subtle) causing invisible borders and scrambled appearance.",
+      "fix": "Replaced with var(--color-border-base) across all frontend components."
+    }
+  ],
+  "responsive_verification": {
+    "1920px": { "horizontal_scroll": false, "card_overlap": false, "text_clipped": false },
+    "1440px": { "horizontal_scroll": false, "card_overlap": false, "text_clipped": false },
+    "1280px": { "horizontal_scroll": false, "card_overlap": false, "text_clipped": false },
+    "1024px": { "horizontal_scroll": false, "card_overlap": false, "text_clipped": false }
+  },
+  "evidence": [
+    "ui_overflow_root_cause.json",
+    "before_1920.png",
+    "before_1440.png",
+    "before_1280.png",
+    "before_1024.png"
+  ],
+  "visual_hierarchy_enforced": {
+    "Top": "KPI Grid",
+    "Middle": "Full-width Engineering Intelligence Widget",
+    "Lower": "Architectural Hotspots, Temporal Coupling, Knowledge Risk, Repository Evolution"
+  }
+}

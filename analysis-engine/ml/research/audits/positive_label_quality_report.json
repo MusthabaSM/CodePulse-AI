@@ -1,0 +1,23 @@
+{
+    "samples_audited": 500,
+    "valid_commits_found": 459,
+    "categories_count": {
+        "Real defect": 340,
+        "Documentation": 35,
+        "Build/CI": 32,
+        "Refactor": 10,
+        "Dependency": 27,
+        "Formatting/style": 15,
+        "Unknown": 41
+    },
+    "percentages": {
+        "Real defect %": 74.07,
+        "False positive %": 25.93,
+        "Documentation %": 7.63,
+        "Build/CI %": 6.97,
+        "Refactor %": 2.18,
+        "Other %": 11.33
+    },
+    "label_noise_estimate": "25.93%",
+    "final_assessment": "Good"
+}

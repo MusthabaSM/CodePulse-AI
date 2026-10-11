@@ -1,0 +1,45 @@
+{
+  "mismatched_checkpoint": {
+    "repository": "supabase",
+    "timestamp": "2025-10-13"
+  },
+  "original_dataset_value": {
+    "bus_factor": 9,
+    "ownership": 0.17,
+    "active_coupling_count": 15813
+  },
+  "recalculated_value_default": {
+    "bus_factor": 8,
+    "ownership": 0.17,
+    "active_coupling_count": 15816
+  },
+  "recomputed_variants": {
+    "utc": {
+      "bus_factor": 8,
+      "ownership": 0.17,
+      "active_coupling_count": 15836
+    },
+    "local_timestamp": {
+      "bus_factor": 8,
+      "ownership": 0.17,
+      "active_coupling_count": 15851
+    },
+    "inclusive_boundary": {
+      "bus_factor": 9,
+      "ownership": 0.17,
+      "active_coupling_count": 15839
+    },
+    "exclusive_boundary": {
+      "bus_factor": 9,
+      "ownership": 0.17,
+      "active_coupling_count": 15759
+    }
+  },
+  "corrected_value": {
+    "bus_factor": 8,
+    "ownership": 0.17,
+    "active_coupling_count": 15816
+  },
+  "root_cause": "rolling-window clipping",
+  "final_classification": "A) Expected Boundary Effect"
+}

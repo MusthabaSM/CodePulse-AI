@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "id": "F-ADV-02",
+      "category": "Security Concerns",
+      "severity": "High",
+      "confidence": "High",
+      "description": "Poisoned context accepted as truth.",
+      "evidence": "Found throw new Error('poison') in irrelevant file.",
+      "referenced_files": [
+        "poisoned_context/main.ts"
+      ],
+      "imported_dependencies": [
+        "./irrelevant"
+      ]
+    }
+  ]
+}

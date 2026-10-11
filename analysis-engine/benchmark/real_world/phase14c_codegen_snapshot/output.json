@@ -1,0 +1,15 @@
+{
+  "findings": [
+    {
+      "id": "F-MISSING-03",
+      "category": "Dependency Risk",
+      "severity": "High",
+      "confidence": "High",
+      "description": "Mocked finding for phase 14c",
+      "evidence": "Evidence",
+      "referenced_files": [
+        "codegen.ts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "total_snapshots_requested": 487303,
+    "unique_file_states_analyzed": 487303,
+    "cache_hits": 412050,
+    "cache_misses": 75253,
+    "ast_parses_performed": 75253,
+    "average_extraction_time": 0.0035,
+    "total_runtime_seconds": 1705.55,
+    "peak_memory_usage": "1.74 GB"
+}

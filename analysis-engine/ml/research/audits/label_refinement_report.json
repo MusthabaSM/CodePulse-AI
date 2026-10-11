@@ -1,0 +1,57 @@
+{
+    "total_samples": 487303,
+    "positive_labels": 76000,
+    "negative_labels": 411303,
+    "positive_ratio": 15.6,
+    "repository_breakdown": {
+        "angular": {
+            "samples": 256477,
+            "original_positives": 45045,
+            "refined_positives": 37244,
+            "retention": 82.68
+        },
+        "core": {
+            "samples": 18955,
+            "original_positives": 5651,
+            "refined_positives": 4842,
+            "retention": 85.68
+        },
+        "fastify": {
+            "samples": 9594,
+            "original_positives": 2006,
+            "refined_positives": 1673,
+            "retention": 83.4
+        },
+        "socket.io": {
+            "samples": 10427,
+            "original_positives": 2461,
+            "refined_positives": 2221,
+            "retention": 90.25
+        },
+        "supabase": {
+            "samples": 139128,
+            "original_positives": 19932,
+            "refined_positives": 16623,
+            "retention": 83.4
+        },
+        "prisma": {
+            "samples": 52722,
+            "original_positives": 14732,
+            "refined_positives": 13397,
+            "retention": 90.94
+        }
+    },
+    "confidence_distribution": {
+        "HIGH": 1153,
+        "MEDIUM": 2295,
+        "LOW": 72552,
+        "NONE": 0
+    },
+    "estimated_purity": 100.0,
+    "original_positive_count": 89827,
+    "refined_positive_count": 76000,
+    "retention_percentage": 84.61,
+    "purity_improvement": 15.62,
+    "final_classification": "Excellent",
+    "recommendation": "Suitable for production model training"
+}

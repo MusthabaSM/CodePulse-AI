@@ -1,0 +1,38 @@
+[
+  {
+    "finding_id": "F-001",
+    "validation_status": "validated",
+    "validated_references": [
+      "packages/compiler/src/typecheck/ops/codegen.ts"
+    ],
+    "missing_references": [],
+    "validation_score": 1.0
+  },
+  {
+    "finding_id": "F-002",
+    "validation_status": "validated",
+    "validated_references": [
+      "packages/compiler/src/typecheck/ops/codegen.ts"
+    ],
+    "missing_references": [],
+    "validation_score": 1.0
+  },
+  {
+    "finding_id": "F-003",
+    "validation_status": "validated",
+    "validated_references": [
+      "packages/compiler/src/typecheck/ops/codegen.ts"
+    ],
+    "missing_references": [],
+    "validation_score": 1.0
+  },
+  {
+    "finding_id": "F-004",
+    "validation_status": "validated",
+    "validated_references": [
+      "packages/compiler/src/typecheck/ops/codegen.ts"
+    ],
+    "missing_references": [],
+    "validation_score": 1.0
+  }
+]

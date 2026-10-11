@@ -1,0 +1,244 @@
+{
+  "benchmarks": [
+    {
+      "benchmark_id": "synthetic/local_issue_01",
+      "category": "Synthetic",
+      "description": "Local issue: missing null check",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 1,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "synthetic/local_issue_02",
+      "category": "Synthetic",
+      "description": "Synthetic local_issue_02",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 1,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "synthetic/cross_file_issue_01",
+      "category": "Synthetic",
+      "description": "Cross file: missing property",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 1,
+      "expected_cross_file_references": 1,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "synthetic/dependency_issue_01",
+      "category": "Synthetic",
+      "description": "Synthetic dependency_issue_01",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 1,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "synthetic/no_issue_01",
+      "category": "Synthetic",
+      "description": "No issue",
+      "expected_finding_count_range": [
+        0,
+        0
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 0,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "synthetic/generated_code_01",
+      "category": "Synthetic",
+      "description": "Generated code (should have few or no findings)",
+      "expected_finding_count_range": [
+        0,
+        1
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 1,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "synthetic/large_file_01",
+      "category": "Synthetic",
+      "description": "Synthetic large_file_01",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 1,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "synthetic/large_file_02",
+      "category": "Synthetic",
+      "description": "Synthetic large_file_02",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 1,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "synthetic/edge_cases",
+      "category": "Synthetic",
+      "description": "Synthetic edge_cases",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 1,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "adversarial/hallucinations",
+      "category": "Adversarial",
+      "description": "Attempt to force hallucination on clean code",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 0.0,
+      "expected_unsupported_rate": 100.0,
+      "expected_local_references": 0,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 100.0,
+      "is_negative_case": true
+    },
+    {
+      "benchmark_id": "adversarial/poisoned_context",
+      "category": "Adversarial",
+      "description": "Context contains irrelevant code to distract",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 0.0,
+      "expected_unsupported_rate": 100.0,
+      "expected_local_references": 0,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 100.0,
+      "is_negative_case": true
+    },
+    {
+      "benchmark_id": "adversarial/fabricated_references",
+      "category": "Adversarial",
+      "description": "Test if LLM invents references to non-existent files",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 0.0,
+      "expected_unsupported_rate": 100.0,
+      "expected_local_references": 0,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 100.0,
+      "is_negative_case": true
+    },
+    {
+      "benchmark_id": "adversarial/invalid_symbols",
+      "category": "Adversarial",
+      "description": "Test invalid symbol resolution",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 0.0,
+      "expected_unsupported_rate": 100.0,
+      "expected_local_references": 0,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 100.0,
+      "is_negative_case": true
+    },
+    {
+      "benchmark_id": "adversarial/misleading_dependency_graphs",
+      "category": "Adversarial",
+      "description": "Test fake graph injection",
+      "expected_finding_count_range": [
+        1,
+        3
+      ],
+      "expected_supported_rate": 0.0,
+      "expected_unsupported_rate": 100.0,
+      "expected_local_references": 0,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 100.0,
+      "is_negative_case": true
+    },
+    {
+      "benchmark_id": "real_world/phase14c_codegen_snapshot",
+      "category": "Real World",
+      "description": "Phase 14C benchmark bundle",
+      "expected_finding_count_range": [
+        2,
+        5
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 2,
+      "expected_cross_file_references": 1,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    },
+    {
+      "benchmark_id": "real_world/future_snapshots",
+      "category": "Real World",
+      "description": "Placeholder for future",
+      "expected_finding_count_range": [
+        0,
+        5
+      ],
+      "expected_supported_rate": 100.0,
+      "expected_unsupported_rate": 0.0,
+      "expected_local_references": 0,
+      "expected_cross_file_references": 0,
+      "expected_hallucination_rate": 0.0,
+      "is_negative_case": false
+    }
+  ]
+}

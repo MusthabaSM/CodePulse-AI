@@ -1,0 +1,52 @@
+{
+  "findings": [
+    {
+      "id": "F-001",
+      "category": "Architectural Risk",
+      "severity": "Medium",
+      "confidence": "High",
+      "description": "...",
+      "evidence": "...",
+      "referenced_files": [
+        "packages/compiler/src/typecheck/ops/codegen.ts"
+      ],
+      "referenced_architectural_links": []
+    },
+    {
+      "id": "F-002",
+      "category": "Architectural Risk",
+      "severity": "Medium",
+      "confidence": "High",
+      "description": "...",
+      "evidence": "...",
+      "referenced_files": [
+        "packages/compiler/src/typecheck/ops/codegen.ts"
+      ],
+      "referenced_architectural_links": []
+    },
+    {
+      "id": "F-003",
+      "category": "Performance",
+      "severity": "Low",
+      "confidence": "Medium",
+      "description": "The static quoteAndEscape(value: string) method...",
+      "evidence": "...",
+      "referenced_files": [
+        "packages/compiler/src/typecheck/ops/codegen.ts"
+      ],
+      "referenced_architectural_links": []
+    },
+    {
+      "id": "F-004",
+      "category": "Maintainability",
+      "severity": "Low",
+      "confidence": "Medium",
+      "description": "The print method performs multiple string concatenations...",
+      "evidence": "...",
+      "referenced_files": [
+        "packages/compiler/src/typecheck/ops/codegen.ts"
+      ],
+      "referenced_architectural_links": []
+    }
+  ]
+}

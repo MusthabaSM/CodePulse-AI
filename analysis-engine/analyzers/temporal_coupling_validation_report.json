@@ -1,0 +1,204 @@
+{
+  "runtime_verification": {
+    "repositories_analyzed": 6,
+    "components_analyzed": 11,
+    "file_relationships_analyzed": 1463390,
+    "component_relationships_analyzed": 8,
+    "strongest_coupling_pairs": [
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "devtools/projects/ng-devtools-backend/src/lib/hooks/profiler/polyfill.ts",
+        "entity_b": "devtools/projects/ng-devtools-backend/src/lib/state-serializer/object-utils.ts",
+        "total_changes_a": 8,
+        "total_changes_b": 9,
+        "co_changes": 6,
+        "recent_co_changes_90_days": 1,
+        "recent_co_changes_180_days": 1,
+        "historical_coupling_score": 0.67,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2021-11-21T20:23:18-05:00",
+        "last_observed_date": "2026-06-08T22:34:03+03:00",
+        "warning_level": "Very Strong"
+      },
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "devtools/projects/ng-devtools-backend/src/lib/hooks/profiler/native.ts",
+        "entity_b": "devtools/projects/ng-devtools-backend/src/lib/hooks/profiler/polyfill.ts",
+        "total_changes_a": 15,
+        "total_changes_b": 8,
+        "co_changes": 7,
+        "recent_co_changes_90_days": 1,
+        "recent_co_changes_180_days": 1,
+        "historical_coupling_score": 0.47,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2021-11-21T20:23:18-05:00",
+        "last_observed_date": "2026-06-08T22:34:03+03:00",
+        "warning_level": "Very Strong"
+      },
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "devtools/projects/ng-devtools-backend/src/lib/hooks/profiler/native.ts",
+        "entity_b": "devtools/projects/ng-devtools-backend/src/lib/state-serializer/object-utils.ts",
+        "total_changes_a": 15,
+        "total_changes_b": 9,
+        "co_changes": 5,
+        "recent_co_changes_90_days": 1,
+        "recent_co_changes_180_days": 1,
+        "historical_coupling_score": 0.33,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2021-11-21T20:23:18-05:00",
+        "last_observed_date": "2026-06-08T22:34:03+03:00",
+        "warning_level": "Very Strong"
+      },
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "packages/platform-server/src/platform-server.ts",
+        "entity_b": "packages/platform-server/src/platform_state.ts",
+        "total_changes_a": 13,
+        "total_changes_b": 9,
+        "co_changes": 5,
+        "recent_co_changes_90_days": 1,
+        "recent_co_changes_180_days": 1,
+        "historical_coupling_score": 0.38,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2017-03-02T10:48:42-08:00",
+        "last_observed_date": "2026-06-05T10:03:20+00:00",
+        "warning_level": "Very Strong"
+      },
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "packages/platform-browser/animations/src/module.ts",
+        "entity_b": "packages/platform-browser/src/dom/util.ts",
+        "total_changes_a": 23,
+        "total_changes_b": 11,
+        "co_changes": 5,
+        "recent_co_changes_90_days": 1,
+        "recent_co_changes_180_days": 1,
+        "historical_coupling_score": 0.22,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2017-03-02T10:48:42-08:00",
+        "last_observed_date": "2026-05-21T13:11:17-07:00",
+        "warning_level": "Very Strong"
+      },
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "packages/compiler-cli/src/ngtsc/partial_evaluator/index.ts",
+        "entity_b": "packages/compiler-cli/src/ngtsc/partial_evaluator/src/interface.ts",
+        "total_changes_a": 12,
+        "total_changes_b": 15,
+        "co_changes": 8,
+        "recent_co_changes_90_days": 1,
+        "recent_co_changes_180_days": 1,
+        "historical_coupling_score": 0.53,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2018-12-18T09:48:15-08:00",
+        "last_observed_date": "2026-05-22T14:00:18-07:00",
+        "warning_level": "Very Strong"
+      },
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "packages/compiler/src/render3/partial/ng_module.ts",
+        "entity_b": "packages/compiler/src/render3/r3_module_compiler.ts",
+        "total_changes_a": 10,
+        "total_changes_b": 52,
+        "co_changes": 6,
+        "recent_co_changes_90_days": 1,
+        "recent_co_changes_180_days": 1,
+        "historical_coupling_score": 0.12,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2021-03-04T20:55:25+00:00",
+        "last_observed_date": "2026-05-22T14:00:18-07:00",
+        "warning_level": "Very Strong"
+      },
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "packages/compiler-cli/src/ngtsc/indexer/src/api.ts",
+        "entity_b": "packages/compiler-cli/src/ngtsc/indexer/src/transform.ts",
+        "total_changes_a": 19,
+        "total_changes_b": 11,
+        "co_changes": 9,
+        "recent_co_changes_90_days": 2,
+        "recent_co_changes_180_days": 2,
+        "historical_coupling_score": 0.47,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2019-06-10T09:19:35-07:00",
+        "last_observed_date": "2026-05-13T10:39:38-07:00",
+        "warning_level": "Very Strong"
+      },
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "packages/core/src/linker/element_ref.ts",
+        "entity_b": "packages/core/src/render/api.ts",
+        "total_changes_a": 30,
+        "total_changes_b": 45,
+        "co_changes": 15,
+        "recent_co_changes_90_days": 0,
+        "recent_co_changes_180_days": 1,
+        "historical_coupling_score": 0.33,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2017-03-02T10:48:42-08:00",
+        "last_observed_date": "2026-03-02T11:30:45-05:00",
+        "warning_level": "Very Strong"
+      },
+      {
+        "repository": "angular",
+        "type": "file",
+        "entity_a": "packages/core/src/di/injector.ts",
+        "entity_b": "packages/core/src/linker/element_ref.ts",
+        "total_changes_a": 77,
+        "total_changes_b": 30,
+        "co_changes": 11,
+        "recent_co_changes_90_days": 0,
+        "recent_co_changes_180_days": 1,
+        "historical_coupling_score": 0.14,
+        "current_coupling_score": 1.0,
+        "first_observed_date": "2017-03-02T10:48:42-08:00",
+        "last_observed_date": "2026-03-02T11:30:45-05:00",
+        "warning_level": "Very Strong"
+      }
+    ],
+    "strongest_coupling_clusters": [
+      [
+        "devtools/projects/ng-devtools-backend/src/lib/hooks/profiler/polyfill.ts",
+        "devtools/projects/ng-devtools-backend/src/lib/hooks/profiler/native.ts",
+        "devtools/projects/ng-devtools-backend/src/lib/state-serializer/object-utils.ts"
+      ],
+      [
+        "devtools/projects/ng-devtools-backend/src/lib/directive-forest/ltree.ts",
+        "devtools/projects/ng-devtools-backend/src/lib/directive-forest/render-tree.ts"
+      ],
+      [
+        "packages/compiler/src/render3/r3_identifiers.ts",
+        "packages/core/src/render3/jit/environment.ts",
+        "packages/core/src/render3/index.ts"
+      ],
+      [
+        "packages/platform-server/src/platform-server.ts",
+        "packages/platform-server/src/platform_state.ts"
+      ],
+      [
+        "packages/platform-browser/animations/src/module.ts",
+        "packages/platform-browser/src/dom/util.ts"
+      ]
+    ]
+  },
+  "quality_audit": {
+    "active_relationship_percentage": 2.4938533467997086,
+    "business_logic_percentage": 99.50655939122508,
+    "strong_coupling_count": 217196,
+    "very_strong_coupling_count": 214964,
+    "tests_excluded": true,
+    "build_artifacts_excluded": true,
+    "generated_code_excluded": true
+  },
+  "final_classification": "A) Production Ready"
+}

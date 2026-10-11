@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "id": "F-ADV-01",
+      "category": "Architectural Risk",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "description": "Hallucinated issue in clean code.",
+      "evidence": "Code looks too clean.",
+      "referenced_files": [
+        "hallucinations/main.ts"
+      ],
+      "referenced_symbols": [
+        "FakeFunction"
+      ]
+    }
+  ]
+}

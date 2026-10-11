@@ -1,0 +1,242 @@
+[
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": "GeminiProvider",
+    "fallback_triggered": false,
+    "fallback_provider": null,
+    "failure_reason": null,
+    "timestamp": "2026-06-10T12:56:36.062710Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": "OpenRouterProvider",
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "API rate limit exceeded",
+    "timestamp": "2026-06-10T12:56:36.073120Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: Gemini down. Fallback failed: OpenRouter down",
+    "timestamp": "2026-06-10T12:56:36.075029Z"
+  },
+  {
+    "provider_selected": "OllamaProvider",
+    "provider_used": "OllamaProvider",
+    "fallback_triggered": false,
+    "fallback_provider": null,
+    "failure_reason": null,
+    "timestamp": "2026-06-10T12:56:36.075029Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": "GeminiProvider",
+    "fallback_triggered": false,
+    "fallback_provider": null,
+    "failure_reason": null,
+    "timestamp": "2026-06-10T14:20:25.334251Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": "GeminiProvider",
+    "fallback_triggered": false,
+    "fallback_provider": null,
+    "failure_reason": null,
+    "timestamp": "2026-06-10T14:20:42.431629Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": "GeminiProvider",
+    "fallback_triggered": false,
+    "fallback_provider": null,
+    "failure_reason": null,
+    "timestamp": "2026-06-10T14:20:51.087824Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": "GeminiProvider",
+    "fallback_triggered": false,
+    "fallback_provider": null,
+    "failure_reason": null,
+    "timestamp": "2026-06-10T14:21:03.524039Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": "GeminiProvider",
+    "fallback_triggered": false,
+    "fallback_provider": null,
+    "failure_reason": null,
+    "timestamp": "2026-06-10T14:21:14.382320Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 16.733419961s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 16\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:21:43.563728Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 11.180424271s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 11\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:21:49.130105Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 55.686611058s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 55\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:22:04.762311Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": "GeminiProvider",
+    "fallback_triggered": false,
+    "fallback_provider": null,
+    "failure_reason": null,
+    "timestamp": "2026-06-10T14:22:53.609330Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": "GeminiProvider",
+    "fallback_triggered": false,
+    "fallback_provider": null,
+    "failure_reason": null,
+    "timestamp": "2026-06-10T14:23:04.166862Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 52.643607881s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 52\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:23:07.740624Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 47.008390468s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 47\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:23:13.296454Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 31.360587543s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 31\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:23:28.924942Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 800.21836ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:23:59.518597Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 57.306706098s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 57\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:24:02.941011Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 51.859097744s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 51\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:24:08.417629Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 36.381312928s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 36\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:24:24.032944Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 5.758886975s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 5\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:24:54.501581Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 2.214723079s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 2\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:24:58.333040Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 56.443814918s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 56\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:25:03.811098Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 40.968079154s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 40\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:25:19.298317Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 10.464495554s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 10\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:25:49.838719Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 6.917763242s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 6\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:25:53.424976Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 1.387614257s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 1\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:25:58.873402Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 45.898993227s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 45\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:26:14.368573Z"
+  },
+  {
+    "provider_selected": "GeminiProvider",
+    "provider_used": null,
+    "fallback_triggered": true,
+    "fallback_provider": "OpenRouterProvider",
+    "failure_reason": "Primary failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 15.42120766s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 15\n}\n]. Fallback failed: OPENROUTER_API_KEY environment variable is missing",
+    "timestamp": "2026-06-10T14:26:44.867330Z"
+  }
+]

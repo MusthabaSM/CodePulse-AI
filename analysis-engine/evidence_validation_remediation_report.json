@@ -1,0 +1,10 @@
+{
+  "total_findings": 4,
+  "supported_findings_before": 2,
+  "supported_findings_after": 4,
+  "unsupported_findings_before": 2,
+  "unsupported_findings_after": 0,
+  "missing_citation_before": 0,
+  "missing_citation_after": 0,
+  "classification": "A) Production Ready"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "Success",
+  "factory_agnostic": true,
+  "engine_agnostic": true,
+  "validations": [
+    {
+      "scenario": "Gemini available",
+      "gemini_executes": true,
+      "fallback_triggered": false
+    },
+    {
+      "scenario": "Gemini unavailable",
+      "openrouter_executes": true,
+      "fallback_logged": true
+    },
+    {
+      "scenario": "Gemini and OpenRouter unavailable",
+      "hard_failure": true,
+      "synthetic_response_generated": false,
+      "error_message": "Hard failure: Both GeminiProvider and OpenRouterProvider failed. Reason: Primary failed: Gemini down. Fallback failed: OpenRouter down"
+    },
+    {
+      "scenario": "Ollama selected",
+      "executes": true,
+      "fallback_configured": true
+    }
+  ]
+}

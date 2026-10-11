@@ -1,0 +1,52 @@
+{
+  "phase": "16",
+  "name": "Frontend Rebuild (Engineering Intelligence Platform)",
+  "classification": "A) Fully Aligned With Engineering Intelligence Platform",
+  "objectives": [
+    "Redesign frontend information architecture",
+    "Replace legacy defect prediction terminology with Engineering Intelligence",
+    "Establish AI Review Assistant workspace"
+  ],
+  "dashboard_redesign": {
+    "top_cards": [
+      "Engineering Intelligence Score",
+      "Critical Knowledge Risks",
+      "Critical Hotspots",
+      "Active Coupling Risks",
+      "Repositories Monitored"
+    ],
+    "middle_section": [
+      "Repository Evolution Trends",
+      "Risk Distribution"
+    ],
+    "bottom_section": [
+      "Recent AI Review Findings",
+      "Critical Components"
+    ]
+  },
+  "repository_details_redesign": {
+    "tabs": [
+      "Overview",
+      "Knowledge Risk",
+      "Hotspots",
+      "Coupling",
+      "Evolution",
+      "AI Reviews"
+    ]
+  },
+  "terminology_mapping": {
+    "Bug Prediction": "Engineering Intelligence",
+    "Defect Prediction": "Architectural Risk",
+    "Bug Risk Score": "Repository Health / Change Risk",
+    "AI Consultant": "AI Review Assistant"
+  },
+  "design_constraints": {
+    "reuse_design_system": true,
+    "visual_rebranding": false,
+    "preserve_elements": [
+      "colors",
+      "layout framework",
+      "component library"
+    ]
+  }
+}

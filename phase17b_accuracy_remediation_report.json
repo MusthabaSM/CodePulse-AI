@@ -1,0 +1,59 @@
+{
+  "classification": "A) Intelligence Metrics Accurate",
+  "remediation_status": {
+    "architectural_hotspots_complexity": "Fixed",
+    "hotspot_widget_mapping": "Fixed",
+    "temporal_coupling_empty_state": "Fixed"
+  },
+  "verification": {
+    "repository_tested": "Immutable-police-record-management-system",
+    "component_tested": "apps",
+    "complexity": {
+      "before": {
+        "engine_output_ccn": 0.0,
+        "ui_displayed_value": 0,
+        "cause": "Invalid flag '-c' caused lizard to crash silently"
+      },
+      "after": {
+        "engine_output_ccn": 164.0,
+        "ui_displayed_value": 164,
+        "fix": "Replaced '-c' with '--csv' and corrected CSV index mapping (parts[6].strip('\"'))"
+      }
+    },
+    "churn": {
+      "before": {
+        "engine_output_churn": 53,
+        "ui_displayed_value": 0,
+        "cause": "UI was mapped to 'change_score' (penalty heuristic) instead of 'metrics.churn_180d'"
+      },
+      "after": {
+        "engine_output_churn": 53,
+        "ui_displayed_value": 53,
+        "fix": "Updated ArchitecturalHotspotsWidget.tsx to use hotspot.metrics?.churn_180d"
+      }
+    },
+    "ownership": {
+      "before": {
+        "engine_output_contributors": 1,
+        "ui_displayed_value": 0,
+        "cause": "UI was mapped to 'ownership_score' (penalty heuristic) instead of 'metrics.contributor_count'"
+      },
+      "after": {
+        "engine_output_contributors": 1,
+        "ui_displayed_value": 1,
+        "fix": "Updated ArchitecturalHotspotsWidget.tsx to use hotspot.metrics?.contributor_count"
+      }
+    },
+    "temporal_coupling": {
+      "before": {
+        "ui_message": "Repository not analyzed yet or no temporal coupling detected.",
+        "cause": "Overloaded empty state message for both 404 (Unanalyzed) and [] (No Coupling Exceeded 5-commit Threshold)"
+      },
+      "after": {
+        "ui_message_unanalyzed": "Analysis not completed yet",
+        "ui_message_no_coupling": "Analysis completed, but no temporal coupling exceeded the threshold.",
+        "fix": "Updated TemporalCouplingWidget.tsx to check for API error vs empty array and display appropriate states."
+      }
+    }
+  }
+}

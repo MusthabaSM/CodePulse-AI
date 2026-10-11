@@ -1,0 +1,313 @@
+{
+  "RuView": {
+    "firmware": {
+      "repository": "RuView",
+      "component": "firmware",
+      "knowledge_risk_score": 92.96,
+      "architectural_risk_score": 81.82,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 65.26,
+      "risk_level": "Elevated",
+      "knowledge_contribution": 32.54,
+      "architecture_contribution": 32.73,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "Critical bus factor (1)",
+        "High ownership concentration (0.64)",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "ui": {
+      "repository": "RuView",
+      "component": "ui",
+      "knowledge_risk_score": 79.57,
+      "architectural_risk_score": 68.18,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 55.12,
+      "risk_level": "Elevated",
+      "knowledge_contribution": 27.85,
+      "architecture_contribution": 27.27,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "Critical bus factor (2)",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "v1": {
+      "repository": "RuView",
+      "component": "v1",
+      "knowledge_risk_score": 87.75,
+      "architectural_risk_score": 40.91,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 47.08,
+      "risk_level": "Watch",
+      "knowledge_contribution": 30.71,
+      "architecture_contribution": 16.36,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "Critical bus factor (1)",
+        "High ownership concentration (0.53)",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "src": {
+      "repository": "RuView",
+      "component": "src",
+      "knowledge_risk_score": 100.0,
+      "architectural_risk_score": 18.18,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 42.27,
+      "risk_level": "Watch",
+      "knowledge_contribution": 35.0,
+      "architecture_contribution": 7.27,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "Critical bus factor (1)",
+        "High ownership concentration (1.00)",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "benchmarks": {
+      "repository": "RuView",
+      "component": "benchmarks",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 100.0,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 40.0,
+      "risk_level": "Watch",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 40.0,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "archive": {
+      "repository": "RuView",
+      "component": "archive",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 68.18,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 27.27,
+      "risk_level": "Watch",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 27.27,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "aether-arena": {
+      "repository": "RuView",
+      "component": "aether-arena",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 81.82,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 32.73,
+      "risk_level": "Watch",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 32.73,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "frontend": {
+      "repository": "RuView",
+      "component": "frontend",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 81.82,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 32.73,
+      "risk_level": "Watch",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 32.73,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "tools": {
+      "repository": "RuView",
+      "component": "tools",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 81.82,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 32.73,
+      "risk_level": "Watch",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 32.73,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "python": {
+      "repository": "RuView",
+      "component": "python",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 81.82,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 32.73,
+      "risk_level": "Watch",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 32.73,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "v2": {
+      "repository": "RuView",
+      "component": "v2",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 27.27,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 10.91,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 10.91,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "dashboard": {
+      "repository": "RuView",
+      "component": "dashboard",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 0.0,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 0.0,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 0.0,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "rust-port": {
+      "repository": "RuView",
+      "component": "rust-port",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 0.0,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 0.0,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 0.0,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "references": {
+      "repository": "RuView",
+      "component": "references",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 0.0,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 0.0,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 0.0,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "mobile": {
+      "repository": "RuView",
+      "component": "mobile",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 40.91,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 16.36,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 16.36,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    ".claude": {
+      "repository": "RuView",
+      "component": ".claude",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 18.18,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 7.27,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 7.27,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "crates": {
+      "repository": "RuView",
+      "component": "crates",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 36.36,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 14.55,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 14.55,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "npm": {
+      "repository": "RuView",
+      "component": "npm",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 77.27,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 30.91,
+      "risk_level": "Watch",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 30.91,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    }
+  }
+}

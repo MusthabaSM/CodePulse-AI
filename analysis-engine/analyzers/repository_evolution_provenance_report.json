@@ -1,0 +1,22 @@
+{
+  "repository_evolution_metrics": {
+    "knowledge_metrics": {
+      "real_percentage": 100.0,
+      "estimated_percentage": 0.0,
+      "historical_source": "git log --since=X --until=Y --numstat --format='COMMIT|%H|%an'",
+      "calculation_method": "Deterministic parsing of git author frequency and distributions"
+    },
+    "architectural_metrics": {
+      "real_percentage": 100.0,
+      "estimated_percentage": 0.0,
+      "historical_source": "git log --since=X --until=Y --numstat",
+      "calculation_method": "Deterministic tracking of file churn and lines added/deleted"
+    },
+    "coupling_metrics": {
+      "real_percentage": 100.0,
+      "estimated_percentage": 0.0,
+      "historical_source": "git log --since=X --until=Y --name-only",
+      "calculation_method": "Deterministic graph construction of co-changing files per commit"
+    }
+  }
+}

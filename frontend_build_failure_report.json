@@ -1,0 +1,144 @@
+{
+  "total_errors": 21,
+  "blocking_errors": 17,
+  "warnings": 4,
+  "missing_files": [
+    "src/components/ui/card.tsx",
+    "src/components/ui/badge.tsx",
+    "src/components/ui/Card.tsx"
+  ],
+  "missing_components": [
+    "lucide-react",
+    "@/components/ui/card",
+    "@/components/ui/badge"
+  ],
+  "errors": [
+    {
+      "file": ".next/dev/types/validator.ts",
+      "line": 42,
+      "module_name": "../../../src/app/(dashboard)/ai-consultant/page.js",
+      "root_cause": "The Next.js cache is trying to validate old routes that were deleted during Phase 16.",
+      "recommended_fix": "Clear the .next cache directory before building locally (rm -rf .next)."
+    },
+    {
+      "file": "src/components/dashboard/ArchitecturalHotspotsWidget.tsx",
+      "line": 4,
+      "module_name": "@/components/ui/card",
+      "root_cause": "The shadcn/ui Card component was referenced in the new widget but not installed in the repository.",
+      "recommended_fix": "Install the card component (npx shadcn-ui@latest add card) or create it manually."
+    },
+    {
+      "file": "src/components/dashboard/ArchitecturalHotspotsWidget.tsx",
+      "line": 5,
+      "module_name": "@/components/ui/badge",
+      "root_cause": "The shadcn/ui Badge component was referenced but not installed.",
+      "recommended_fix": "Install the badge component (npx shadcn-ui@latest add badge) or create it manually."
+    },
+    {
+      "file": "src/components/dashboard/ArchitecturalHotspotsWidget.tsx",
+      "line": 6,
+      "module_name": "@/lib/api/client",
+      "root_cause": "Invalid export. 'apiClient' does not exist as an exported member. The correct hook/utility is likely 'useApiClient' or another export.",
+      "recommended_fix": "Change the import to '{ useApiClient }' and utilize the hook, or fix the export in lib/api/client."
+    },
+    {
+      "file": "src/components/dashboard/ArchitecturalHotspotsWidget.tsx",
+      "line": 7,
+      "module_name": "lucide-react",
+      "root_cause": "The 'lucide-react' icon library is not installed in package.json.",
+      "recommended_fix": "Run 'npm install lucide-react' in the frontend directory."
+    },
+    {
+      "file": "src/components/dashboard/EngineeringIntelligenceWidget.tsx",
+      "line": 4,
+      "module_name": "@/components/ui/card",
+      "root_cause": "Missing shadcn/ui Card component.",
+      "recommended_fix": "Install the card component."
+    },
+    {
+      "file": "src/components/dashboard/EngineeringIntelligenceWidget.tsx",
+      "line": 5,
+      "module_name": "@/components/ui/badge",
+      "root_cause": "Missing shadcn/ui Badge component.",
+      "recommended_fix": "Install the badge component."
+    },
+    {
+      "file": "src/components/dashboard/EngineeringIntelligenceWidget.tsx",
+      "line": 6,
+      "module_name": "@/lib/api/client",
+      "root_cause": "Invalid export 'apiClient'.",
+      "recommended_fix": "Change import to useApiClient or fix lib export."
+    },
+    {
+      "file": "src/components/dashboard/EngineeringIntelligenceWidget.tsx",
+      "line": 7,
+      "module_name": "lucide-react",
+      "root_cause": "Missing lucide-react dependency.",
+      "recommended_fix": "Install lucide-react."
+    },
+    {
+      "file": "src/components/dashboard/KnowledgeLossWidget.tsx",
+      "line": 4,
+      "module_name": "../ui/Card",
+      "root_cause": "Missing Card component. Note the path differs from other widgets ('../ui/Card' vs '@/components/ui/card').",
+      "recommended_fix": "Standardize the import path to '@/components/ui/card' and install the component."
+    },
+    {
+      "file": "src/components/dashboard/KnowledgeLossWidget.tsx",
+      "line": 5,
+      "module_name": "../../lib/api/client",
+      "root_cause": "Invalid export 'apiClient'.",
+      "recommended_fix": "Change import to useApiClient or fix lib export."
+    },
+    {
+      "file": "src/components/dashboard/RepositoryEvolutionWidget.tsx",
+      "line": 4,
+      "module_name": "@/components/ui/card",
+      "root_cause": "Missing shadcn/ui Card component.",
+      "recommended_fix": "Install the card component."
+    },
+    {
+      "file": "src/components/dashboard/RepositoryEvolutionWidget.tsx",
+      "line": 5,
+      "module_name": "@/lib/api/client",
+      "root_cause": "Invalid export 'apiClient'.",
+      "recommended_fix": "Change import to useApiClient or fix lib export."
+    },
+    {
+      "file": "src/components/dashboard/RepositoryEvolutionWidget.tsx",
+      "line": 6,
+      "module_name": "lucide-react",
+      "root_cause": "Missing lucide-react dependency.",
+      "recommended_fix": "Install lucide-react."
+    },
+    {
+      "file": "src/components/dashboard/TemporalCouplingWidget.tsx",
+      "line": 4,
+      "module_name": "@/components/ui/card",
+      "root_cause": "Missing shadcn/ui Card component.",
+      "recommended_fix": "Install the card component."
+    },
+    {
+      "file": "src/components/dashboard/TemporalCouplingWidget.tsx",
+      "line": 5,
+      "module_name": "@/components/ui/badge",
+      "root_cause": "Missing shadcn/ui Badge component.",
+      "recommended_fix": "Install the badge component."
+    },
+    {
+      "file": "src/components/dashboard/TemporalCouplingWidget.tsx",
+      "line": 6,
+      "module_name": "@/lib/api/client",
+      "root_cause": "Invalid export 'apiClient'.",
+      "recommended_fix": "Change import to useApiClient or fix lib export."
+    },
+    {
+      "file": "src/components/dashboard/TemporalCouplingWidget.tsx",
+      "line": 7,
+      "module_name": "lucide-react",
+      "root_cause": "Missing lucide-react dependency.",
+      "recommended_fix": "Install lucide-react."
+    }
+  ],
+  "classification": "C) Major Missing Dependencies"
+}

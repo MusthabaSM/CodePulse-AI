@@ -1,0 +1,10 @@
+{
+  "total_findings": 0,
+  "findings_with_target_file_citation": 0,
+  "findings_with_empty_references": 0,
+  "supported_findings": 0,
+  "unsupported_findings": 0,
+  "missing_citation_findings": 0,
+  "classification": "B) Prompt Improvement Verified But Live Validation Pending",
+  "failure_details": "LLM Provider API Error: ValueError"
+}

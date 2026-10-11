@@ -1,0 +1,87 @@
+{
+  "total_files_analyzed": 11285,
+  "total_modules_analyzed": 39,
+  "total_repositories_analyzed": 6,
+  "top_10_highest_risk_components": [
+    {
+      "repository": "core",
+      "component": "packages",
+      "score": 30,
+      "risk": "Critical",
+      "bus_factor": 1,
+      "ownership": 0.67
+    },
+    {
+      "repository": "socket.io",
+      "component": "packages",
+      "score": 30,
+      "risk": "Critical",
+      "bus_factor": 1,
+      "ownership": 0.65
+    },
+    {
+      "repository": "core",
+      "component": "root",
+      "score": 50,
+      "risk": "High",
+      "bus_factor": 1,
+      "ownership": 0.8
+    },
+    {
+      "repository": "supabase",
+      "component": "packages",
+      "score": 60,
+      "risk": "High",
+      "bus_factor": 2,
+      "ownership": 0.4
+    },
+    {
+      "repository": "supabase",
+      "component": "supabase",
+      "score": 60,
+      "risk": "High",
+      "bus_factor": 1,
+      "ownership": 0.59
+    },
+    {
+      "repository": "angular",
+      "component": "packages",
+      "score": 80,
+      "risk": "Medium",
+      "bus_factor": 6,
+      "ownership": 0.12
+    },
+    {
+      "repository": "angular",
+      "component": "devtools",
+      "score": 80,
+      "risk": "Medium",
+      "bus_factor": 3,
+      "ownership": 0.28
+    },
+    {
+      "repository": "angular",
+      "component": "modules",
+      "score": 80,
+      "risk": "Medium",
+      "bus_factor": 5,
+      "ownership": 0.17
+    },
+    {
+      "repository": "angular",
+      "component": "vscode-ng-language-service",
+      "score": 80,
+      "risk": "Medium",
+      "bus_factor": 2,
+      "ownership": 0.35
+    },
+    {
+      "repository": "angular",
+      "component": "adev",
+      "score": 80,
+      "risk": "Medium",
+      "bus_factor": 5,
+      "ownership": 0.26
+    }
+  ]
+}

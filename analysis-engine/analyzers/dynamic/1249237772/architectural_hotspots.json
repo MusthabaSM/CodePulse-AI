@@ -1,0 +1,71 @@
+{
+  "TownConnect": {
+    "app": {
+      "repository": "TownConnect",
+      "component": "app",
+      "hotspot_score": 20,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 32.0,
+        "nloc": 240,
+        "churn_180d": 10,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    },
+    "components": {
+      "repository": "TownConnect",
+      "component": "components",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 10,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "High complexity (CCN: 111.0)",
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 111.0,
+        "nloc": 1195,
+        "churn_180d": 40,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    },
+    "lib": {
+      "repository": "TownConnect",
+      "component": "lib",
+      "hotspot_score": 20,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 4.0,
+        "nloc": 15,
+        "churn_180d": 6,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    }
+  }
+}

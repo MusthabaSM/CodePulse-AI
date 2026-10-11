@@ -1,0 +1,12 @@
+{
+  "before": {
+    "false_positive_rate": 25.75,
+    "inactive_component_rate": 80.0
+  },
+  "after": {
+    "false_positive_rate": 0.0,
+    "inactive_component_rate": 0.0
+  },
+  "success_criteria_met": true,
+  "final_classification": "A) Production Ready"
+}

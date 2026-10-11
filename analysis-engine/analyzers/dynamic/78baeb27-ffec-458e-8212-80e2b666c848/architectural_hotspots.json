@@ -1,0 +1,398 @@
+{
+  "RuView": {
+    "benchmarks": {
+      "repository": "RuView",
+      "component": "benchmarks",
+      "hotspot_score": 40,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 0,
+      "coupling_score": 10,
+      "reasons": [
+        "High Burst Ratio (7.0x normal)",
+        "Moderate temporal coupling (Max: 0.50)"
+      ],
+      "metrics": {
+        "ccn": 91.0,
+        "nloc": 615,
+        "churn_180d": 23,
+        "burst_ratio": 7.03,
+        "contributor_count": 2,
+        "entropy": 0.99,
+        "max_coupling": 0.5
+      }
+    },
+    "archive": {
+      "repository": "RuView",
+      "component": "archive",
+      "hotspot_score": 25,
+      "risk": "Low",
+      "complexity_score": 10,
+      "change_score": 15,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High complexity (CCN: 173.0)",
+        "Elevated Burst Ratio (2.3x normal)"
+      ],
+      "metrics": {
+        "ccn": 173.0,
+        "nloc": 781,
+        "churn_180d": 71,
+        "burst_ratio": 2.28,
+        "contributor_count": 3,
+        "entropy": 0.6,
+        "max_coupling": 0
+      }
+    },
+    "aether-arena": {
+      "repository": "RuView",
+      "component": "aether-arena",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High Burst Ratio (12.4x normal)"
+      ],
+      "metrics": {
+        "ccn": 35.0,
+        "nloc": 134,
+        "churn_180d": 9,
+        "burst_ratio": 12.43,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0
+      }
+    },
+    "frontend": {
+      "repository": "RuView",
+      "component": "frontend",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High Burst Ratio (12.4x normal)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 24,
+        "burst_ratio": 12.43,
+        "contributor_count": 2,
+        "entropy": 0.87,
+        "max_coupling": 0
+      }
+    },
+    "tools": {
+      "repository": "RuView",
+      "component": "tools",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High Burst Ratio (12.4x normal)"
+      ],
+      "metrics": {
+        "ccn": 95.0,
+        "nloc": 568,
+        "churn_180d": 39,
+        "burst_ratio": 12.43,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0
+      }
+    },
+    "python": {
+      "repository": "RuView",
+      "component": "python",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High Burst Ratio (12.4x normal)"
+      ],
+      "metrics": {
+        "ccn": 29.0,
+        "nloc": 100,
+        "churn_180d": 8,
+        "burst_ratio": 12.43,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0
+      }
+    },
+    "ui": {
+      "repository": "RuView",
+      "component": "ui",
+      "hotspot_score": 25,
+      "risk": "Low",
+      "complexity_score": 10,
+      "change_score": 15,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High complexity (CCN: 387.0)",
+        "High churn (213 commits in 180d)"
+      ],
+      "metrics": {
+        "ccn": 387.0,
+        "nloc": 2246,
+        "churn_180d": 213,
+        "burst_ratio": 1.3,
+        "contributor_count": 7,
+        "entropy": 1.64,
+        "max_coupling": 0.14
+      }
+    },
+    "firmware": {
+      "repository": "RuView",
+      "component": "firmware",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 30,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High Burst Ratio (4.4x normal)"
+      ],
+      "metrics": {
+        "ccn": 44.0,
+        "nloc": 180,
+        "churn_180d": 14,
+        "burst_ratio": 4.44,
+        "contributor_count": 5,
+        "entropy": 1.63,
+        "max_coupling": 0
+      }
+    },
+    "v2": {
+      "repository": "RuView",
+      "component": "v2",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 10,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High complexity (CCN: 127.0)"
+      ],
+      "metrics": {
+        "ccn": 127.0,
+        "nloc": 1116,
+        "churn_180d": 36,
+        "burst_ratio": 0.0,
+        "contributor_count": 3,
+        "entropy": 0.94,
+        "max_coupling": 0
+      }
+    },
+    "dashboard": {
+      "repository": "RuView",
+      "component": "dashboard",
+      "hotspot_score": 0,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [],
+      "metrics": {
+        "ccn": 77.0,
+        "nloc": 599,
+        "churn_180d": 28,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0
+      }
+    },
+    "v1": {
+      "repository": "RuView",
+      "component": "v1",
+      "hotspot_score": 15,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 15,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High churn (102 commits in 180d)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 102,
+        "burst_ratio": 0.0,
+        "contributor_count": 5,
+        "entropy": 1.04,
+        "max_coupling": 0.14
+      }
+    },
+    "rust-port": {
+      "repository": "RuView",
+      "component": "rust-port",
+      "hotspot_score": 0,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 43,
+        "burst_ratio": 0.0,
+        "contributor_count": 2,
+        "entropy": 0.88,
+        "max_coupling": 0
+      }
+    },
+    "references": {
+      "repository": "RuView",
+      "component": "references",
+      "hotspot_score": 0,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [],
+      "metrics": {
+        "ccn": 18.0,
+        "nloc": 125,
+        "churn_180d": 1,
+        "burst_ratio": 0.0,
+        "contributor_count": 2,
+        "entropy": 0.39,
+        "max_coupling": 0
+      }
+    },
+    "mobile": {
+      "repository": "RuView",
+      "component": "mobile",
+      "hotspot_score": 15,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 15,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "High churn (224 commits in 180d)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 224,
+        "burst_ratio": 0.0,
+        "contributor_count": 2,
+        "entropy": 0.92,
+        "max_coupling": 0
+      }
+    },
+    ".claude": {
+      "repository": "RuView",
+      "component": ".claude",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 10,
+      "reasons": [
+        "Moderate temporal coupling (Max: 0.33)"
+      ],
+      "metrics": {
+        "ccn": 5.0,
+        "nloc": 32,
+        "churn_180d": 17,
+        "burst_ratio": 0.0,
+        "contributor_count": 2,
+        "entropy": 0.94,
+        "max_coupling": 0.33
+      }
+    },
+    "crates": {
+      "repository": "RuView",
+      "component": "crates",
+      "hotspot_score": 20,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 29,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    },
+    "npm": {
+      "repository": "RuView",
+      "component": "npm",
+      "hotspot_score": 35,
+      "risk": "Medium",
+      "complexity_score": 0,
+      "change_score": 15,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "High churn (623 commits in 180d)",
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 623,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    },
+    "src": {
+      "repository": "RuView",
+      "component": "src",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0.2
+      }
+    }
+  }
+}

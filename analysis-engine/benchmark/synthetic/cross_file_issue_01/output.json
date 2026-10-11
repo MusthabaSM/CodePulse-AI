@@ -1,0 +1,17 @@
+{
+  "findings": [
+    {
+      "id": "F-001",
+      "category": "Correctness",
+      "severity": "High",
+      "confidence": "High",
+      "description": "The target file `main.ts` attempts to access a property named `missingProp` from the imported `Config` object. However, the definition of `Config` in `config.ts` explicitly shows that this property does not exist. This will lead to an attempt to access an undefined value at runtime, which is a common source of bugs and can lead to unexpected behavior or runtime errors, particularly if subsequent operations expect a defined value.",
+      "evidence": "In `cross_file_issue_01/main.ts`: `console.log(Config.missingProp);`\nIn `cross_file_issue_01/config.ts`: `export const Config = { present: true };`",
+      "referenced_files": [
+        "cross_file_issue_01/main.ts",
+        "cross_file_issue_01/config.ts"
+      ],
+      "referenced_architectural_links": []
+    }
+  ]
+}

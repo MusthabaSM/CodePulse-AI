@@ -1,0 +1,16 @@
+.venv
+venv
+__pycache__
+node_modules
+repositories_cache
+models_registry
+Immutable-police-record-management-system
+.git
+.gitignore
+README.md
+ml/data
+ml/models
+ml/research
+ml/*.csv
+**/*.csv
+*.csv

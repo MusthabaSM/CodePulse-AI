@@ -1,0 +1,92 @@
+{
+  "trend_diversity": {
+    "repositories_distribution": {
+      "angular": {
+        "intelligence_trend": "Stable",
+        "knowledge_trend": "Stable",
+        "architectural_trend": "Stable",
+        "coupling_trend": "Stable"
+      },
+      "core": {
+        "intelligence_trend": "Stable",
+        "knowledge_trend": "Stable",
+        "architectural_trend": "Stable",
+        "coupling_trend": "Stable"
+      },
+      "fastify": {
+        "intelligence_trend": "Stable",
+        "knowledge_trend": "Stable",
+        "architectural_trend": "Stable",
+        "coupling_trend": "Volatile"
+      },
+      "socket.io": {
+        "intelligence_trend": "Improving",
+        "knowledge_trend": "Stable",
+        "architectural_trend": "Volatile",
+        "coupling_trend": "Volatile"
+      },
+      "supabase": {
+        "intelligence_trend": "Stable",
+        "knowledge_trend": "Deteriorating",
+        "architectural_trend": "Stable",
+        "coupling_trend": "Stable"
+      }
+    },
+    "is_diverse": true
+  },
+  "historical_reality_audit": {
+    "sampled_checkpoints": 20,
+    "exact_matches": 19,
+    "discrepancies": 1,
+    "error_rate": "5.0%"
+  },
+  "intelligence_trend_audit": {
+    "is_mirroring": false,
+    "correlations": {
+      "angular": {
+        "knowledge_correlation": 1.0,
+        "hotspot_correlation": 0,
+        "coupling_correlation": 0
+      },
+      "core": {
+        "knowledge_correlation": 0.51,
+        "hotspot_correlation": 0.99,
+        "coupling_correlation": 0.96
+      },
+      "fastify": {
+        "knowledge_correlation": 0.63,
+        "hotspot_correlation": 0.82,
+        "coupling_correlation": 0.71
+      },
+      "socket.io": {
+        "knowledge_correlation": 0.82,
+        "hotspot_correlation": 0.69,
+        "coupling_correlation": 0.86
+      },
+      "supabase": {
+        "knowledge_correlation": -0.06,
+        "hotspot_correlation": 0.77,
+        "coupling_correlation": 0
+      }
+    }
+  },
+  "stability_audit_review": {
+    "most_stable_repository": {
+      "repository": "angular",
+      "evidence": "Lowest standard deviation: 0.87"
+    },
+    "most_volatile_repository": {
+      "repository": "core",
+      "evidence": "Highest standard deviation: 7.92"
+    },
+    "fastest_improving_repository": {
+      "repository": "fastify",
+      "evidence": "Largest average negative score diff: -0.10 pts/month"
+    },
+    "fastest_deteriorating_repository": {
+      "repository": "socket.io",
+      "evidence": "Largest average positive score diff: 1.62 pts/month"
+    }
+  },
+  "final_classification": "B) Minor Calibration Needed"
+}

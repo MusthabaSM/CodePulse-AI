@@ -1,0 +1,17 @@
+{
+  "total_hallucinations": 1,
+  "benchmarks": [
+    {
+      "benchmark_id": "real_world/phase14c_codegen_snapshot",
+      "hallucinations": [
+        {
+          "finding_id": "F-MISSING-03",
+          "hallucinated_files": [
+            "codegen.ts"
+          ]
+        }
+      ]
+    }
+  ],
+  "timestamp": "2026-06-10T14:42:02.113828Z"
+}

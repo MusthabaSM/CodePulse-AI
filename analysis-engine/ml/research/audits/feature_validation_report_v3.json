@@ -1,0 +1,14 @@
+{
+    "total_rows_extracted": 5500,
+    "rows_matched": 5500,
+    "rows_missing": 481803,
+    "feature_completeness_%": 1.13,
+    "extraction_failures": 0,
+    "parser_failures": 0,
+    "unsupported_files": 0,
+    "rename_resolutions": 0,
+    "missing_blobs": 4874,
+    "synthetic_substitutions": 0,
+    "fallback_values": 0,
+    "temporal_leakage": "Verified None (Forward-only git traversal)"
+}

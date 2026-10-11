@@ -1,0 +1,11 @@
+{
+  "coverage_percent": 100.0,
+  "positive_cases_passed": 10,
+  "negative_cases_detected": 5,
+  "category_confidences": {
+    "Synthetic": 86.66666666666667,
+    "Adversarial": 66.0,
+    "Real World": 90.0
+  },
+  "timestamp": "2026-06-10T14:42:02.114596Z"
+}

@@ -1,0 +1,242 @@
+{
+  "check_1_top_critical": [
+    {
+      "repository": "socket.io",
+      "component": "client-dist",
+      "score": 10,
+      "bus_factor": 1,
+      "ownership": 1.0
+    },
+    {
+      "repository": "socket.io",
+      "component": "build",
+      "score": 10,
+      "bus_factor": 1,
+      "ownership": 1.0
+    },
+    {
+      "repository": "supabase",
+      "component": "tests",
+      "score": 10,
+      "bus_factor": 1,
+      "ownership": 0.85
+    },
+    {
+      "repository": "supabase",
+      "component": "supabase-ui",
+      "score": 10,
+      "bus_factor": 1,
+      "ownership": 0.82
+    },
+    {
+      "repository": "angular",
+      "component": "dev-infra",
+      "score": 30,
+      "bus_factor": 1,
+      "ownership": 0.65
+    },
+    {
+      "repository": "core",
+      "component": "packages",
+      "score": 30,
+      "bus_factor": 1,
+      "ownership": 0.64
+    },
+    {
+      "repository": "core",
+      "component": "root",
+      "score": 30,
+      "bus_factor": 1,
+      "ownership": 0.76
+    },
+    {
+      "repository": "core",
+      "component": "scripts",
+      "score": 30,
+      "bus_factor": 1,
+      "ownership": 0.71
+    },
+    {
+      "repository": "socket.io",
+      "component": "dist",
+      "score": 30,
+      "bus_factor": 1,
+      "ownership": 0.6
+    },
+    {
+      "repository": "supabase",
+      "component": "about",
+      "score": 30,
+      "bus_factor": 1,
+      "ownership": 0.62
+    }
+  ],
+  "check_2_false_positives": {
+    "percentage": 25.757575757575758,
+    "examples": [
+      "socket.io/client-dist",
+      "socket.io/build",
+      "supabase/tests",
+      "core/scripts",
+      "socket.io/dist",
+      "supabase/about",
+      "angular/docs",
+      "angular/cypress",
+      "core/test-dts",
+      "socket.io/test"
+    ]
+  },
+  "check_3_active_maintenance_sample": [
+    {
+      "target": "socket.io/client-dist",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 817,
+      "inactive": true
+    },
+    {
+      "target": "socket.io/build",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 2064,
+      "inactive": true
+    },
+    {
+      "target": "supabase/tests",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 1336,
+      "inactive": true
+    },
+    {
+      "target": "supabase/supabase-ui",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 2052,
+      "inactive": true
+    },
+    {
+      "target": "angular/dev-infra",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 1768,
+      "inactive": true
+    },
+    {
+      "target": "core/packages",
+      "commits_90d": 56,
+      "commits_180d": 124,
+      "last_active": 517,
+      "inactive": false
+    },
+    {
+      "target": "core/root",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 572,
+      "inactive": true
+    },
+    {
+      "target": "core/scripts",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 621,
+      "inactive": true
+    },
+    {
+      "target": "socket.io/dist",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 718,
+      "inactive": true
+    },
+    {
+      "target": "supabase/about",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 1757,
+      "inactive": true
+    },
+    {
+      "target": "prisma/cli",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 2252,
+      "inactive": true
+    },
+    {
+      "target": "angular/.circleci",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 2000,
+      "inactive": true
+    },
+    {
+      "target": "angular/docs",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 3919,
+      "inactive": true
+    },
+    {
+      "target": "socket.io/bin",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 5422,
+      "inactive": true
+    },
+    {
+      "target": "supabase/libraries",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 2215,
+      "inactive": true
+    },
+    {
+      "target": "angular/.github",
+      "commits_90d": 42,
+      "commits_180d": 117,
+      "last_active": 1,
+      "inactive": false
+    },
+    {
+      "target": "socket.io/packages",
+      "commits_90d": 29,
+      "commits_180d": 58,
+      "last_active": 20,
+      "inactive": false
+    },
+    {
+      "target": "angular/.ng-dev",
+      "commits_90d": 1,
+      "commits_180d": 7,
+      "last_active": 1587,
+      "inactive": false
+    },
+    {
+      "target": "angular/cypress",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 1661,
+      "inactive": true
+    },
+    {
+      "target": "angular/projects",
+      "commits_90d": 0,
+      "commits_180d": 0,
+      "last_active": 1673,
+      "inactive": true
+    }
+  ],
+  "inactive_ratio_in_sample": 0.8,
+  "check_4_score_distribution": {
+    "Critical": 15,
+    "High": 24,
+    "Medium": 19,
+    "Low": 8
+  },
+  "check_5_sensitivity": {
+    "overlap_plus_20": "66%",
+    "overlap_minus_20": "66%"
+  }
+}

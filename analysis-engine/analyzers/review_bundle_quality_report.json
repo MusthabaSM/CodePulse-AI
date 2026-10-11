@@ -1,0 +1,46 @@
+[
+  {
+    "target_file": "packages/compiler/src/typecheck/ops/codegen.ts",
+    "repository": "angular",
+    "dependency_count": 7,
+    "dependent_count": 7,
+    "coupled_file_count": 13,
+    "semantic_context_count": 15,
+    "estimated_token_count": 31970,
+    "coverage_score": 1.0,
+    "architectural_completeness_score": 1.0
+  },
+  {
+    "target_file": "packages/compiler/src/typecheck/ops/scope.ts",
+    "repository": "angular",
+    "dependency_count": 10,
+    "dependent_count": 10,
+    "coupled_file_count": 18,
+    "semantic_context_count": 20,
+    "estimated_token_count": 20196,
+    "coverage_score": 1.0,
+    "architectural_completeness_score": 0.63
+  },
+  {
+    "target_file": "packages/forms/src/model/abstract_model.ts",
+    "repository": "angular",
+    "dependency_count": 10,
+    "dependent_count": 10,
+    "coupled_file_count": 18,
+    "semantic_context_count": 20,
+    "estimated_token_count": 26011,
+    "coverage_score": 1.0,
+    "architectural_completeness_score": 0.81
+  },
+  {
+    "target_file": "packages/core/src/core.ts",
+    "repository": "angular",
+    "dependency_count": 9,
+    "dependent_count": 9,
+    "coupled_file_count": 16,
+    "semantic_context_count": 18,
+    "estimated_token_count": 25930,
+    "coverage_score": 1.0,
+    "architectural_completeness_score": 0.81
+  }
+]

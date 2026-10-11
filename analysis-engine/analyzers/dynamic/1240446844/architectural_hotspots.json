@@ -1,0 +1,92 @@
+{
+  "Time-Locked-Vault": {
+    "app": {
+      "repository": "Time-Locked-Vault",
+      "component": "app",
+      "hotspot_score": 20,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 7.0,
+        "nloc": 136,
+        "churn_180d": 7,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    },
+    "components": {
+      "repository": "Time-Locked-Vault",
+      "component": "components",
+      "hotspot_score": 20,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 34.0,
+        "nloc": 359,
+        "churn_180d": 17,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    },
+    "lib": {
+      "repository": "Time-Locked-Vault",
+      "component": "lib",
+      "hotspot_score": 20,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 11.0,
+        "nloc": 35,
+        "churn_180d": 5,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    },
+    "services": {
+      "repository": "Time-Locked-Vault",
+      "component": "services",
+      "hotspot_score": 20,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 20.0,
+        "nloc": 98,
+        "churn_180d": 5,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    }
+  }
+}

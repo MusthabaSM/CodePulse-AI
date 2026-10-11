@@ -1,0 +1,1143 @@
+{
+  "express": {
+    "repository_risk": {
+      "score": 80,
+      "risk": "Medium",
+      "bus_factor": 2,
+      "ownership": 0.38,
+      "entropy": 3.02,
+      "activity_score": 0,
+      "reasons": [
+        "Bus Factor = 2"
+      ],
+      "commits_90d": 0,
+      "commits_180d": 6,
+      "total_commits": 2745
+    },
+    "components": {
+      "lib": {
+        "score": 80,
+        "risk": "Medium",
+        "bus_factor": 2,
+        "ownership": 0.38,
+        "entropy": 3.03,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 2",
+          "Entropy = 3.03"
+        ],
+        "last_active_days": 5851,
+        "commits_90d": 0,
+        "commits_180d": 5,
+        "top_author": "visionmedia",
+        "total_commits": 2703
+      },
+      "benchmarks": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.72,
+        "entropy": 1.39,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 72%",
+          "Entropy = 1.39"
+        ],
+        "last_active_days": 5936,
+        "commits_90d": 0,
+        "commits_180d": 1,
+        "top_author": "visionmedia",
+        "total_commits": 18
+      },
+      "support": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 2,
+        "ownership": 0.47,
+        "entropy": 1.61,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 2",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.61"
+        ],
+        "last_active_days": 5157,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "TJ Holowaychuk",
+        "total_commits": 19
+      }
+    },
+    "files": {
+      "lib/application.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 3,
+        "ownership": 0.28,
+        "entropy": 3.48,
+        "activity_score": 0,
+        "reasons": [
+          "Entropy = 3.48"
+        ],
+        "last_active_days": 5228,
+        "commits_90d": 0,
+        "commits_180d": 1,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 179
+      },
+      "lib/response.js": {
+        "score": 80,
+        "risk": "Medium",
+        "bus_factor": 2,
+        "ownership": 0.31,
+        "entropy": 3.74,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 2",
+          "Entropy = 3.74"
+        ],
+        "last_active_days": 5298,
+        "commits_90d": 0,
+        "commits_180d": 2,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 390
+      },
+      "benchmarks/middleware.js": {
+        "score": 80,
+        "risk": "Medium",
+        "bus_factor": 2,
+        "ownership": 0.4,
+        "entropy": 1.92,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 2",
+          "Entropy = 1.92"
+        ],
+        "last_active_days": 3177,
+        "commits_90d": 0,
+        "commits_180d": 1,
+        "top_author": "Douglas Christopher Wilson",
+        "total_commits": 5
+      },
+      "lib/request.js": {
+        "score": 80,
+        "risk": "Medium",
+        "bus_factor": 2,
+        "ownership": 0.43,
+        "entropy": 2.69,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 2",
+          "Entropy = 2.69"
+        ],
+        "last_active_days": 4752,
+        "commits_90d": 0,
+        "commits_180d": 2,
+        "top_author": "TJ Holowaychuk",
+        "total_commits": 175
+      },
+      "lib/utils.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 3,
+        "ownership": 0.23,
+        "entropy": 3.81,
+        "activity_score": 60,
+        "reasons": [
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 3.81"
+        ],
+        "last_active_days": 1585,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Douglas Christopher Wilson",
+        "total_commits": 107
+      },
+      "lib/express.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 2,
+        "ownership": 0.38,
+        "entropy": 2.66,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 2",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 2.66"
+        ],
+        "last_active_days": 5300,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 153
+      },
+      "lib/view.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.82,
+        "entropy": 1.21,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 82%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.21"
+        ],
+        "last_active_days": 5326,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 104
+      },
+      "lib/middleware/query.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.7,
+        "entropy": 1.36,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 70%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.36"
+        ],
+        "last_active_days": 3267,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Douglas Christopher Wilson",
+        "total_commits": 10
+      },
+      "lib/middleware/init.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.5,
+        "entropy": 2.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 2.00"
+        ],
+        "last_active_days": 3395,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Douglas Christopher Wilson",
+        "total_commits": 8
+      },
+      "index.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.6,
+        "entropy": 1.37,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 60%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.37"
+        ],
+        "last_active_days": 4010,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Douglas Christopher Wilson",
+        "total_commits": 5
+      },
+      "support/app.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.67,
+        "entropy": 1.42,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 67%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.42"
+        ],
+        "last_active_days": 5157,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "TJ Holowaychuk",
+        "total_commits": 12
+      },
+      "lib/patch.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.6,
+        "entropy": 0.97,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 60%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.97"
+        ],
+        "last_active_days": 4496,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Roman Shtylman",
+        "total_commits": 5
+      },
+      "lib/middleware.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.62,
+        "entropy": 1.63,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 62%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.63"
+        ],
+        "last_active_days": 4891,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "TJ Holowaychuk",
+        "total_commits": 16
+      },
+      "support/toc.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.86,
+        "entropy": 0.59,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 86%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.59"
+        ],
+        "last_active_days": 5563,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 7
+      },
+      "lib/http.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.97,
+        "entropy": 0.2,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 97%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.20"
+        ],
+        "last_active_days": 5360,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 63
+      },
+      "lib/view/view.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 5360,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 13
+      },
+      "lib/express/index.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.96,
+        "entropy": 0.24,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 96%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.24"
+        ],
+        "last_active_days": 5606,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 26
+      },
+      "lib/express/request.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.66,
+        "entropy": 1.4,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 66%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.40"
+        ],
+        "last_active_days": 5851,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 139
+      },
+      "lib/express/response.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.97,
+        "entropy": 0.2,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 97%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.20"
+        ],
+        "last_active_days": 5606,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 65
+      },
+      "lib/express/server.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.98,
+        "entropy": 0.11,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 98%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.11"
+        ],
+        "last_active_days": 5606,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 66
+      },
+      "lib/express/utils.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.5,
+        "entropy": 1.47,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.47"
+        ],
+        "last_active_days": 5924,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 28
+      },
+      "lib/express/view.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.81,
+        "entropy": 0.97,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 81%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.97"
+        ],
+        "last_active_days": 5606,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 128
+      },
+      "lib/express/view/partial.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.89,
+        "entropy": 0.5,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 89%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.50"
+        ],
+        "last_active_days": 5606,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 9
+      },
+      "lib/express/view/view.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.92,
+        "entropy": 0.39,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 92%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.39"
+        ],
+        "last_active_days": 5606,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "Tj Holowaychuk",
+        "total_commits": 13
+      },
+      "lib/express/core.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.89,
+        "entropy": 0.74,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 89%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.74"
+        ],
+        "last_active_days": 5853,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 223
+      },
+      "lib/express/dsl.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.93,
+        "entropy": 0.46,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 93%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.46"
+        ],
+        "last_active_days": 5893,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 27
+      },
+      "lib/express/event.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.78,
+        "entropy": 0.99,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 78%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.99"
+        ],
+        "last_active_days": 5886,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 9
+      },
+      "lib/express/http.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.86,
+        "entropy": 0.82,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 86%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.82"
+        ],
+        "last_active_days": 5886,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 21
+      },
+      "lib/express/mime.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.82,
+        "entropy": 0.95,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 82%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.95"
+        ],
+        "last_active_days": 5851,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 17
+      },
+      "lib/express/pages/not-found.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.7,
+        "entropy": 1.16,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 70%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.16"
+        ],
+        "last_active_days": 5999,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 10
+      },
+      "lib/express/pages/show-exceptions.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.8,
+        "entropy": 0.91,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 80%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.91"
+        ],
+        "last_active_days": 5886,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 15
+      },
+      "lib/express/pages/style.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.9,
+        "entropy": 0.47,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 90%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.47"
+        ],
+        "last_active_days": 6021,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 10
+      },
+      "lib/express/plugin.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.8,
+        "entropy": 0.88,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 80%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.88"
+        ],
+        "last_active_days": 5924,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 20
+      },
+      "lib/express/plugins.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.76,
+        "entropy": 1.15,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 76%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.15"
+        ],
+        "last_active_days": 5886,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 21
+      },
+      "lib/express/plugins/body-decoder.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.67,
+        "entropy": 1.42,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 67%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.42"
+        ],
+        "last_active_days": 5895,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 12
+      },
+      "lib/express/plugins/cache.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.89,
+        "entropy": 0.63,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 89%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.63"
+        ],
+        "last_active_days": 5885,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 35
+      },
+      "lib/express/plugins/content-length.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.8,
+        "entropy": 0.91,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 80%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.91"
+        ],
+        "last_active_days": 5895,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 15
+      },
+      "lib/express/plugins/cookie.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.85,
+        "entropy": 0.88,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 85%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.88"
+        ],
+        "last_active_days": 5862,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 48
+      },
+      "lib/express/plugins/flash.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.71,
+        "entropy": 0.86,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 71%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.86"
+        ],
+        "last_active_days": 5913,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 7
+      },
+      "lib/express/plugins/hooks.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.81,
+        "entropy": 0.99,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 81%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.99"
+        ],
+        "last_active_days": 5886,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 16
+      },
+      "lib/express/plugins/logger.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.8,
+        "entropy": 1.02,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 80%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.02"
+        ],
+        "last_active_days": 5885,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 20
+      },
+      "lib/express/plugins/method-override.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.7,
+        "entropy": 1.16,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 70%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.16"
+        ],
+        "last_active_days": 5936,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 10
+      },
+      "lib/express/plugins/redirect.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.81,
+        "entropy": 0.89,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 81%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.89"
+        ],
+        "last_active_days": 5889,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 21
+      },
+      "lib/express/plugins/session.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.89,
+        "entropy": 0.67,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 89%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.67"
+        ],
+        "last_active_days": 5886,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 54
+      },
+      "lib/express/plugins/view.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.83,
+        "entropy": 1.05,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 83%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.05"
+        ],
+        "last_active_days": 5855,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 63
+      },
+      "lib/support/ejs/lib/ejs.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.5,
+        "entropy": 1.79,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.79"
+        ],
+        "last_active_days": 5885,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 6
+      },
+      "lib/express/plugins/profiler.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.77,
+        "entropy": 0.99,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 77%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.99"
+        ],
+        "last_active_days": 5936,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 13
+      },
+      "lib/express/plugins/common-logger.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.71,
+        "entropy": 1.16,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 71%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 1.16"
+        ],
+        "last_active_days": 5936,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 17
+      },
+      "lib/express/exceptions.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 5936,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 8
+      },
+      "benchmarks/views.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 5936,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 5
+      },
+      "lib/express/collection.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.98,
+        "entropy": 0.12,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 98%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.12"
+        ],
+        "last_active_days": 5936,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 60
+      },
+      "benchmarks/collection.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 5936,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 8
+      },
+      "lib/express/element-collection.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 5938,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 17
+      },
+      "lib/express/helpers.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 5971,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 39
+      },
+      "lib/express.core.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.92,
+        "entropy": 0.44,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 92%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.44"
+        ],
+        "last_active_days": 6037,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 157
+      },
+      "lib/express.mime.js": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 6037,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 10
+      },
+      "lib/express.cookie.js": {
+        "score": 100,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 0.6,
+        "entropy": 0.97,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 60%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.97"
+        ],
+        "last_active_days": 6037,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "visionmedia",
+        "total_commits": 5
+      }
+    }
+  }
+}

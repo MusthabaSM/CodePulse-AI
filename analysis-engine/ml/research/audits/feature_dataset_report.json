@@ -1,0 +1,112 @@
+{
+    "row_count": 487303,
+    "feature_count": 23,
+    "missing_values_per_feature": {
+        "nloc": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "cyclomatic_complexity": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "function_count": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "class_count": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "comment_ratio": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "churn_count": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "commits_last_30_days": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "commits_last_90_days": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "additions_last_90_days": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "deletions_last_90_days": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "average_commit_size": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "contributor_count": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "author_entropy": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "top_author_percentage": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "ownership_concentration": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "bug_fix_count": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "recent_bugfix_density": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "days_since_last_bugfix": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "file_age_days": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "repository_age_days": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "change_frequency": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "time_since_last_change": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        },
+        "change_burst_score": {
+            "missing_count": 0,
+            "null_percentage": 0.0
+        }
+    },
+    "null_percentage": 0.0,
+    "repository_breakdown": {
+        "angular": 256477,
+        "supabase": 139128,
+        "prisma": 52722,
+        "core": 18955,
+        "socket.io": 10427,
+        "fastify": 9594
+    },
+    "success_criteria": {
+        "feature_completeness": "100%",
+        "no_leakage": "Verified (synthesized securely prior to snapshot window)",
+        "no_duplicated_rows": "Verified (0 duplicates)"
+    }
+}

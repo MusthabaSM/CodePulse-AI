@@ -1,0 +1,10 @@
+{
+  "image_rebuilt": false,
+  "container_restarted": false,
+  "routes_present_in_container": false,
+  "routes_accessible": false,
+  "navigation_updated": false,
+  "classification": "C) Build Failed",
+  "build_error": "Type error: Cannot find module '@/components/ui/card' or its corresponding type declarations in src/components/dashboard/ArchitecturalHotspotsWidget.tsx",
+  "details": "The Next.js production build ('npm run build' inside Docker) failed due to a missing component dependency ('@/components/ui/card'). Because the builder stage failed, the new Docker image was never created, and the container could not be restarted with the new files. This confirms why the user's previous 'docker compose build' command silently failed to update the running container."
+}

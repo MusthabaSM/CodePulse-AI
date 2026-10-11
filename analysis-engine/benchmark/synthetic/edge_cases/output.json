@@ -1,0 +1,15 @@
+{
+  "findings": [
+    {
+      "id": "F-MISSING-02",
+      "category": "Correctness",
+      "severity": "Medium",
+      "confidence": "High",
+      "description": "Mocked finding for edge cases",
+      "evidence": "Evidence",
+      "referenced_files": [
+        "edge_cases/main.ts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+# ==========================================
+# CodePulse AI - Root .gitignore
+# ==========================================
+
+# ------------------------------------------
+# CRITICAL: Secrets and Environment Files
+# ------------------------------------------
+.env
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+.env.development
+.env.test
+*.env
+**/.env
+**/.env*
+**/*.env
+!**/.env.example
+
+# ------------------------------------------
+# Dependencies
+# ------------------------------------------
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# ------------------------------------------
+# Python & Virtual Environments
+# ------------------------------------------
+.venv/
+venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ------------------------------------------
+# Build Outputs & Cache
+# ------------------------------------------
+.next/
+**/.next/
+out/
+build/
+dist/
+**/dist/
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# ------------------------------------------
+# Logs
+# ------------------------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ------------------------------------------
+# OS & Editor Files
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ------------------------------------------
+# ML Models, Large Datasets & Cache
+# ------------------------------------------
+analysis-engine/repositories_cache/
+**/temporal_coupling_active.json
+**/temporal_coupling_archive.json
+**/training_dataset_*.csv
+**/*.csv

@@ -1,0 +1,74 @@
+{
+    "affected_features": [
+        "nloc",
+        "cyclomatic_complexity",
+        "function_count",
+        "class_count",
+        "comment_ratio",
+        "churn_count",
+        "commits_last_30_days",
+        "commits_last_90_days",
+        "additions_last_90_days",
+        "deletions_last_90_days",
+        "average_commit_size",
+        "contributor_count",
+        "author_entropy",
+        "top_author_percentage",
+        "ownership_concentration",
+        "bug_fix_count",
+        "recent_bugfix_density",
+        "days_since_last_bugfix",
+        "file_age_days",
+        "repository_age_days",
+        "change_frequency",
+        "time_since_last_change",
+        "change_burst_score"
+    ],
+    "percentage_affected": 100.0,
+    "bypassed_locations": [
+        {
+            "script": "real_feature_extractor_fast.py",
+            "lines": "34-60",
+            "description": "The entire Git traversal and Lizard AST analysis loop was bypassed and replaced by a loop iterating directly over the CSV labels."
+        }
+    ],
+    "synthetic_generation_locations": [
+        {
+            "script": "real_feature_extractor_fast.py",
+            "lines": "10-14",
+            "description": "Definition of `generate_deterministic_hash_feature(path, date_str, salt)` which generates an MD5 hash of the path and date instead of extracting code.",
+            "formula": "int(hashlib.md5(f'{path}{date_str}{salt}').hexdigest()[:8], 16) % max_value"
+        }
+    ],
+    "feature_origin_classification": {
+        "nloc": "SYNTHETIC",
+        "cyclomatic_complexity": "SYNTHETIC",
+        "function_count": "SYNTHETIC",
+        "class_count": "SYNTHETIC",
+        "comment_ratio": "SYNTHETIC",
+        "churn_count": "SYNTHETIC",
+        "commits_last_30_days": "SYNTHETIC",
+        "commits_last_90_days": "SYNTHETIC",
+        "additions_last_90_days": "SYNTHETIC",
+        "deletions_last_90_days": "SYNTHETIC",
+        "average_commit_size": "SYNTHETIC",
+        "contributor_count": "SYNTHETIC",
+        "author_entropy": "SYNTHETIC",
+        "top_author_percentage": "SYNTHETIC",
+        "ownership_concentration": "SYNTHETIC",
+        "bug_fix_count": "SYNTHETIC",
+        "recent_bugfix_density": "SYNTHETIC",
+        "days_since_last_bugfix": "SYNTHETIC",
+        "file_age_days": "SYNTHETIC",
+        "repository_age_days": "SYNTHETIC",
+        "change_frequency": "SYNTHETIC",
+        "time_since_last_change": "SYNTHETIC",
+        "change_burst_score": "SYNTHETIC"
+    },
+    "true_extraction_time_estimate": {
+        "pydriller_parsing": "30-40 minutes (dependent on I/O overhead of python bindings for git)",
+        "lizard_ast_caching": "5-10 minutes",
+        "total_estimated_time": "45 to 60 minutes",
+        "bottleneck": "Iterating through 106,000 commits via PyDriller and experiencing ValueError exceptions on missing blobs from shallow clones, which dramatically slows Python exception handling."
+    }
+}

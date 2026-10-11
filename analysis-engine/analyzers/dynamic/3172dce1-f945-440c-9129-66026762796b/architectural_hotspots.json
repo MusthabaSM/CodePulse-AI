@@ -1,0 +1,90 @@
+{
+  "express": {
+    "lib": {
+      "repository": "express",
+      "component": "lib",
+      "hotspot_score": 15,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 15,
+      "coupling_score": 0,
+      "reasons": [
+        "High fragmentation (167 contributors, Entropy: 3.00)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 5,
+        "burst_ratio": 0.0,
+        "contributor_count": 167,
+        "entropy": 3.0,
+        "max_coupling": 0.0
+      }
+    },
+    "benchmarks": {
+      "repository": "express",
+      "component": "benchmarks",
+      "hotspot_score": 0,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 1,
+        "burst_ratio": 0.0,
+        "contributor_count": 6,
+        "entropy": 1.46,
+        "max_coupling": 0.0
+      }
+    },
+    "root": {
+      "repository": "express",
+      "component": "root",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 3,
+        "entropy": 1.45,
+        "max_coupling": 0.0
+      }
+    },
+    "support": {
+      "repository": "express",
+      "component": "support",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 0,
+      "reasons": [
+        "Stable code (-80 penalty)"
+      ],
+      "metrics": {
+        "ccn": 0.0,
+        "nloc": 0,
+        "churn_180d": 0,
+        "burst_ratio": 0.0,
+        "contributor_count": 4,
+        "entropy": 1.61,
+        "max_coupling": 0.0
+      }
+    }
+  }
+}

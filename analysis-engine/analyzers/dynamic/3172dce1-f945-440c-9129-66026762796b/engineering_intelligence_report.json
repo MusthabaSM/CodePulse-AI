@@ -1,0 +1,73 @@
+{
+  "express": {
+    "lib": {
+      "repository": "express",
+      "component": "lib",
+      "knowledge_risk_score": 85.86,
+      "architectural_risk_score": 100.0,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 70.05,
+      "risk_level": "Elevated",
+      "knowledge_contribution": 30.05,
+      "architecture_contribution": 40.0,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "Critical bus factor (2)",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "benchmarks": {
+      "repository": "express",
+      "component": "benchmarks",
+      "knowledge_risk_score": 100.0,
+      "architectural_risk_score": 0.0,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 35.0,
+      "risk_level": "Watch",
+      "knowledge_contribution": 35.0,
+      "architecture_contribution": 0.0,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "Critical bus factor (1)",
+        "High ownership concentration (0.72)",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "support": {
+      "repository": "express",
+      "component": "support",
+      "knowledge_risk_score": 83.9,
+      "architectural_risk_score": 44.44,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 47.14,
+      "risk_level": "Watch",
+      "knowledge_contribution": 29.37,
+      "architecture_contribution": 17.78,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "Critical bus factor (2)",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    },
+    "root": {
+      "repository": "express",
+      "component": "root",
+      "knowledge_risk_score": 0.0,
+      "architectural_risk_score": 44.44,
+      "coupling_risk_score": 0.0,
+      "engineering_intelligence_score": 17.78,
+      "risk_level": "Healthy",
+      "knowledge_contribution": 0.0,
+      "architecture_contribution": 17.78,
+      "coupling_contribution": 0.0,
+      "explanations": [
+        "No knowledge data",
+        "Healthy architecture metrics",
+        "No active couplings"
+      ]
+    }
+  }
+}

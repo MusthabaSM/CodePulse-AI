@@ -1,0 +1,63 @@
+{
+  "1_exclusion_violations": 0,
+  "1_violations_list": [],
+  "2_business_logic": {
+    "Top 20 Critical": {
+      "A) Core Business Logic": 100.0,
+      "B) Infrastructure": 0.0,
+      "C) Test/QA": 0.0,
+      "D) Documentation/Static": 0.0,
+      "E) Build Artifact/Scripts": 0.0,
+      "F) Generated Code": 0.0
+    },
+    "Top 20 High": {
+      "A) Core Business Logic": 100.0,
+      "B) Infrastructure": 0.0,
+      "C) Test/QA": 0.0,
+      "D) Documentation/Static": 0.0,
+      "E) Build Artifact/Scripts": 0.0,
+      "F) Generated Code": 0.0
+    },
+    "Top 20 Medium": {
+      "A) Core Business Logic": 100.0,
+      "B) Infrastructure": 0.0,
+      "C) Test/QA": 0.0,
+      "D) Documentation/Static": 0.0,
+      "E) Build Artifact/Scripts": 0.0,
+      "F) Generated Code": 0.0
+    }
+  },
+  "3_active_maintenance": {
+    "Top 20 Critical": {
+      "active_percentage": 100.0,
+      "dormant_percentage": 0.0
+    },
+    "Top 20 High": {
+      "active_percentage": 100.0,
+      "dormant_percentage": 0.0
+    }
+  },
+  "5_stability": {
+    "BF_+10": {
+      "Top 20": 100.0,
+      "Top 50": 78.0,
+      "Top 100": 39.0
+    },
+    "BF_-10": {
+      "Top 20": 100.0,
+      "Top 50": 78.0,
+      "Top 100": 39.0
+    },
+    "OWN_+10": {
+      "Top 20": 100.0,
+      "Top 50": 78.0,
+      "Top 100": 39.0
+    },
+    "OWN_-10": {
+      "Top 20": 100.0,
+      "Top 50": 78.0,
+      "Top 100": 39.0
+    }
+  },
+  "6_explainability_missing": []
+}

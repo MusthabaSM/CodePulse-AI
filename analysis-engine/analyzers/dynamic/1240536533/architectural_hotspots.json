@@ -1,0 +1,49 @@
+{
+  "Immutable-police-record-management-system": {
+    "apps": {
+      "repository": "Immutable-police-record-management-system",
+      "component": "apps",
+      "hotspot_score": 30,
+      "risk": "Medium",
+      "complexity_score": 10,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "High complexity (CCN: 164.0)",
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 164.0,
+        "nloc": 1203,
+        "churn_180d": 53,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    },
+    "packages": {
+      "repository": "Immutable-police-record-management-system",
+      "component": "packages",
+      "hotspot_score": 20,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 20,
+      "reasons": [
+        "Strong temporal coupling (Max: 1.00)"
+      ],
+      "metrics": {
+        "ccn": 23.0,
+        "nloc": 75,
+        "churn_180d": 11,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 1.0
+      }
+    }
+  }
+}

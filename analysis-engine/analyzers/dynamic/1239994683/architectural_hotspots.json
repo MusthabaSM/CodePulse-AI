@@ -1,0 +1,49 @@
+{
+  "Decentralized-Voting-System": {
+    "client": {
+      "repository": "Decentralized-Voting-System",
+      "component": "client",
+      "hotspot_score": 20,
+      "risk": "Low",
+      "complexity_score": 10,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 10,
+      "reasons": [
+        "High complexity (CCN: 134.0)",
+        "Moderate temporal coupling (Max: 0.50)"
+      ],
+      "metrics": {
+        "ccn": 134.0,
+        "nloc": 984,
+        "churn_180d": 26,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0.5
+      }
+    },
+    "server": {
+      "repository": "Decentralized-Voting-System",
+      "component": "server",
+      "hotspot_score": 10,
+      "risk": "Low",
+      "complexity_score": 0,
+      "change_score": 0,
+      "ownership_score": 0,
+      "coupling_score": 10,
+      "reasons": [
+        "Moderate temporal coupling (Max: 0.50)"
+      ],
+      "metrics": {
+        "ccn": 33.0,
+        "nloc": 100,
+        "churn_180d": 15,
+        "burst_ratio": 1.0,
+        "contributor_count": 1,
+        "entropy": 0.0,
+        "max_coupling": 0.5
+      }
+    }
+  }
+}

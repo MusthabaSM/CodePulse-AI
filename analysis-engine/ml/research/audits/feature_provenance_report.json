@@ -1,0 +1,158 @@
+{
+    "total_features": 23,
+    "provenance_breakdown": {
+        "real_extracted": 0,
+        "derived_from_real": 0,
+        "estimated": 0,
+        "simulated": 20,
+        "randomly_generated": 3
+    },
+    "provenance_percentages": {
+        "real": 0.0,
+        "estimated": 0.0,
+        "simulated": 86.96,
+        "randomly_generated": 13.04
+    },
+    "feature_details": {
+        "nloc": {
+            "source_code_location": "feature_builder.py, line 48",
+            "extraction_logic": "Derived from cyclomatic_complexity with a random uniform multiplier.",
+            "mathematical_formula": "nloc = cyclomatic_complexity * np.random.uniform(5, 20)",
+            "classification": "Simulated"
+        },
+        "cyclomatic_complexity": {
+            "source_code_location": "feature_builder.py, line 46",
+            "extraction_logic": "Simulated using a log-normal distribution shifted by the label value.",
+            "mathematical_formula": "cyclomatic_complexity = lognormal(mean=1.5, sigma=0.8) + (label * uniform(2.0, 10.0))",
+            "classification": "Simulated"
+        },
+        "function_count": {
+            "source_code_location": "feature_builder.py, line 49",
+            "extraction_logic": "Derived mathematically from cyclomatic_complexity.",
+            "mathematical_formula": "function_count = (cyclomatic_complexity // 3) + randint(0, 2)",
+            "classification": "Simulated"
+        },
+        "class_count": {
+            "source_code_location": "feature_builder.py, line 50",
+            "extraction_logic": "Derived mathematically from function_count.",
+            "mathematical_formula": "class_count = function_count // 5",
+            "classification": "Simulated"
+        },
+        "comment_ratio": {
+            "source_code_location": "feature_builder.py, line 51",
+            "extraction_logic": "Purely random uniform distribution without structural derivation.",
+            "mathematical_formula": "comment_ratio = np.random.uniform(0.0, 0.4)",
+            "classification": "Randomly generated"
+        },
+        "churn_count": {
+            "source_code_location": "feature_builder.py, line 29",
+            "extraction_logic": "Exponential distribution strongly shifted by the target label.",
+            "mathematical_formula": "churn_count = exponential(scale=3.0) + 1 + (label * randint(2, 10))",
+            "classification": "Simulated"
+        },
+        "commits_last_30_days": {
+            "source_code_location": "feature_builder.py, line 32",
+            "extraction_logic": "Derived mathematically from churn_count.",
+            "mathematical_formula": "commits_last_30_days = churn_count // 3 + randint(0, 3)",
+            "classification": "Simulated"
+        },
+        "commits_last_90_days": {
+            "source_code_location": "feature_builder.py, line 33",
+            "extraction_logic": "Derived structurally from commits_last_30_days.",
+            "mathematical_formula": "commits_last_90_days = commits_last_30_days + randint(0, 5)",
+            "classification": "Simulated"
+        },
+        "additions_last_90_days": {
+            "source_code_location": "feature_builder.py, line 35",
+            "extraction_logic": "Derived from commits_last_90_days with a random scale.",
+            "mathematical_formula": "additions_last_90_days = commits_last_90_days * exponential(scale=50)",
+            "classification": "Simulated"
+        },
+        "deletions_last_90_days": {
+            "source_code_location": "feature_builder.py, line 36",
+            "extraction_logic": "Derived from commits_last_90_days with a random scale.",
+            "mathematical_formula": "deletions_last_90_days = commits_last_90_days * exponential(scale=30)",
+            "classification": "Simulated"
+        },
+        "average_commit_size": {
+            "source_code_location": "feature_builder.py, line 38",
+            "extraction_logic": "Mathematically calculated from additions and deletions.",
+            "mathematical_formula": "average_commit_size = (additions_last_90_days + deletions_last_90_days) / commits_last_90_days",
+            "classification": "Simulated"
+        },
+        "contributor_count": {
+            "source_code_location": "feature_builder.py, line 54",
+            "extraction_logic": "Lognormal distribution shifted by the target label.",
+            "mathematical_formula": "contributor_count = lognormal(mean=0.5, sigma=0.5) + 1 + label",
+            "classification": "Simulated"
+        },
+        "author_entropy": {
+            "source_code_location": "feature_builder.py, line 55",
+            "extraction_logic": "Conditionally simulated based on contributor_count.",
+            "mathematical_formula": "author_entropy = uniform(0.1, 2.5) if contributor_count > 1 else 0.0",
+            "classification": "Simulated"
+        },
+        "top_author_percentage": {
+            "source_code_location": "feature_builder.py, line 56",
+            "extraction_logic": "Conditionally simulated based on contributor_count.",
+            "mathematical_formula": "top_author_percentage = uniform(0.4, 0.9) if contributor_count > 1 else 1.0",
+            "classification": "Simulated"
+        },
+        "ownership_concentration": {
+            "source_code_location": "feature_builder.py, line 57",
+            "extraction_logic": "Arbitrary correlation derived from top_author_percentage.",
+            "mathematical_formula": "ownership_concentration = top_author_percentage * 1.1",
+            "classification": "Simulated"
+        },
+        "bug_fix_count": {
+            "source_code_location": "feature_builder.py, line 61",
+            "extraction_logic": "Derived from churn_count using binomial distribution and target label.",
+            "mathematical_formula": "bug_fix_count = binomial(churn_count, 0.15) + (label * randint(0, 3))",
+            "classification": "Simulated"
+        },
+        "recent_bugfix_density": {
+            "source_code_location": "feature_builder.py, line 62",
+            "extraction_logic": "Mathematically calculated from bug_fix_count and commits_last_90_days.",
+            "mathematical_formula": "recent_bugfix_density = bug_fix_count / commits_last_90_days",
+            "classification": "Simulated"
+        },
+        "days_since_last_bugfix": {
+            "source_code_location": "feature_builder.py, line 63",
+            "extraction_logic": "Conditionally simulated based on bug_fix_count.",
+            "mathematical_formula": "days_since_last_bugfix = randint(1, 365) if bug_fix_count > 0 else -1",
+            "classification": "Simulated"
+        },
+        "file_age_days": {
+            "source_code_location": "feature_builder.py, line 66",
+            "extraction_logic": "Purely random integer generation.",
+            "mathematical_formula": "file_age_days = randint(1, 1500)",
+            "classification": "Randomly generated"
+        },
+        "repository_age_days": {
+            "source_code_location": "feature_builder.py, line 67",
+            "extraction_logic": "Derived structurally from file_age_days.",
+            "mathematical_formula": "repository_age_days = file_age_days + randint(0, 1000)",
+            "classification": "Simulated"
+        },
+        "change_frequency": {
+            "source_code_location": "feature_builder.py, line 70",
+            "extraction_logic": "Mathematically calculated from churn_count and file_age_days.",
+            "mathematical_formula": "change_frequency = churn_count / file_age_days",
+            "classification": "Simulated"
+        },
+        "time_since_last_change": {
+            "source_code_location": "feature_builder.py, line 71",
+            "extraction_logic": "Purely random integer generation.",
+            "mathematical_formula": "time_since_last_change = randint(0, 100)",
+            "classification": "Randomly generated"
+        },
+        "change_burst_score": {
+            "source_code_location": "feature_builder.py, line 72",
+            "extraction_logic": "Derived structurally from commits_last_30_days.",
+            "mathematical_formula": "change_burst_score = commits_last_30_days * uniform(0.5, 2.0)",
+            "classification": "Simulated"
+        }
+    },
+    "dataset_scientific_validity": "Predominantly synthetic",
+    "recommendation": "Rebuild features from actual repository history"
+}

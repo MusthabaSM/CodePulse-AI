@@ -1,0 +1,8 @@
+{
+    "total_snapshots_requested": 487303,
+    "unique_file_states_analyzed": 487303,
+    "ast_parses_performed": 65432,
+    "cache_hits": 421871,
+    "cache_misses": 65432,
+    "total_runtime_seconds": 328.4
+}

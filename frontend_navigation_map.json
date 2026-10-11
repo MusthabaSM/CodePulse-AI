@@ -1,0 +1,44 @@
+{
+  "INTELLIGENCE": [
+    {
+      "label": "Engineering Intelligence",
+      "path": "/dashboard"
+    },
+    {
+      "label": "Knowledge Risk",
+      "path": "/knowledge-risk"
+    },
+    {
+      "label": "Architectural Hotspots",
+      "path": "/architectural-hotspots"
+    },
+    {
+      "label": "Temporal Coupling",
+      "path": "/temporal-coupling"
+    },
+    {
+      "label": "Repository Evolution",
+      "path": "/repository-evolution"
+    },
+    {
+      "label": "AI Review Assistant",
+      "path": "/ai-review-assistant"
+    }
+  ],
+  "REPORTING": [
+    {
+      "label": "Executive Reports",
+      "path": "/reports"
+    },
+    {
+      "label": "Compare Snapshots",
+      "path": "/compare"
+    }
+  ],
+  "SYSTEM": [
+    {
+      "label": "Settings",
+      "path": "/settings"
+    }
+  ]
+}

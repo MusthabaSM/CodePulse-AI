@@ -1,0 +1,364 @@
+{
+  "RuView": {
+    "repository_risk": {
+      "score": 60,
+      "risk": "High",
+      "bus_factor": 2,
+      "ownership": 0.44,
+      "entropy": 1.95,
+      "activity_score": -20,
+      "reasons": [
+        "Bus Factor = 2",
+        "High Volatility (30 commits in 90d)"
+      ],
+      "commits_90d": 30,
+      "commits_180d": 73,
+      "total_commits": 96
+    },
+    "components": {
+      "firmware": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.64,
+        "entropy": 1.63,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 64%",
+          "Entropy = 1.63"
+        ],
+        "last_active_days": 25,
+        "commits_90d": 9,
+        "commits_180d": 14,
+        "top_author": "rUv",
+        "total_commits": 14
+      },
+      "ui": {
+        "score": 80,
+        "risk": "Medium",
+        "bus_factor": 2,
+        "ownership": 0.46,
+        "entropy": 1.68,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 2",
+          "Entropy = 1.68"
+        ],
+        "last_active_days": 94,
+        "commits_90d": 5,
+        "commits_180d": 33,
+        "top_author": "rUv",
+        "total_commits": 46
+      },
+      "v1": {
+        "score": 60,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.53,
+        "entropy": 1.27,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Entropy = 1.27"
+        ],
+        "last_active_days": 69,
+        "commits_90d": 5,
+        "commits_180d": 15,
+        "top_author": "ruv",
+        "total_commits": 15
+      },
+      "src": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 370,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "rUv",
+        "total_commits": 10
+      }
+    },
+    "files": {
+      "archive/v1/data/proof/verify.py": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.67,
+        "entropy": 0.92,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 67%",
+          "Entropy = 0.92"
+        ],
+        "last_active_days": 14,
+        "commits_90d": 6,
+        "commits_180d": 6,
+        "top_author": "ruv",
+        "total_commits": 6
+      },
+      "frontend/src/pages/Dashboard.ts": {
+        "score": 30,
+        "risk": "Critical",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 19,
+        "commits_90d": 5,
+        "commits_180d": 5,
+        "top_author": "ruv",
+        "total_commits": 5
+      },
+      "firmware/esp32-csi-node/provision.py": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.64,
+        "entropy": 1.63,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 64%",
+          "Entropy = 1.63"
+        ],
+        "last_active_days": 25,
+        "commits_90d": 9,
+        "commits_180d": 14,
+        "top_author": "rUv",
+        "total_commits": 14
+      },
+      "ui/app.js": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.62,
+        "entropy": 1.3,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 62%",
+          "Entropy = 1.30"
+        ],
+        "last_active_days": 103,
+        "commits_90d": 1,
+        "commits_180d": 5,
+        "top_author": "rUv",
+        "total_commits": 8
+      },
+      "ui/services/sensing.service.js": {
+        "score": 60,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.5,
+        "entropy": 1.75,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Entropy = 1.75"
+        ],
+        "last_active_days": 104,
+        "commits_90d": 2,
+        "commits_180d": 8,
+        "top_author": "ruv",
+        "total_commits": 8
+      },
+      "ui/services/websocket.service.js": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.67,
+        "entropy": 1.25,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 67%",
+          "Entropy = 1.25"
+        ],
+        "last_active_days": 104,
+        "commits_90d": 1,
+        "commits_180d": 3,
+        "top_author": "rUv",
+        "total_commits": 6
+      },
+      "v1/src/core/csi_processor.py": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.6,
+        "entropy": 0.97,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 60%",
+          "Entropy = 0.97"
+        ],
+        "last_active_days": 107,
+        "commits_90d": 2,
+        "commits_180d": 5,
+        "top_author": "Claude",
+        "total_commits": 5
+      },
+      "v1/src/middleware/auth.py": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.6,
+        "entropy": 0.97,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 60%",
+          "Entropy = 0.97"
+        ],
+        "last_active_days": 69,
+        "commits_90d": 3,
+        "commits_180d": 5,
+        "top_author": "ruv",
+        "total_commits": 5
+      },
+      "ui/config/api.config.js": {
+        "score": 60,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.56,
+        "entropy": 1.35,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Entropy = 1.35"
+        ],
+        "last_active_days": 90,
+        "commits_90d": 1,
+        "commits_180d": 6,
+        "top_author": "ruv",
+        "total_commits": 9
+      },
+      "ui/pose-fusion/js/main.js": {
+        "score": 30,
+        "risk": "Critical",
+        "bus_factor": 1,
+        "ownership": 0.8,
+        "entropy": 0.72,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 80%",
+          "Entropy = 0.72"
+        ],
+        "last_active_days": 94,
+        "commits_90d": 0,
+        "commits_180d": 5,
+        "top_author": "ruv",
+        "total_commits": 5
+      },
+      "v1/src/sensing/rssi_collector.py": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.6,
+        "entropy": 1.37,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 60%",
+          "Entropy = 1.37"
+        ],
+        "last_active_days": 100,
+        "commits_90d": 0,
+        "commits_180d": 5,
+        "top_author": "ruv",
+        "total_commits": 5
+      },
+      "ui/components/DashboardTab.js": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.6,
+        "entropy": 1.37,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 60%",
+          "Entropy = 1.37"
+        ],
+        "last_active_days": 104,
+        "commits_90d": 0,
+        "commits_180d": 3,
+        "top_author": "rUv",
+        "total_commits": 5
+      },
+      "ui/components/LiveDemoTab.js": {
+        "score": 50,
+        "risk": "High",
+        "bus_factor": 1,
+        "ownership": 0.6,
+        "entropy": 0.97,
+        "activity_score": 0,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 60%",
+          "Entropy = 0.97"
+        ],
+        "last_active_days": 104,
+        "commits_90d": 0,
+        "commits_180d": 3,
+        "top_author": "rUv",
+        "total_commits": 5
+      },
+      "src/config/settings.py": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 370,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "rUv",
+        "total_commits": 5
+      },
+      "src/core/csi_processor.py": {
+        "score": 90,
+        "risk": "Low",
+        "bus_factor": 1,
+        "ownership": 1.0,
+        "entropy": 0.0,
+        "activity_score": 60,
+        "reasons": [
+          "Bus Factor = 1",
+          "Ownership = 100%",
+          "Dormant/Stable (+60 bonus)",
+          "Entropy = 0.00"
+        ],
+        "last_active_days": 370,
+        "commits_90d": 0,
+        "commits_180d": 0,
+        "top_author": "rUv",
+        "total_commits": 5
+      }
+    }
+  }
+}

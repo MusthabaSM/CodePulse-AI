@@ -1,0 +1,56 @@
+[
+    {
+        "repository": "angular",
+        "path": "c:\\Users\\lenovo\\CodePulse AI\\analysis-engine\\repositories_cache\\angular",
+        "shallow_before": false,
+        "shallow_after": false,
+        "commits_before": 37628,
+        "commits_after": 37628,
+        "error": null
+    },
+    {
+        "repository": "core",
+        "path": "c:\\Users\\lenovo\\CodePulse AI\\analysis-engine\\repositories_cache\\core",
+        "shallow_before": false,
+        "shallow_after": false,
+        "commits_before": 7059,
+        "commits_after": 7059,
+        "error": null
+    },
+    {
+        "repository": "fastify",
+        "path": "c:\\Users\\lenovo\\CodePulse AI\\analysis-engine\\repositories_cache\\fastify",
+        "shallow_before": false,
+        "shallow_after": false,
+        "commits_before": 4733,
+        "commits_after": 4733,
+        "error": null
+    },
+    {
+        "repository": "socket.io",
+        "path": "c:\\Users\\lenovo\\CodePulse AI\\analysis-engine\\repositories_cache\\socket.io",
+        "shallow_before": false,
+        "shallow_after": false,
+        "commits_before": 7737,
+        "commits_after": 7737,
+        "error": null
+    },
+    {
+        "repository": "supabase",
+        "path": "c:\\Users\\lenovo\\CodePulse AI\\analysis-engine\\repositories_cache\\supabase",
+        "shallow_before": false,
+        "shallow_after": false,
+        "commits_before": 36762,
+        "commits_after": 36762,
+        "error": null
+    },
+    {
+        "repository": "prisma",
+        "path": "C:\\repos\\prisma",
+        "shallow_before": false,
+        "shallow_after": false,
+        "commits_before": 12226,
+        "commits_after": 12226,
+        "error": null
+    }
+]

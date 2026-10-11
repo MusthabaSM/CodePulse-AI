@@ -1,0 +1,9 @@
+{
+  "gemini_failure_detected": true,
+  "fallback_triggered": true,
+  "fallback_provider": "OpenRouterProvider",
+  "model_used": "google/gemini-2.5-flash",
+  "response_received": false,
+  "schema_valid": false,
+  "failure_reason": "Primary failed: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]. Fallback failed: OpenRouter HTTP Error: 402 - {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65535 tokens, but can only afford 15994. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account\",\"code\":402,\"metadata\":{\"provider_name\":null,\"previous_errors\":[{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65535 tokens, but can only afford 15994. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account\"},{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65535 tokens, but can only afford 15994. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account\"},{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65535 tokens, but can only afford 15994. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account\"}]}},\"user_id\":\"user_3EZWesfAyLiJagWQZnSwP9lwTfD\"}"
+}

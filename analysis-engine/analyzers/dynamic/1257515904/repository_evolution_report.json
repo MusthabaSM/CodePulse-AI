@@ -1,0 +1,316 @@
+{
+  "DecisionLens": [
+    {
+      "timestamp": "2025-07-20",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0
+    },
+    {
+      "timestamp": "2025-08-19",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2025-09-18",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2025-10-18",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2025-11-17",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2025-12-17",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2026-01-16",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2026-02-15",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2026-03-17",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2026-04-16",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2026-05-16",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0.0
+    },
+    {
+      "timestamp": "2026-06-15",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 1.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 70.0,
+        "delta_score": 20.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 1.0,
+        "average_complexity": 217.73,
+        "architectural_risk_score": 6.35,
+        "delta_score": 6.35
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 27.04,
+      "delta_score": 9.54
+    }
+  ]
+}

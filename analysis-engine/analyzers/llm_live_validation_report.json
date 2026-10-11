@@ -1,0 +1,10 @@
+{
+  "live_execution": true,
+  "provider": "GeminiProvider",
+  "model": "gemini-2.5-flash",
+  "latency_ms": 21218,
+  "response_received": true,
+  "schema_valid": true,
+  "fallback_triggered": false,
+  "execution_timestamp": "2026-06-10T13:38:33.108482Z"
+}

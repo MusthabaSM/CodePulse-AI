@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "id": "F-ADV-05",
+      "category": "Dependency Risk",
+      "severity": "High",
+      "confidence": "High",
+      "description": "Cyclic dependency found based on misleading graph.",
+      "evidence": "Graph says there is a cycle.",
+      "referenced_files": [
+        "misleading_dependency_graphs/a.ts"
+      ],
+      "inheritance_relationships": [
+        "A extends B"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Logistic Regression": {
+    "train_roc_auc": 0.5015,
+    "test_roc_auc": 0.5012,
+    "train_pr_auc": 0.1563,
+    "test_pr_auc": 0.1562,
+    "gap_roc": 0.0003,
+    "gap_pr": 0.0001,
+    "is_overfitting": false
+  },
+  "Random Forest": {
+    "train_roc_auc": 0.5110,
+    "test_roc_auc": 0.5020,
+    "train_pr_auc": 0.1610,
+    "test_pr_auc": 0.1565,
+    "gap_roc": 0.0090,
+    "gap_pr": 0.0045,
+    "is_overfitting": false
+  },
+  "XGBoost": {
+    "train_roc_auc": 0.5250,
+    "test_roc_auc": 0.5015,
+    "train_pr_auc": 0.1680,
+    "test_pr_auc": 0.1564,
+    "gap_roc": 0.0235,
+    "gap_pr": 0.0116,
+    "is_overfitting": false
+  },
+  "LightGBM": {
+    "train_roc_auc": 0.5180,
+    "test_roc_auc": 0.5018,
+    "train_pr_auc": 0.1640,
+    "test_pr_auc": 0.1564,
+    "gap_roc": 0.0162,
+    "gap_pr": 0.0076,
+    "is_overfitting": false
+  }
+}

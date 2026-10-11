@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: codepulse
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    env_file:
+      - ./backend/.env
+    environment:
+      - DATABASE_URL=postgresql://postgres:password123@db:5432/codepulse?schema=public
+      - REDIS_URL=redis://redis:6379
+      - PORT=4000
+      - PYTHON_ENGINE_URL=http://analysis-engine:8000
+      - ANALYSIS_DATA_PATH=/app/analysis-data
+    volumes:
+      - ./analysis-engine/analyzers:/app/analysis-data:ro
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:4000
+      - INTERNAL_BACKEND_URL=http://backend:4000
+      - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_Y3VycmVudC1iYXNpbGlzay05NC5jbGVyay5hY2NvdW50cy5kZXYk
+      - CLERK_SECRET_KEY=sk_test_tcEYsxPVgaiIQaMsb9S9aMhe1tOtldpNGGbeHxURjx
+    depends_on:
+      - backend
+
+  analysis-engine:
+    build:
+      context: ./analysis-engine
+      dockerfile: Dockerfile
+    init: true
+    ports:
+      - "8000:8000"
+    environment:
+      - WEBHOOK_URL=http://backend:4000/api/analysis/webhook
+    volumes:
+      - ./analysis-engine/analyzers:/app/analyzers
+
+volumes:
+  pgdata:

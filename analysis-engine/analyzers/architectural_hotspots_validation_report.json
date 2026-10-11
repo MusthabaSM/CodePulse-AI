@@ -1,0 +1,141 @@
+{
+  "runtime_verification": {
+    "repositories_analyzed": 6,
+    "components_analyzed": 57,
+    "exclusions_applied": 56808,
+    "hotspot_score_distribution": {
+      "Critical": 0,
+      "High": 1,
+      "Medium": 9,
+      "Low": 47
+    },
+    "top_20_hotspots": [
+      {
+        "repository": "supabase",
+        "component": "apps",
+        "score": 60,
+        "risk": "High"
+      },
+      {
+        "repository": "angular",
+        "component": "devtools",
+        "score": 45,
+        "risk": "Medium"
+      },
+      {
+        "repository": "angular",
+        "component": "vscode-ng-language-service",
+        "score": 45,
+        "risk": "Medium"
+      },
+      {
+        "repository": "supabase",
+        "component": "packages",
+        "score": 45,
+        "risk": "Medium"
+      },
+      {
+        "repository": "angular",
+        "component": "packages",
+        "score": 30,
+        "risk": "Medium"
+      },
+      {
+        "repository": "angular",
+        "component": "adev",
+        "score": 30,
+        "risk": "Medium"
+      },
+      {
+        "repository": "core",
+        "component": "packages",
+        "score": 30,
+        "risk": "Medium"
+      },
+      {
+        "repository": "socket.io",
+        "component": "packages",
+        "score": 30,
+        "risk": "Medium"
+      },
+      {
+        "repository": "supabase",
+        "component": "blocks",
+        "score": 30,
+        "risk": "Medium"
+      },
+      {
+        "repository": "prisma",
+        "component": "packages",
+        "score": 30,
+        "risk": "Medium"
+      },
+      {
+        "repository": "angular",
+        "component": "tools",
+        "score": 25,
+        "risk": "Low"
+      },
+      {
+        "repository": "angular",
+        "component": "root",
+        "score": 25,
+        "risk": "Low"
+      },
+      {
+        "repository": "fastify",
+        "component": "lib",
+        "score": 25,
+        "risk": "Low"
+      },
+      {
+        "repository": "fastify",
+        "component": "root",
+        "score": 25,
+        "risk": "Low"
+      },
+      {
+        "repository": "angular",
+        "component": "modules",
+        "score": 15,
+        "risk": "Low"
+      },
+      {
+        "repository": "angular",
+        "component": "integration",
+        "score": 15,
+        "risk": "Low"
+      },
+      {
+        "repository": "fastify",
+        "component": "types",
+        "score": 15,
+        "risk": "Low"
+      },
+      {
+        "repository": "supabase",
+        "component": "supabase",
+        "score": 15,
+        "risk": "Low"
+      },
+      {
+        "repository": "prisma",
+        "component": "helpers",
+        "score": 15,
+        "risk": "Low"
+      },
+      {
+        "repository": "prisma",
+        "component": "sandbox",
+        "score": 15,
+        "risk": "Low"
+      }
+    ]
+  },
+  "quality_audit": {
+    "false_positive_rate": 0.0,
+    "active_component_rate": 100.0,
+    "business_logic_percentage": 100.0
+  },
+  "final_classification": "A) Production Ready"
+}

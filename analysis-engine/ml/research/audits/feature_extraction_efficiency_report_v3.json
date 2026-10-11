@@ -1,0 +1,8 @@
+{
+    "total_snapshots_requested": 487303,
+    "unique_file_states_analyzed": 5500,
+    "cache_hits": 0,
+    "cache_misses": 5500,
+    "ast_parses_performed": 626,
+    "total_runtime_seconds": "Interrupted execution due to 180s limits, factual extraction runtime approx 90s prior to halt"
+}

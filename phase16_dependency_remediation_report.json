@@ -1,0 +1,28 @@
+{
+  "files_modified": [
+    "src/components/dashboard/ArchitecturalHotspotsWidget.tsx",
+    "src/components/dashboard/EngineeringIntelligenceWidget.tsx",
+    "src/components/dashboard/KnowledgeLossWidget.tsx",
+    "src/components/dashboard/RepositoryEvolutionWidget.tsx",
+    "src/components/dashboard/TemporalCouplingWidget.tsx"
+  ],
+  "dependencies_removed": [
+    "@/components/ui/card",
+    "@/components/ui/badge",
+    "../ui/Card",
+    "lucide-react"
+  ],
+  "imports_fixed": [
+    "Replaced 'apiClient' with 'useApiClient' and correctly extracted 'fetchApi' from the hook in all widgets."
+  ],
+  "routes_verified": [
+    "/knowledge-risk",
+    "/architectural-hotspots",
+    "/temporal-coupling",
+    "/repository-evolution",
+    "/ai-review-assistant"
+  ],
+  "build_status": "SUCCESS",
+  "docker_readiness": "READY",
+  "classification": "A) Build Successful Using Existing Design System"
+}

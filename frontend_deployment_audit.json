@@ -1,0 +1,21 @@
+{
+  "frontend_source_path": "C:\\Users\\lenovo\\CodePulse AI\\frontend",
+  "frontend_container_path": "/app",
+  "route_files_present": {
+    "knowledge-risk": true,
+    "architectural-hotspots": true,
+    "temporal-coupling": true,
+    "repository-evolution": true,
+    "ai-review-assistant": true
+  },
+  "route_files_inside_container": false,
+  "build_status": "Stale (Running previous build)",
+  "root_cause": "The docker-compose.yml configuration for the 'frontend' service does not mount the host source directory as a volume. Instead, it relies entirely on a multi-stage Dockerfile that compiles the Next.js application into a static standalone build at creation time. Because the source files were modified on the host machine but the Docker image was never rebuilt, the container continues to serve the outdated, pre-compiled application state.",
+  "classification": "A) Rebuild Required",
+  "container_details": {
+    "container_name": "codepulseai-frontend-1",
+    "image_name": "codepulseai-frontend",
+    "mounted_volumes": [],
+    "working_directory": "/app"
+  }
+}

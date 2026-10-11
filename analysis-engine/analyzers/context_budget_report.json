@@ -1,0 +1,79 @@
+[
+  {
+    "target_file": "packages/compiler/src/typecheck/ops/codegen.ts",
+    "repository": "angular",
+    "original_token_estimate": 35084,
+    "final_token_estimate": 31970,
+    "files_retained": 15,
+    "files_removed": 5,
+    "removed_files_list": [
+      {
+        "file_path": "adev/src/app/features/references/api-reference-list/api-reference-list.component.ts",
+        "tokens": 1634,
+        "reason": "Token budget exceeded HARD_LIMIT"
+      },
+      {
+        "file_path": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/components_and_directives/lifecycle_hooks/local_reference_and_context_variables_template.js",
+        "tokens": 259,
+        "reason": "Token budget exceeded HARD_LIMIT"
+      },
+      {
+        "file_path": "packages/core/test/authoring/input_signal_spec.ts",
+        "tokens": 939,
+        "reason": "Token budget exceeded HARD_LIMIT"
+      },
+      {
+        "file_path": "packages/compiler-cli/test/compliance/test_cases/r3_view_compiler_directives/host_directives/forward_ref_host_directives_definition.js",
+        "tokens": 207,
+        "reason": "Token budget exceeded HARD_LIMIT"
+      },
+      {
+        "file_path": "packages/compiler-cli/test/compliance/test_cases/r3_compiler_compliance/components_and_directives/value_composition/array_literal_spread_isolated.golden.d.ts",
+        "tokens": 75,
+        "reason": "Token budget exceeded HARD_LIMIT"
+      }
+    ],
+    "retained_architectural_coverage": "75.0%"
+  },
+  {
+    "target_file": "packages/compiler/src/typecheck/ops/scope.ts",
+    "repository": "angular",
+    "original_token_estimate": 20196,
+    "final_token_estimate": 20196,
+    "files_retained": 20,
+    "files_removed": 0,
+    "removed_files_list": [],
+    "retained_architectural_coverage": "100.0%"
+  },
+  {
+    "target_file": "packages/forms/src/model/abstract_model.ts",
+    "repository": "angular",
+    "original_token_estimate": 26011,
+    "final_token_estimate": 26011,
+    "files_retained": 20,
+    "files_removed": 0,
+    "removed_files_list": [],
+    "retained_architectural_coverage": "100.0%"
+  },
+  {
+    "target_file": "packages/core/src/core.ts",
+    "repository": "angular",
+    "original_token_estimate": 98793,
+    "final_token_estimate": 25930,
+    "files_retained": 18,
+    "files_removed": 2,
+    "removed_files_list": [
+      {
+        "file_path": "packages/forms/test/reactive_integration_spec.ts",
+        "tokens": 60518,
+        "reason": "Token budget exceeded HARD_LIMIT"
+      },
+      {
+        "file_path": "packages/core/testing/src/test_bed_compiler.ts",
+        "tokens": 12345,
+        "reason": "Token budget exceeded HARD_LIMIT"
+      }
+    ],
+    "retained_architectural_coverage": "90.0%"
+  }
+]

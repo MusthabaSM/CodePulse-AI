@@ -1,0 +1,61 @@
+{
+  "repositoryContext": {
+    "selectedRepositoryId": "1263997494",
+    "repositoryCount": 15,
+    "repositoryFetchStatus": "SUCCESS"
+  },
+  "pages": [
+    {
+      "path": "/engineering-intelligence",
+      "componentMounted": true,
+      "apiSent": true,
+      "requestUrl": "/api/intelligence/score/1263997494",
+      "responseStatus": 200,
+      "payloadSize": 5094,
+      "widgetsMounted": true,
+      "dataReceived": true,
+      "dataRendered": true,
+      "dataRenderedCount": 3,
+      "classification": "A) Live Data Rendered"
+    },
+    {
+      "path": "/architectural-hotspots",
+      "componentMounted": true,
+      "apiSent": true,
+      "requestUrl": "/api/intelligence/hotspots/1263997494",
+      "responseStatus": 200,
+      "payloadSize": 1056,
+      "widgetsMounted": true,
+      "dataReceived": true,
+      "dataRendered": true,
+      "dataRenderedCount": 2,
+      "classification": "A) Live Data Rendered"
+    },
+    {
+      "path": "/temporal-coupling",
+      "componentMounted": true,
+      "apiSent": true,
+      "requestUrl": "/api/intelligence/coupling/1263997494",
+      "responseStatus": 200,
+      "payloadSize": 2189,
+      "widgetsMounted": true,
+      "dataReceived": true,
+      "dataRendered": true,
+      "dataRenderedCount": 2,
+      "classification": "A) Live Data Rendered"
+    },
+    {
+      "path": "/repository-evolution",
+      "componentMounted": true,
+      "apiSent": true,
+      "requestUrl": "/api/intelligence/evolution/1263997494",
+      "responseStatus": 200,
+      "payloadSize": 3546,
+      "widgetsMounted": true,
+      "dataReceived": true,
+      "dataRendered": true,
+      "dataRenderedCount": 4,
+      "classification": "A) Live Data Rendered"
+    }
+  ]
+}

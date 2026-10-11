@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "id": "F-ADV-04",
+      "category": "Correctness",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "description": "Invalid symbol used.",
+      "evidence": "Uses FakeSymbol.",
+      "referenced_files": [
+        "invalid_symbols/fake.ts"
+      ],
+      "referenced_symbols": [
+        "FakeSymbol"
+      ]
+    }
+  ]
+}

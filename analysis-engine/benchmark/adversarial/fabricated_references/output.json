@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "id": "F-ADV-03",
+      "category": "Dependency Risk",
+      "severity": "Low",
+      "confidence": "Low",
+      "description": "Fabricated reference to nonexistent utility.",
+      "evidence": "Uses fake utility.",
+      "referenced_files": [
+        "fabricated_references/main.ts"
+      ],
+      "imported_dependencies": [
+        "fake_util"
+      ]
+    }
+  ]
+}

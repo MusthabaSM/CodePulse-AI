@@ -1,0 +1,1572 @@
+{
+  "angular": [
+    {
+      "timestamp": "2025-07-15",
+      "knowledge": {
+        "bus_factor": 6,
+        "ownership_concentration": 0.13,
+        "author_entropy": 4.84,
+        "knowledge_risk_score": 35.25,
+        "delta_score": 0
+      },
+      "architectural": {
+        "hotspot_count": 225,
+        "average_churn": 2.14,
+        "average_complexity": 135.52,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 13847,
+        "strong_coupling_count": 601,
+        "cluster_count": 43,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 77.34,
+      "delta_score": 0
+    },
+    {
+      "timestamp": "2025-08-14",
+      "knowledge": {
+        "bus_factor": 5,
+        "ownership_concentration": 0.13,
+        "author_entropy": 4.77,
+        "knowledge_risk_score": 40.13,
+        "delta_score": 4.88
+      },
+      "architectural": {
+        "hotspot_count": 281,
+        "average_churn": 2.56,
+        "average_complexity": 174.37,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 34044,
+        "strong_coupling_count": 952,
+        "cluster_count": 43,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 79.05,
+      "delta_score": 1.71
+    },
+    {
+      "timestamp": "2025-09-13",
+      "knowledge": {
+        "bus_factor": 5,
+        "ownership_concentration": 0.15,
+        "author_entropy": 4.62,
+        "knowledge_risk_score": 40.34,
+        "delta_score": 0.21
+      },
+      "architectural": {
+        "hotspot_count": 246,
+        "average_churn": 2.55,
+        "average_complexity": 152.84,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 66244,
+        "strong_coupling_count": 815,
+        "cluster_count": 39,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 79.12,
+      "delta_score": 0.07
+    },
+    {
+      "timestamp": "2025-10-13",
+      "knowledge": {
+        "bus_factor": 5,
+        "ownership_concentration": 0.17,
+        "author_entropy": 4.42,
+        "knowledge_risk_score": 40.24,
+        "delta_score": -0.1
+      },
+      "architectural": {
+        "hotspot_count": 200,
+        "average_churn": 2.49,
+        "average_complexity": 272.82,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 61533,
+        "strong_coupling_count": 922,
+        "cluster_count": 39,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 79.08,
+      "delta_score": -0.04
+    },
+    {
+      "timestamp": "2025-11-12",
+      "knowledge": {
+        "bus_factor": 5,
+        "ownership_concentration": 0.2,
+        "author_entropy": 4.35,
+        "knowledge_risk_score": 40.77,
+        "delta_score": 0.53
+      },
+      "architectural": {
+        "hotspot_count": 188,
+        "average_churn": 2.49,
+        "average_complexity": 252.67,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 12001,
+        "strong_coupling_count": 1278,
+        "cluster_count": 77,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 79.27,
+      "delta_score": 0.19
+    },
+    {
+      "timestamp": "2025-12-12",
+      "knowledge": {
+        "bus_factor": 5,
+        "ownership_concentration": 0.18,
+        "author_entropy": 4.65,
+        "knowledge_risk_score": 41.02,
+        "delta_score": 0.25
+      },
+      "architectural": {
+        "hotspot_count": 231,
+        "average_churn": 2.77,
+        "average_complexity": 278.97,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 16909,
+        "strong_coupling_count": 1655,
+        "cluster_count": 71,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 79.36,
+      "delta_score": 0.09
+    },
+    {
+      "timestamp": "2026-01-11",
+      "knowledge": {
+        "bus_factor": 6,
+        "ownership_concentration": 0.17,
+        "author_entropy": 4.67,
+        "knowledge_risk_score": 35.82,
+        "delta_score": -5.2
+      },
+      "architectural": {
+        "hotspot_count": 258,
+        "average_churn": 2.52,
+        "average_complexity": 157.97,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 22194,
+        "strong_coupling_count": 1630,
+        "cluster_count": 68,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 77.54,
+      "delta_score": -1.82
+    },
+    {
+      "timestamp": "2026-02-10",
+      "knowledge": {
+        "bus_factor": 6,
+        "ownership_concentration": 0.14,
+        "author_entropy": 4.77,
+        "knowledge_risk_score": 35.51,
+        "delta_score": -0.31
+      },
+      "architectural": {
+        "hotspot_count": 243,
+        "average_churn": 2.26,
+        "average_complexity": 143.53,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 15349,
+        "strong_coupling_count": 1242,
+        "cluster_count": 43,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 77.43,
+      "delta_score": -0.11
+    },
+    {
+      "timestamp": "2026-03-12",
+      "knowledge": {
+        "bus_factor": 5,
+        "ownership_concentration": 0.16,
+        "author_entropy": 4.51,
+        "knowledge_risk_score": 40.18,
+        "delta_score": 4.67
+      },
+      "architectural": {
+        "hotspot_count": 167,
+        "average_churn": 2.12,
+        "average_complexity": 145.85,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 6749,
+        "strong_coupling_count": 1119,
+        "cluster_count": 43,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 79.06,
+      "delta_score": 1.63
+    },
+    {
+      "timestamp": "2026-04-11",
+      "knowledge": {
+        "bus_factor": 5,
+        "ownership_concentration": 0.16,
+        "author_entropy": 4.65,
+        "knowledge_risk_score": 40.57,
+        "delta_score": 0.39
+      },
+      "architectural": {
+        "hotspot_count": 159,
+        "average_churn": 2.33,
+        "average_complexity": 164.05,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 5746,
+        "strong_coupling_count": 1220,
+        "cluster_count": 59,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 79.2,
+      "delta_score": 0.14
+    },
+    {
+      "timestamp": "2026-05-11",
+      "knowledge": {
+        "bus_factor": 6,
+        "ownership_concentration": 0.16,
+        "author_entropy": 4.75,
+        "knowledge_risk_score": 35.83,
+        "delta_score": -4.74
+      },
+      "architectural": {
+        "hotspot_count": 170,
+        "average_churn": 2.46,
+        "average_complexity": 177.67,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 5671,
+        "strong_coupling_count": 1252,
+        "cluster_count": 53,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 77.54,
+      "delta_score": -1.66
+    },
+    {
+      "timestamp": "2026-06-10",
+      "knowledge": {
+        "bus_factor": 6,
+        "ownership_concentration": 0.15,
+        "author_entropy": 4.87,
+        "knowledge_risk_score": 35.81,
+        "delta_score": -0.02
+      },
+      "architectural": {
+        "hotspot_count": 179,
+        "average_churn": 2.22,
+        "average_complexity": 149.6,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 6840,
+        "strong_coupling_count": 1110,
+        "cluster_count": 47,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 77.53,
+      "delta_score": -0.01
+    }
+  ],
+  "core": [
+    {
+      "timestamp": "2025-07-15",
+      "knowledge": {
+        "bus_factor": 2,
+        "ownership_concentration": 0.32,
+        "author_entropy": 3.2,
+        "knowledge_risk_score": 56.09,
+        "delta_score": 0
+      },
+      "architectural": {
+        "hotspot_count": 7,
+        "average_churn": 2.42,
+        "average_complexity": 86.14,
+        "architectural_risk_score": 12.17,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 98,
+        "strong_coupling_count": 2,
+        "cluster_count": 9,
+        "coupling_risk_score": 52.2,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 37.55,
+      "delta_score": 0
+    },
+    {
+      "timestamp": "2025-08-14",
+      "knowledge": {
+        "bus_factor": 2,
+        "ownership_concentration": 0.29,
+        "author_entropy": 3.32,
+        "knowledge_risk_score": 55.52,
+        "delta_score": -0.57
+      },
+      "architectural": {
+        "hotspot_count": 4,
+        "average_churn": 2.16,
+        "average_complexity": 63.7,
+        "architectural_risk_score": 8.79,
+        "delta_score": -3.38
+      },
+      "coupling": {
+        "active_coupling_count": 93,
+        "strong_coupling_count": 2,
+        "cluster_count": 7,
+        "coupling_risk_score": 48.2,
+        "delta_score": -4.0
+      },
+      "engineering_intelligence_score": 35.0,
+      "delta_score": -2.55
+    },
+    {
+      "timestamp": "2025-09-13",
+      "knowledge": {
+        "bus_factor": 2,
+        "ownership_concentration": 0.27,
+        "author_entropy": 3.55,
+        "knowledge_risk_score": 55.72,
+        "delta_score": 0.2
+      },
+      "architectural": {
+        "hotspot_count": 5,
+        "average_churn": 2.11,
+        "average_complexity": 68.94,
+        "architectural_risk_score": 9.6,
+        "delta_score": 0.81
+      },
+      "coupling": {
+        "active_coupling_count": 91,
+        "strong_coupling_count": 3,
+        "cluster_count": 8,
+        "coupling_risk_score": 50.4,
+        "delta_score": 2.2
+      },
+      "engineering_intelligence_score": 35.94,
+      "delta_score": 0.94
+    },
+    {
+      "timestamp": "2025-10-13",
+      "knowledge": {
+        "bus_factor": 3,
+        "ownership_concentration": 0.28,
+        "author_entropy": 3.84,
+        "knowledge_risk_score": 51.59,
+        "delta_score": -4.13
+      },
+      "architectural": {
+        "hotspot_count": 6,
+        "average_churn": 2.17,
+        "average_complexity": 58.43,
+        "architectural_risk_score": 10.31,
+        "delta_score": 0.71
+      },
+      "coupling": {
+        "active_coupling_count": 111,
+        "strong_coupling_count": 2,
+        "cluster_count": 12,
+        "coupling_risk_score": 60.4,
+        "delta_score": 10.0
+      },
+      "engineering_intelligence_score": 37.28,
+      "delta_score": 1.34
+    },
+    {
+      "timestamp": "2025-11-12",
+      "knowledge": {
+        "bus_factor": 3,
+        "ownership_concentration": 0.25,
+        "author_entropy": 4.05,
+        "knowledge_risk_score": 51.36,
+        "delta_score": -0.23
+      },
+      "architectural": {
+        "hotspot_count": 18,
+        "average_churn": 2.41,
+        "average_complexity": 62.27,
+        "architectural_risk_score": 20.46,
+        "delta_score": 10.15
+      },
+      "coupling": {
+        "active_coupling_count": 114,
+        "strong_coupling_count": 81,
+        "cluster_count": 11,
+        "coupling_risk_score": 100,
+        "delta_score": 39.6
+      },
+      "engineering_intelligence_score": 51.16,
+      "delta_score": 13.88
+    },
+    {
+      "timestamp": "2025-12-12",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.2,
+        "author_entropy": 4.16,
+        "knowledge_risk_score": 45.39,
+        "delta_score": -5.97
+      },
+      "architectural": {
+        "hotspot_count": 4,
+        "average_churn": 2.08,
+        "average_complexity": 47.21,
+        "architectural_risk_score": 8.3,
+        "delta_score": -12.16
+      },
+      "coupling": {
+        "active_coupling_count": 110,
+        "strong_coupling_count": 2,
+        "cluster_count": 7,
+        "coupling_risk_score": 55.0,
+        "delta_score": -45.0
+      },
+      "engineering_intelligence_score": 32.96,
+      "delta_score": -18.2
+    },
+    {
+      "timestamp": "2026-01-11",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.24,
+        "author_entropy": 3.94,
+        "knowledge_risk_score": 45.82,
+        "delta_score": 0.43
+      },
+      "architectural": {
+        "hotspot_count": 3,
+        "average_churn": 1.93,
+        "average_complexity": 52.63,
+        "architectural_risk_score": 7.32,
+        "delta_score": -0.98
+      },
+      "coupling": {
+        "active_coupling_count": 105,
+        "strong_coupling_count": 2,
+        "cluster_count": 5,
+        "coupling_risk_score": 51.0,
+        "delta_score": -4.0
+      },
+      "engineering_intelligence_score": 31.72,
+      "delta_score": -1.24
+    },
+    {
+      "timestamp": "2026-02-10",
+      "knowledge": {
+        "bus_factor": 2,
+        "ownership_concentration": 0.3,
+        "author_entropy": 3.41,
+        "knowledge_risk_score": 56.04,
+        "delta_score": 10.22
+      },
+      "architectural": {
+        "hotspot_count": 6,
+        "average_churn": 2.0,
+        "average_complexity": 69.02,
+        "architectural_risk_score": 10.18,
+        "delta_score": 2.86
+      },
+      "coupling": {
+        "active_coupling_count": 101,
+        "strong_coupling_count": 2,
+        "cluster_count": 6,
+        "coupling_risk_score": 50.4,
+        "delta_score": -0.6
+      },
+      "engineering_intelligence_score": 36.29,
+      "delta_score": 4.57
+    },
+    {
+      "timestamp": "2026-03-12",
+      "knowledge": {
+        "bus_factor": 2,
+        "ownership_concentration": 0.37,
+        "author_entropy": 3.3,
+        "knowledge_risk_score": 57.41,
+        "delta_score": 1.37
+      },
+      "architectural": {
+        "hotspot_count": 10,
+        "average_churn": 2.37,
+        "average_complexity": 81.94,
+        "architectural_risk_score": 14.37,
+        "delta_score": 4.19
+      },
+      "coupling": {
+        "active_coupling_count": 105,
+        "strong_coupling_count": 8,
+        "cluster_count": 5,
+        "coupling_risk_score": 63.0,
+        "delta_score": 12.6
+      },
+      "engineering_intelligence_score": 41.59,
+      "delta_score": 5.3
+    },
+    {
+      "timestamp": "2026-04-11",
+      "knowledge": {
+        "bus_factor": 2,
+        "ownership_concentration": 0.36,
+        "author_entropy": 3.33,
+        "knowledge_risk_score": 57.33,
+        "delta_score": -0.08
+      },
+      "architectural": {
+        "hotspot_count": 17,
+        "average_churn": 2.8,
+        "average_complexity": 111.81,
+        "architectural_risk_score": 21.43,
+        "delta_score": 7.06
+      },
+      "coupling": {
+        "active_coupling_count": 115,
+        "strong_coupling_count": 81,
+        "cluster_count": 9,
+        "coupling_risk_score": 100,
+        "delta_score": 37.0
+      },
+      "engineering_intelligence_score": 53.64,
+      "delta_score": 12.05
+    },
+    {
+      "timestamp": "2026-05-11",
+      "knowledge": {
+        "bus_factor": 2,
+        "ownership_concentration": 0.37,
+        "author_entropy": 3.34,
+        "knowledge_risk_score": 57.6,
+        "delta_score": 0.27
+      },
+      "architectural": {
+        "hotspot_count": 15,
+        "average_churn": 2.98,
+        "average_complexity": 120.11,
+        "architectural_risk_score": 20.36,
+        "delta_score": -1.07
+      },
+      "coupling": {
+        "active_coupling_count": 126,
+        "strong_coupling_count": 81,
+        "cluster_count": 9,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 53.31,
+      "delta_score": -0.33
+    },
+    {
+      "timestamp": "2026-06-10",
+      "knowledge": {
+        "bus_factor": 2,
+        "ownership_concentration": 0.35,
+        "author_entropy": 3.52,
+        "knowledge_risk_score": 57.64,
+        "delta_score": 0.04
+      },
+      "architectural": {
+        "hotspot_count": 11,
+        "average_churn": 3.08,
+        "average_complexity": 128.48,
+        "architectural_risk_score": 17.53,
+        "delta_score": -2.83
+      },
+      "coupling": {
+        "active_coupling_count": 130,
+        "strong_coupling_count": 5,
+        "cluster_count": 9,
+        "coupling_risk_score": 71.0,
+        "delta_score": -29.0
+      },
+      "engineering_intelligence_score": 44.94,
+      "delta_score": -8.37
+    }
+  ],
+  "fastify": [
+    {
+      "timestamp": "2025-07-15",
+      "knowledge": {
+        "bus_factor": 2,
+        "ownership_concentration": 0.48,
+        "author_entropy": 3.15,
+        "knowledge_risk_score": 59.86,
+        "delta_score": 0
+      },
+      "architectural": {
+        "hotspot_count": 3,
+        "average_churn": 1.56,
+        "average_complexity": 117.99,
+        "architectural_risk_score": 7.88,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 24,
+        "strong_coupling_count": 0,
+        "cluster_count": 4,
+        "coupling_risk_score": 13.6,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 27.5,
+      "delta_score": 0
+    },
+    {
+      "timestamp": "2025-08-14",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.51,
+        "author_entropy": 3.17,
+        "knowledge_risk_score": 65.65,
+        "delta_score": 5.79
+      },
+      "architectural": {
+        "hotspot_count": 3,
+        "average_churn": 1.46,
+        "average_complexity": 95.62,
+        "architectural_risk_score": 7.24,
+        "delta_score": -0.64
+      },
+      "coupling": {
+        "active_coupling_count": 29,
+        "strong_coupling_count": 0,
+        "cluster_count": 3,
+        "coupling_risk_score": 14.6,
+        "delta_score": 1.0
+      },
+      "engineering_intelligence_score": 29.52,
+      "delta_score": 2.02
+    },
+    {
+      "timestamp": "2025-09-13",
+      "knowledge": {
+        "bus_factor": 5,
+        "ownership_concentration": 0.22,
+        "author_entropy": 4.12,
+        "knowledge_risk_score": 40.86,
+        "delta_score": -24.79
+      },
+      "architectural": {
+        "hotspot_count": 1,
+        "average_churn": 1.37,
+        "average_complexity": 70.78,
+        "architectural_risk_score": 4.95,
+        "delta_score": -2.29
+      },
+      "coupling": {
+        "active_coupling_count": 6,
+        "strong_coupling_count": 0,
+        "cluster_count": 3,
+        "coupling_risk_score": 5.4,
+        "delta_score": -9.2
+      },
+      "engineering_intelligence_score": 17.63,
+      "delta_score": -11.89
+    },
+    {
+      "timestamp": "2025-10-13",
+      "knowledge": {
+        "bus_factor": 6,
+        "ownership_concentration": 0.16,
+        "author_entropy": 4.44,
+        "knowledge_risk_score": 35.12,
+        "delta_score": -5.74
+      },
+      "architectural": {
+        "hotspot_count": 3,
+        "average_churn": 1.64,
+        "average_complexity": 44.34,
+        "architectural_risk_score": 6.56,
+        "delta_score": 1.61
+      },
+      "coupling": {
+        "active_coupling_count": 33,
+        "strong_coupling_count": 0,
+        "cluster_count": 3,
+        "coupling_risk_score": 16.2,
+        "delta_score": 10.8
+      },
+      "engineering_intelligence_score": 18.97,
+      "delta_score": 1.34
+    },
+    {
+      "timestamp": "2025-11-12",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.23,
+        "author_entropy": 4.13,
+        "knowledge_risk_score": 46.15,
+        "delta_score": 11.03
+      },
+      "architectural": {
+        "hotspot_count": 3,
+        "average_churn": 1.69,
+        "average_complexity": 31.21,
+        "architectural_risk_score": 6.41,
+        "delta_score": -0.15
+      },
+      "coupling": {
+        "active_coupling_count": 35,
+        "strong_coupling_count": 0,
+        "cluster_count": 4,
+        "coupling_risk_score": 18.0,
+        "delta_score": 1.8
+      },
+      "engineering_intelligence_score": 23.22,
+      "delta_score": 4.25
+    },
+    {
+      "timestamp": "2025-12-12",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.23,
+        "author_entropy": 4.13,
+        "knowledge_risk_score": 46.07,
+        "delta_score": -0.08
+      },
+      "architectural": {
+        "hotspot_count": 3,
+        "average_churn": 1.73,
+        "average_complexity": 31.43,
+        "architectural_risk_score": 6.49,
+        "delta_score": 0.08
+      },
+      "coupling": {
+        "active_coupling_count": 34,
+        "strong_coupling_count": 0,
+        "cluster_count": 3,
+        "coupling_risk_score": 16.6,
+        "delta_score": -1.4
+      },
+      "engineering_intelligence_score": 22.87,
+      "delta_score": -0.35
+    },
+    {
+      "timestamp": "2026-01-11",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.23,
+        "author_entropy": 4.01,
+        "knowledge_risk_score": 45.72,
+        "delta_score": -0.35
+      },
+      "architectural": {
+        "hotspot_count": 1,
+        "average_churn": 1.51,
+        "average_complexity": 23.54,
+        "architectural_risk_score": 4.29,
+        "delta_score": -2.2
+      },
+      "coupling": {
+        "active_coupling_count": 6,
+        "strong_coupling_count": 0,
+        "cluster_count": 4,
+        "coupling_risk_score": 6.4,
+        "delta_score": -10.2
+      },
+      "engineering_intelligence_score": 19.32,
+      "delta_score": -3.55
+    },
+    {
+      "timestamp": "2026-02-10",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.26,
+        "author_entropy": 3.89,
+        "knowledge_risk_score": 46.22,
+        "delta_score": 0.5
+      },
+      "architectural": {
+        "hotspot_count": 3,
+        "average_churn": 1.76,
+        "average_complexity": 33.43,
+        "architectural_risk_score": 6.58,
+        "delta_score": 2.29
+      },
+      "coupling": {
+        "active_coupling_count": 36,
+        "strong_coupling_count": 0,
+        "cluster_count": 2,
+        "coupling_risk_score": 16.4,
+        "delta_score": 10.0
+      },
+      "engineering_intelligence_score": 22.91,
+      "delta_score": 3.59
+    },
+    {
+      "timestamp": "2026-03-12",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.26,
+        "author_entropy": 4.14,
+        "knowledge_risk_score": 46.73,
+        "delta_score": 0.51
+      },
+      "architectural": {
+        "hotspot_count": 7,
+        "average_churn": 2.1,
+        "average_complexity": 44.51,
+        "architectural_risk_score": 10.7,
+        "delta_score": 4.12
+      },
+      "coupling": {
+        "active_coupling_count": 65,
+        "strong_coupling_count": 1,
+        "cluster_count": 5,
+        "coupling_risk_score": 33.0,
+        "delta_score": 16.6
+      },
+      "engineering_intelligence_score": 28.88,
+      "delta_score": 5.97
+    },
+    {
+      "timestamp": "2026-04-11",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.27,
+        "author_entropy": 3.89,
+        "knowledge_risk_score": 46.56,
+        "delta_score": -0.17
+      },
+      "architectural": {
+        "hotspot_count": 6,
+        "average_churn": 2.16,
+        "average_complexity": 45.08,
+        "architectural_risk_score": 10.02,
+        "delta_score": -0.68
+      },
+      "coupling": {
+        "active_coupling_count": 64,
+        "strong_coupling_count": 1,
+        "cluster_count": 8,
+        "coupling_risk_score": 35.6,
+        "delta_score": 2.6
+      },
+      "engineering_intelligence_score": 29.2,
+      "delta_score": 0.32
+    },
+    {
+      "timestamp": "2026-05-11",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.23,
+        "author_entropy": 4.03,
+        "knowledge_risk_score": 45.9,
+        "delta_score": -0.66
+      },
+      "architectural": {
+        "hotspot_count": 7,
+        "average_churn": 2.18,
+        "average_complexity": 43.39,
+        "architectural_risk_score": 10.82,
+        "delta_score": 0.8
+      },
+      "coupling": {
+        "active_coupling_count": 60,
+        "strong_coupling_count": 0,
+        "cluster_count": 6,
+        "coupling_risk_score": 30.0,
+        "delta_score": -5.6
+      },
+      "engineering_intelligence_score": 27.89,
+      "delta_score": -1.31
+    },
+    {
+      "timestamp": "2026-06-10",
+      "knowledge": {
+        "bus_factor": 4,
+        "ownership_concentration": 0.17,
+        "author_entropy": 3.94,
+        "knowledge_risk_score": 44.01,
+        "delta_score": -1.89
+      },
+      "architectural": {
+        "hotspot_count": 3,
+        "average_churn": 1.9,
+        "average_complexity": 65.48,
+        "architectural_risk_score": 7.5,
+        "delta_score": -3.32
+      },
+      "coupling": {
+        "active_coupling_count": 68,
+        "strong_coupling_count": 0,
+        "cluster_count": 5,
+        "coupling_risk_score": 32.2,
+        "delta_score": 2.2
+      },
+      "engineering_intelligence_score": 26.45,
+      "delta_score": -1.44
+    }
+  ],
+  "socket.io": [
+    {
+      "timestamp": "2025-07-15",
+      "knowledge": {
+        "bus_factor": 0,
+        "ownership_concentration": 0.0,
+        "author_entropy": 0.0,
+        "knowledge_risk_score": 50.0,
+        "delta_score": 0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 0.0,
+        "average_complexity": 0.0,
+        "architectural_risk_score": 0.0,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 17.5,
+      "delta_score": 0
+    },
+    {
+      "timestamp": "2025-08-14",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.5,
+        "author_entropy": 1.0,
+        "knowledge_risk_score": 60.0,
+        "delta_score": 10.0
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 1.0,
+        "average_complexity": 19.35,
+        "architectural_risk_score": 2.39,
+        "delta_score": 2.39
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 21.95,
+      "delta_score": 4.45
+    },
+    {
+      "timestamp": "2025-09-13",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.73,
+        "author_entropy": 1.28,
+        "knowledge_risk_score": 66.38,
+        "delta_score": 6.38
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 1.02,
+        "average_complexity": 11.83,
+        "architectural_risk_score": 2.28,
+        "delta_score": -0.11
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 24.14,
+      "delta_score": 2.19
+    },
+    {
+      "timestamp": "2025-10-13",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.75,
+        "author_entropy": 1.31,
+        "knowledge_risk_score": 67.03,
+        "delta_score": 0.65
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 1.06,
+        "average_complexity": 89.76,
+        "architectural_risk_score": 3.91,
+        "delta_score": 1.63
+      },
+      "coupling": {
+        "active_coupling_count": 0,
+        "strong_coupling_count": 0,
+        "cluster_count": 0,
+        "coupling_risk_score": 0.0,
+        "delta_score": 0.0
+      },
+      "engineering_intelligence_score": 25.03,
+      "delta_score": 0.89
+    },
+    {
+      "timestamp": "2025-11-12",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.89,
+        "author_entropy": 0.68,
+        "knowledge_risk_score": 68.92,
+        "delta_score": 1.89
+      },
+      "architectural": {
+        "hotspot_count": 2,
+        "average_churn": 1.37,
+        "average_complexity": 179.71,
+        "architectural_risk_score": 7.93,
+        "delta_score": 4.02
+      },
+      "coupling": {
+        "active_coupling_count": 10,
+        "strong_coupling_count": 1,
+        "cluster_count": 2,
+        "coupling_risk_score": 8.0,
+        "delta_score": 8.0
+      },
+      "engineering_intelligence_score": 29.29,
+      "delta_score": 4.26
+    },
+    {
+      "timestamp": "2025-12-12",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.94,
+        "author_entropy": 0.31,
+        "knowledge_risk_score": 69.38,
+        "delta_score": 0.46
+      },
+      "architectural": {
+        "hotspot_count": 1,
+        "average_churn": 1.54,
+        "average_complexity": 292.8,
+        "architectural_risk_score": 9.73,
+        "delta_score": 1.8
+      },
+      "coupling": {
+        "active_coupling_count": 10,
+        "strong_coupling_count": 0,
+        "cluster_count": 2,
+        "coupling_risk_score": 6.0,
+        "delta_score": -2.0
+      },
+      "engineering_intelligence_score": 29.68,
+      "delta_score": 0.39
+    },
+    {
+      "timestamp": "2026-01-11",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.91,
+        "author_entropy": 0.63,
+        "knowledge_risk_score": 69.26,
+        "delta_score": -0.12
+      },
+      "architectural": {
+        "hotspot_count": 3,
+        "average_churn": 1.48,
+        "average_complexity": 93.25,
+        "architectural_risk_score": 7.23,
+        "delta_score": -2.5
+      },
+      "coupling": {
+        "active_coupling_count": 49,
+        "strong_coupling_count": 1,
+        "cluster_count": 4,
+        "coupling_risk_score": 25.6,
+        "delta_score": 19.6
+      },
+      "engineering_intelligence_score": 33.53,
+      "delta_score": 3.85
+    },
+    {
+      "timestamp": "2026-02-10",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.84,
+        "author_entropy": 0.99,
+        "knowledge_risk_score": 68.56,
+        "delta_score": -0.7
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 1.32,
+        "average_complexity": 22.91,
+        "architectural_risk_score": 3.11,
+        "delta_score": -4.12
+      },
+      "coupling": {
+        "active_coupling_count": 36,
+        "strong_coupling_count": 0,
+        "cluster_count": 2,
+        "coupling_risk_score": 16.4,
+        "delta_score": -9.2
+      },
+      "engineering_intelligence_score": 29.34,
+      "delta_score": -4.19
+    },
+    {
+      "timestamp": "2026-03-12",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.77,
+        "author_entropy": 1.51,
+        "knowledge_risk_score": 68.01,
+        "delta_score": -0.55
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 1.43,
+        "average_complexity": 23.89,
+        "architectural_risk_score": 3.34,
+        "delta_score": 0.23
+      },
+      "coupling": {
+        "active_coupling_count": 43,
+        "strong_coupling_count": 0,
+        "cluster_count": 4,
+        "coupling_risk_score": 21.2,
+        "delta_score": 4.8
+      },
+      "engineering_intelligence_score": 30.44,
+      "delta_score": 1.1
+    },
+    {
+      "timestamp": "2026-04-11",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.62,
+        "author_entropy": 1.92,
+        "knowledge_risk_score": 65.43,
+        "delta_score": -2.58
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 1.59,
+        "average_complexity": 25.82,
+        "architectural_risk_score": 3.7,
+        "delta_score": 0.36
+      },
+      "coupling": {
+        "active_coupling_count": 9,
+        "strong_coupling_count": 0,
+        "cluster_count": 2,
+        "coupling_risk_score": 5.6,
+        "delta_score": -15.6
+      },
+      "engineering_intelligence_score": 25.78,
+      "delta_score": -4.66
+    },
+    {
+      "timestamp": "2026-05-11",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.74,
+        "author_entropy": 1.5,
+        "knowledge_risk_score": 67.23,
+        "delta_score": 1.8
+      },
+      "architectural": {
+        "hotspot_count": 0,
+        "average_churn": 1.78,
+        "average_complexity": 30.81,
+        "architectural_risk_score": 4.17,
+        "delta_score": 0.47
+      },
+      "coupling": {
+        "active_coupling_count": 8,
+        "strong_coupling_count": 0,
+        "cluster_count": 3,
+        "coupling_risk_score": 6.2,
+        "delta_score": 0.6
+      },
+      "engineering_intelligence_score": 26.75,
+      "delta_score": 0.97
+    },
+    {
+      "timestamp": "2026-06-10",
+      "knowledge": {
+        "bus_factor": 1,
+        "ownership_concentration": 0.8,
+        "author_entropy": 1.25,
+        "knowledge_risk_score": 68.24,
+        "delta_score": 1.01
+      },
+      "architectural": {
+        "hotspot_count": 1,
+        "average_churn": 1.56,
+        "average_complexity": 76.66,
+        "architectural_risk_score": 5.46,
+        "delta_score": 1.29
+      },
+      "coupling": {
+        "active_coupling_count": 80,
+        "strong_coupling_count": 0,
+        "cluster_count": 5,
+        "coupling_risk_score": 37.0,
+        "delta_score": 30.8
+      },
+      "engineering_intelligence_score": 35.32,
+      "delta_score": 8.57
+    }
+  ],
+  "supabase": [
+    {
+      "timestamp": "2025-07-15",
+      "knowledge": {
+        "bus_factor": 7,
+        "ownership_concentration": 0.13,
+        "author_entropy": 5.31,
+        "knowledge_risk_score": 31.61,
+        "delta_score": 0
+      },
+      "architectural": {
+        "hotspot_count": 89,
+        "average_churn": 1.75,
+        "average_complexity": 103.8,
+        "architectural_risk_score": 76.77,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 3981,
+        "strong_coupling_count": 28,
+        "cluster_count": 50,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 66.77,
+      "delta_score": 0
+    },
+    {
+      "timestamp": "2025-08-14",
+      "knowledge": {
+        "bus_factor": 9,
+        "ownership_concentration": 0.12,
+        "author_entropy": 5.68,
+        "knowledge_risk_score": 22.21,
+        "delta_score": -9.4
+      },
+      "architectural": {
+        "hotspot_count": 116,
+        "average_churn": 1.9,
+        "average_complexity": 149.61,
+        "architectural_risk_score": 99.6,
+        "delta_score": 22.83
+      },
+      "coupling": {
+        "active_coupling_count": 8521,
+        "strong_coupling_count": 75,
+        "cluster_count": 43,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 72.61,
+      "delta_score": 5.84
+    },
+    {
+      "timestamp": "2025-09-13",
+      "knowledge": {
+        "bus_factor": 9,
+        "ownership_concentration": 0.15,
+        "author_entropy": 5.67,
+        "knowledge_risk_score": 22.88,
+        "delta_score": 0.67
+      },
+      "architectural": {
+        "hotspot_count": 147,
+        "average_churn": 1.88,
+        "average_complexity": 196.7,
+        "architectural_risk_score": 100,
+        "delta_score": 0.4
+      },
+      "coupling": {
+        "active_coupling_count": 10037,
+        "strong_coupling_count": 76,
+        "cluster_count": 36,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 73.01,
+      "delta_score": 0.4
+    },
+    {
+      "timestamp": "2025-10-13",
+      "knowledge": {
+        "bus_factor": 9,
+        "ownership_concentration": 0.17,
+        "author_entropy": 5.56,
+        "knowledge_risk_score": 23.09,
+        "delta_score": 0.21
+      },
+      "architectural": {
+        "hotspot_count": 164,
+        "average_churn": 1.95,
+        "average_complexity": 296.35,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 15813,
+        "strong_coupling_count": 37,
+        "cluster_count": 39,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 73.08,
+      "delta_score": 0.07
+    },
+    {
+      "timestamp": "2025-11-12",
+      "knowledge": {
+        "bus_factor": 8,
+        "ownership_concentration": 0.15,
+        "author_entropy": 5.48,
+        "knowledge_risk_score": 27.33,
+        "delta_score": 4.24
+      },
+      "architectural": {
+        "hotspot_count": 189,
+        "average_churn": 2.07,
+        "average_complexity": 357.66,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 106218,
+        "strong_coupling_count": 46,
+        "cluster_count": 40,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 74.57,
+      "delta_score": 1.49
+    },
+    {
+      "timestamp": "2025-12-12",
+      "knowledge": {
+        "bus_factor": 9,
+        "ownership_concentration": 0.13,
+        "author_entropy": 5.64,
+        "knowledge_risk_score": 22.46,
+        "delta_score": -4.87
+      },
+      "architectural": {
+        "hotspot_count": 292,
+        "average_churn": 2.37,
+        "average_complexity": 412.48,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 114232,
+        "strong_coupling_count": 209,
+        "cluster_count": 39,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 72.86,
+      "delta_score": -1.71
+    },
+    {
+      "timestamp": "2026-01-11",
+      "knowledge": {
+        "bus_factor": 10,
+        "ownership_concentration": 0.11,
+        "author_entropy": 5.71,
+        "knowledge_risk_score": 17.02,
+        "delta_score": -5.44
+      },
+      "architectural": {
+        "hotspot_count": 238,
+        "average_churn": 2.2,
+        "average_complexity": 358.04,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 111543,
+        "strong_coupling_count": 169,
+        "cluster_count": 45,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 70.96,
+      "delta_score": -1.9
+    },
+    {
+      "timestamp": "2026-02-10",
+      "knowledge": {
+        "bus_factor": 11,
+        "ownership_concentration": 0.12,
+        "author_entropy": 5.85,
+        "knowledge_risk_score": 17.55,
+        "delta_score": 0.53
+      },
+      "architectural": {
+        "hotspot_count": 181,
+        "average_churn": 1.85,
+        "average_complexity": 329.03,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 11877,
+        "strong_coupling_count": 150,
+        "cluster_count": 68,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 71.14,
+      "delta_score": 0.18
+    },
+    {
+      "timestamp": "2026-03-12",
+      "knowledge": {
+        "bus_factor": 10,
+        "ownership_concentration": 0.1,
+        "author_entropy": 5.82,
+        "knowledge_risk_score": 17.05,
+        "delta_score": -0.5
+      },
+      "architectural": {
+        "hotspot_count": 118,
+        "average_churn": 1.69,
+        "average_complexity": 404.4,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 5977,
+        "strong_coupling_count": 139,
+        "cluster_count": 83,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 70.97,
+      "delta_score": -0.17
+    },
+    {
+      "timestamp": "2026-04-11",
+      "knowledge": {
+        "bus_factor": 10,
+        "ownership_concentration": 0.09,
+        "author_entropy": 5.76,
+        "knowledge_risk_score": 16.7,
+        "delta_score": -0.35
+      },
+      "architectural": {
+        "hotspot_count": 213,
+        "average_churn": 1.83,
+        "average_complexity": 369.77,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 19349,
+        "strong_coupling_count": 171,
+        "cluster_count": 75,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 70.85,
+      "delta_score": -0.12
+    },
+    {
+      "timestamp": "2026-05-11",
+      "knowledge": {
+        "bus_factor": 11,
+        "ownership_concentration": 0.08,
+        "author_entropy": 5.81,
+        "knowledge_risk_score": 16.42,
+        "delta_score": -0.28
+      },
+      "architectural": {
+        "hotspot_count": 354,
+        "average_churn": 2.14,
+        "average_complexity": 406.52,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 161284,
+        "strong_coupling_count": 228,
+        "cluster_count": 56,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 70.75,
+      "delta_score": -0.1
+    },
+    {
+      "timestamp": "2026-06-10",
+      "knowledge": {
+        "bus_factor": 11,
+        "ownership_concentration": 0.08,
+        "author_entropy": 5.83,
+        "knowledge_risk_score": 16.68,
+        "delta_score": 0.26
+      },
+      "architectural": {
+        "hotspot_count": 428,
+        "average_churn": 2.27,
+        "average_complexity": 510.71,
+        "architectural_risk_score": 100,
+        "delta_score": 0
+      },
+      "coupling": {
+        "active_coupling_count": 180137,
+        "strong_coupling_count": 310,
+        "cluster_count": 71,
+        "coupling_risk_score": 100,
+        "delta_score": 0
+      },
+      "engineering_intelligence_score": 70.84,
+      "delta_score": 0.09
+    }
+  ]
+}

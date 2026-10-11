@@ -1,0 +1,11 @@
+{
+    "total_rows_extracted": 415799,
+    "rows_matched": 415799,
+    "rows_missing": 71504,
+    "feature_completeness_%": 85.33,
+    "extraction_failures": 0,
+    "parser_failures": 376819,
+    "unsupported_files": 0,
+    "synthetic_substitutions": 0,
+    "fallback_values": 0
+}

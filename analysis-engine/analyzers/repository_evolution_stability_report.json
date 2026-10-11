@@ -1,0 +1,152 @@
+{
+  "angular": {
+    "engineering_intelligence": {
+      "mean": 78.46,
+      "median": 79.06,
+      "stddev": 0.87,
+      "largest_month_over_month_change": 1.82,
+      "trend_classification": "Stable"
+    },
+    "knowledge_risk": {
+      "mean": 38.46,
+      "median": 40.16,
+      "stddev": 2.5,
+      "largest_month_over_month_change": 5.2,
+      "trend_classification": "Stable"
+    },
+    "architectural_risk": {
+      "mean": 100,
+      "median": 100.0,
+      "stddev": 0.0,
+      "largest_month_over_month_change": 0,
+      "trend_classification": "Stable"
+    },
+    "coupling_risk": {
+      "mean": 100,
+      "median": 100.0,
+      "stddev": 0.0,
+      "largest_month_over_month_change": 0,
+      "trend_classification": "Stable"
+    }
+  },
+  "core": {
+    "engineering_intelligence": {
+      "mean": 40.95,
+      "median": 37.41,
+      "stddev": 7.92,
+      "largest_month_over_month_change": 18.2,
+      "trend_classification": "Stable"
+    },
+    "knowledge_risk": {
+      "mean": 53.96,
+      "median": 55.88,
+      "stddev": 4.44,
+      "largest_month_over_month_change": 10.22,
+      "trend_classification": "Stable"
+    },
+    "architectural_risk": {
+      "mean": 13.4,
+      "median": 11.24,
+      "stddev": 5.23,
+      "largest_month_over_month_change": 12.16,
+      "trend_classification": "Stable"
+    },
+    "coupling_risk": {
+      "mean": 66.8,
+      "median": 57.7,
+      "stddev": 21.03,
+      "largest_month_over_month_change": 45.0,
+      "trend_classification": "Stable"
+    }
+  },
+  "fastify": {
+    "engineering_intelligence": {
+      "mean": 24.53,
+      "median": 24.84,
+      "stddev": 4.29,
+      "largest_month_over_month_change": 11.89,
+      "trend_classification": "Stable"
+    },
+    "knowledge_risk": {
+      "mean": 47.4,
+      "median": 46.11,
+      "stddev": 8.0,
+      "largest_month_over_month_change": 24.79,
+      "trend_classification": "Stable"
+    },
+    "architectural_risk": {
+      "mean": 7.45,
+      "median": 6.91,
+      "stddev": 2.1,
+      "largest_month_over_month_change": 4.12,
+      "trend_classification": "Stable"
+    },
+    "coupling_risk": {
+      "mean": 19.83,
+      "median": 16.5,
+      "stddev": 10.32,
+      "largest_month_over_month_change": 16.6,
+      "trend_classification": "Volatile"
+    }
+  },
+  "socket.io": {
+    "engineering_intelligence": {
+      "mean": 27.4,
+      "median": 28.02,
+      "stddev": 4.95,
+      "largest_month_over_month_change": 8.57,
+      "trend_classification": "Improving"
+    },
+    "knowledge_risk": {
+      "mean": 65.7,
+      "median": 67.62,
+      "stddev": 5.56,
+      "largest_month_over_month_change": 10.0,
+      "trend_classification": "Stable"
+    },
+    "architectural_risk": {
+      "mean": 4.44,
+      "median": 3.81,
+      "stddev": 2.72,
+      "largest_month_over_month_change": 4.12,
+      "trend_classification": "Volatile"
+    },
+    "coupling_risk": {
+      "mean": 10.5,
+      "median": 6.1,
+      "stddev": 12.02,
+      "largest_month_over_month_change": 30.8,
+      "trend_classification": "Volatile"
+    }
+  },
+  "supabase": {
+    "engineering_intelligence": {
+      "mean": 71.53,
+      "median": 71.06,
+      "stddev": 1.95,
+      "largest_month_over_month_change": 5.84,
+      "trend_classification": "Stable"
+    },
+    "knowledge_risk": {
+      "mean": 20.92,
+      "median": 19.88,
+      "stddev": 4.91,
+      "largest_month_over_month_change": 9.4,
+      "trend_classification": "Deteriorating"
+    },
+    "architectural_risk": {
+      "mean": 98.03,
+      "median": 100.0,
+      "stddev": 6.7,
+      "largest_month_over_month_change": 22.83,
+      "trend_classification": "Stable"
+    },
+    "coupling_risk": {
+      "mean": 100,
+      "median": 100.0,
+      "stddev": 0.0,
+      "largest_month_over_month_change": 0,
+      "trend_classification": "Stable"
+    }
+  }
+}

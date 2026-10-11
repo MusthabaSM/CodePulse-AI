@@ -1,0 +1,9 @@
+{
+  "target_file": "hallucinations/main.ts",
+  "repository": "synthetic",
+  "category": "Top Hotspot",
+  "base_tokens": 100,
+  "total_tokens": 150,
+  "primary_source": "// hallucinations adversarial test\nfunction noOp() {}",
+  "context_payload": []
+}

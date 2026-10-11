@@ -1,0 +1,21 @@
+{
+  "total_positives": 7824,
+  "total_negatives": 479479,
+  "positive_ratio": 0.0160,
+  "confidence_distribution": {
+    "HIGH": 312,
+    "MEDIUM": 7512,
+    "LOW": 0
+  },
+  "repository_distribution": {
+    "angular": 1845,
+    "supabase": 1210,
+    "prisma": 1450,
+    "vue": 2011,
+    "socket.io": 845,
+    "fastify": 463
+  },
+  "overlap_with_training_labels_v2": 0.041,
+  "overlap_with_previous_bug_fix_labels": 0.039,
+  "estimated_label_purity": 0.96
+}

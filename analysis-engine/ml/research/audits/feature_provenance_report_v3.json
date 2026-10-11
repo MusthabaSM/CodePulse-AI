@@ -1,0 +1,140 @@
+{
+    "nloc": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "cyclomatic_complexity": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "function_count": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "class_count": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "comment_ratio": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "churn_count": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "commits_last_30_days": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "commits_last_90_days": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "additions_last_90_days": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "deletions_last_90_days": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "average_commit_size": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "contributor_count": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "author_entropy": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "top_author_percentage": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "ownership_concentration": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "bug_fix_count": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "recent_bugfix_density": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "days_since_last_bugfix": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "file_age_days": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "repository_age_days": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "change_frequency": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "time_since_last_change": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    },
+    "change_burst_score": {
+        "source": "Git History natively extracted",
+        "provenance_classification": "A) Directly extracted",
+        "percentage_real": 100.0,
+        "percentage_synthetic": 0.0
+    }
+}

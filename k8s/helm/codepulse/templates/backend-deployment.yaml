@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "codepulse.fullname" . }}-backend
+  labels:
+    app: {{ include "codepulse.fullname" . }}-backend
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "codepulse.fullname" . }}-backend
+  template:
+    metadata:
+      labels:
+        app: {{ include "codepulse.fullname" . }}-backend
+    spec:
+      containers:
+        - name: backend
+          image: "{{ .Values.image.backend.repository }}:{{ .Values.image.backend.tag }}"
+          ports:
+            - containerPort: 4000
+          env:
+            - name: REDIS_URL
+              value: "redis://{{ .Values.redis.host }}:6379"
+            - name: CLERK_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "codepulse.fullname" . }}-secrets
+                  key: clerkSecretKey

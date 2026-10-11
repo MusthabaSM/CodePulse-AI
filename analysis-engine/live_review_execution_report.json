@@ -1,0 +1,7 @@
+{
+  "provider_used": "GeminiProvider",
+  "model_used": "gemini-2.5-flash",
+  "latency_seconds": 24.73,
+  "tokens_consumed_estimate": 5245,
+  "response_size_bytes": 3995
+}

@@ -1,0 +1,10 @@
+{
+  "api_key_detected": true,
+  "provider_initialized": true,
+  "provider_executed": true,
+  "model_used": "deepseek/deepseek-chat",
+  "latency_ms": 51671,
+  "response_received": true,
+  "json_valid": true,
+  "execution_timestamp": "2026-06-10T13:54:21.275808+00:00"
+}

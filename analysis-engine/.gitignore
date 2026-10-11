@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Secrets & Environment
+.env
+.env*
+*.env
+!*.env.example
+
+# Temporary cloned repos cache
+repositories_cache/
+/tmp/
+
+# Logs
+*.log

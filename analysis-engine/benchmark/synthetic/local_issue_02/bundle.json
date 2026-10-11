@@ -1,0 +1,9 @@
+{
+  "target_file": "local_issue_02/main.ts",
+  "repository": "synthetic",
+  "category": "Top Hotspot",
+  "base_tokens": 100,
+  "total_tokens": 150,
+  "primary_source": "// Placeholder for local_issue_02\nconst test = 'value';",
+  "context_payload": []
+}

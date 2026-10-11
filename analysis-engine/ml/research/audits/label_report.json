@@ -1,0 +1,67 @@
+{
+    "total_samples": 487303,
+    "positive_labels": 89827,
+    "negative_labels": 397476,
+    "positive_percentage": 18.43,
+    "negative_percentage": 81.57,
+    "duplicate_samples_detected_and_removed": 81254,
+    "label_leakage_preventions": "Verified: strict strictly-greater-than time checks implemented.",
+    "repository_breakdown": {
+        "angular": {
+            "samples": 256477,
+            "positives": 45045,
+            "negatives": 211432
+        },
+        "core": {
+            "samples": 18955,
+            "positives": 5651,
+            "negatives": 13304
+        },
+        "fastify": {
+            "samples": 9594,
+            "positives": 2006,
+            "negatives": 7588
+        },
+        "socket.io": {
+            "samples": 10427,
+            "positives": 2461,
+            "negatives": 7966
+        },
+        "supabase": {
+            "samples": 139128,
+            "positives": 19932,
+            "negatives": 119196
+        },
+        "prisma": {
+            "samples": 52722,
+            "positives": 14732,
+            "negatives": 37990
+        }
+    },
+    "top_repositories_by_positive_labels": [
+        {
+            "repository": "angular",
+            "positives": 45045
+        },
+        {
+            "repository": "supabase",
+            "positives": 19932
+        },
+        {
+            "repository": "prisma",
+            "positives": 14732
+        },
+        {
+            "repository": "core",
+            "positives": 5651
+        },
+        {
+            "repository": "socket.io",
+            "positives": 2461
+        },
+        {
+            "repository": "fastify",
+            "positives": 2006
+        }
+    ]
+}

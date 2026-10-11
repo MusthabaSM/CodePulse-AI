@@ -1,0 +1,14 @@
+{
+  "error": "Engine Execution Failed",
+  "details": {
+    "failure_reason": "Report Generation Failure",
+    "exception_details": "name 'response' is not defined",
+    "execution_stage": "Report Generation",
+    "token_estimates": null,
+    "timestamp": "2026-06-10T13:37:56.425616Z",
+    "bundle_identifier": "packages/compiler/src/typecheck/ops/codegen.ts"
+  },
+  "stdout": "Execution Failed: Report Generation Failure\n",
+  "stderr": "c:\\Users\\lenovo\\CodePulse AI\\analysis-engine\\llm\\providers\\gemini_provider.py:11: FutureWarning: \n\nAll support for the `google.generativeai` package has ended. It will no longer be receiving \nupdates or bug fixes. Please switch to the `google.genai` package as soon as possible.\nSee README for more details:\n\nhttps://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md\n\n  import google.generativeai as genai\nc:\\Users\\lenovo\\CodePulse AI\\analysis-engine\\analyzers\\gemini_execution_engine.py:188: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  \"timestamp\": datetime.utcnow().isoformat() + \"Z\",\nc:\\Users\\lenovo\\CodePulse AI\\analysis-engine\\analyzers\\gemini_execution_engine.py:16: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  \"timestamp\": datetime.utcnow().isoformat() + \"Z\",\n",
+  "timestamp": "2026-06-10T13:37:58.544398Z"
+}

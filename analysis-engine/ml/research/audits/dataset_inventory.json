@@ -1,0 +1,56 @@
+{
+    "repositories_processed": 6,
+    "total_commits_across_dataset": 106145,
+    "total_files_across_dataset": 32914,
+    "total_extraction_duration_seconds": 1929.48,
+    "repositories": [
+        {
+            "repository_name": "vuejs/core",
+            "stars": 53794,
+            "language": "TypeScript",
+            "total_commits": 7059,
+            "total_files": 703,
+            "extraction_duration_seconds": 89.77
+        },
+        {
+            "repository_name": "fastify/fastify",
+            "stars": 36457,
+            "language": "JavaScript",
+            "total_commits": 4733,
+            "total_files": 392,
+            "extraction_duration_seconds": 15.65
+        },
+        {
+            "repository_name": "socketio/socket.io",
+            "stars": 63127,
+            "language": "TypeScript",
+            "total_commits": 7737,
+            "total_files": 853,
+            "extraction_duration_seconds": 54.18
+        },
+        {
+            "repository_name": "angular/angular",
+            "stars": 100300,
+            "language": "TypeScript",
+            "total_commits": 37628,
+            "total_files": 10586,
+            "extraction_duration_seconds": 1011.96
+        },
+        {
+            "repository_name": "supabase/supabase",
+            "stars": 103915,
+            "language": "TypeScript",
+            "total_commits": 36762,
+            "total_files": 15765,
+            "extraction_duration_seconds": 1570.12
+        },
+        {
+            "repository_name": "prisma/prisma",
+            "stars": 46251,
+            "language": "TypeScript",
+            "total_commits": 12226,
+            "total_files": 4615,
+            "extraction_duration_seconds": 160.0
+        }
+    ]
+}
