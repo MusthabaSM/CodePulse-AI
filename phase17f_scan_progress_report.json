@@ -1,8 +1,0 @@
-{
-  "classification": "A) Real-Time Progress Working",
-  "verification": {
-    "repository_list": "Updates automatically via AutoRefresher component, displaying the exact percentage (e.g. Scanning (67%)).",
-    "detail_page": "Updates automatically and prominently shows the progress bar, percentage, and current mapped stage (e.g., 'Running Intelligence Engines').",
-    "backend": "AnalysisProcessor correctly persists statusData.progress to the database so that polling server-components read the latest actual scan state."
-  }
-}

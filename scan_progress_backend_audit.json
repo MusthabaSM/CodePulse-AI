@@ -1,9 +1,0 @@
-{
-  "classification": "B) Only Start/Finish Progress",
-  "findings": [
-    "BullMQ job.updateProgress() is called with incremental values (10, 30, 50, 85, 95) from the Python engine.",
-    "However, these updates are only pushed to Redis (BullMQ). The PostgreSQL database (AnalysisJob.progress) is NOT updated during the run.",
-    "The AnalysisProcessor only updates the DB at the start (status=RUNNING, progress=5) and at the end (status=COMPLETED, progress=100)."
-  ],
-  "required_fix": "Modify AnalysisProcessor.ts to call this.updateJobStatus(job.data.jobId, 'RUNNING', undefined, statusData.progress) during the polling loop so the DB reflects real-time progress."
-}
